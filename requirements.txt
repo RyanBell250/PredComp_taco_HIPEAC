@@ -1,0 +1,7 @@
+IR2Vec==2.1.1
+networkx==3.4.2
+programl==0.3.2
+psutil==6.1.1
+SQLAlchemy==2.0.30
+torch==2.4.0
+torch_geometric==2.6.1

@@ -1,0 +1,10 @@
+heat-3d,stencils/heat-3d,LARGE_DATASET
+fdtd-2d,stencils/fdtd-2d,LARGE_DATASET
+jacobi-1d,stencils/jacobi-1d,EXTRALARGE_DATASET
+floyd-warshall,medley/floyd-warshall,LARGE_DATASET
+nussinov,medley/nussinov,LARGE_DATASET
+gramschmidt,linear-algebra/solvers/gramschmidt,LARGE_DATASET
+durbin,linear-algebra/solvers/durbin,EXTRALARGE_DATASET
+syrk,linear-algebra/blas/syrk,LARGE_DATASET
+syr2k,linear-algebra/blas/syr2k,LARGE_DATASET
+gemm,linear-algebra/blas/gemm,EXTRALARGE_DATASET

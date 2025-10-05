@@ -1,0 +1,56 @@
+{
+    "automotive_bitcount": [
+    "bitcnts.c",
+     "-c",
+     "-lm"
+    ],
+   
+    "telecom_gsm": [
+    "short_term.c",
+     "-c -DSASR -DSTUPID_COMPILER -DNeedFunctionPrototypes=1",
+     "-lm"
+    ],
+   
+    "network_dijkstra": [
+    "dijkstra_large.c",
+     "-c",
+     "-lm"
+    ],
+    "security_sha": [
+    "sha.c",
+     "-c",
+     "-lm"
+    ],
+    "security_blowfish_d": [
+     "bf_enc.c",
+     "-c",
+     "-lm"
+    ],
+   
+    "security_blowfish_e": [
+    "bf_enc.c",
+     "-c",
+     "-lm"
+    ],
+   
+    "consumer_jpeg_c": [
+    "jcphuff.c",
+     "-c",
+     "-lm"
+    ],
+    "automotive_susan_s": [
+     "susan.c",
+     "-c",
+     "-lm"
+    ],
+    "network_patricia": [
+    "patricia.c",
+     "-c",
+     "-lm"
+    ],
+    "telecom_CRC32": [
+    "crc_32.c",
+     "-c",
+     "-lm"
+    ]
+   }

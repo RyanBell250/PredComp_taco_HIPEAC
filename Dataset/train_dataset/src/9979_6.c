@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+template <class T>
+void splitstr(const string &s, vector<T> &out) {
+  istringstream in(s);
+  out.clear();
+  copy(istream_iterator<T>(in), istream_iterator<T>(), back_inserter(out));
+}
+template <class T>
+T gcd(T a, T b) {
+  return b ? gcd(b, a % b) : a;
+}
+static void redirect(int argc, const char **argv) {
+  ios::sync_with_stdio(false);
+  if (argc > 1) {
+    static filebuf f;
+    f.open(argv[1], ios::in);
+    cin.rdbuf(&f);
+    if (!cin) {
+      cerr << "Failed to open '" << argv[1] << "'" << endl;
+      exit(1);
+    }
+  }
+  if (argc > 2) {
+    static filebuf f;
+    f.open(argv[2], ios::out | ios::trunc);
+    cout.rdbuf(&f);
+    if (!cout) {
+      cerr << "Failed to open '" << argv[2] << "'" << endl;
+    }
+  }
+}
+int main(int argc, const char **argv) {
+  redirect(argc, argv);
+  long long N;
+  long long cur = 2;
+  cin >> N;
+  for (long long i = 1; i <= N; i++) {
+    long long trg = i * (i + 1);
+    cout << trg * (i + 1) - cur / i << '\n';
+    cur = trg;
+  }
+  return 0;
+}

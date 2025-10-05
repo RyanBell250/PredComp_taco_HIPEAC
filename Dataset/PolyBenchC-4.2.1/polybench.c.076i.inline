@@ -1,0 +1,474 @@
+IPA summary for polybench_alloc_data/22 is missing.
+IPA summary for polybench_free_data/21 is missing.
+IPA summary for xmalloc/20 is missing.
+IPA summary for polybench_timer_print/19 is missing.
+IPA summary for polybench_timer_stop/18 is missing.
+IPA summary for polybench_timer_start/17 is missing.
+IPA summary for polybench_prepare_instruments/16 is missing.
+IPA summary for polybench_flush_cache/15 is missing.
+IPA summary for rtclock/14 is missing.
+
+Flattening functions:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 0.000000 weighted by profile: 0.000000
+
+Why inlining failed?
+function not considered for inlining              :        5 calls, 5.000000 freq, 0 count
+function body not available                       :        8 calls, 8.000000 freq, 0 count
+IPA summary for polybench_alloc_data/22 is missing.
+IPA summary for polybench_free_data/21 is missing.
+IPA summary for xmalloc/20 is missing.
+IPA summary for polybench_timer_print/19 is missing.
+IPA summary for polybench_timer_stop/18 is missing.
+IPA summary for polybench_timer_start/17 is missing.
+IPA summary for polybench_prepare_instruments/16 is missing.
+IPA summary for polybench_flush_cache/15 is missing.
+IPA summary for rtclock/14 is missing.
+Symbol table:
+
+exit/31 (exit) @0x7fc290894b40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: xmalloc/20 
+  Calls: 
+fwrite/30 (__builtin_fwrite) @0x7fc2908949d8
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: xmalloc/20 
+  Calls: 
+stderr/29 (stderr) @0x7fc29088ec80
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public common
+  References: 
+  Referring: xmalloc/20 (read)
+  Availability: not_available
+  Varpool flags:
+posix_memalign/28 (posix_memalign) @0x7fc290894870
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: xmalloc/20 
+  Calls: 
+printf/27 (printf) @0x7fc290894708
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: polybench_timer_print/19 
+  Calls: 
+free/26 (free) @0x7fc2908945a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: polybench_free_data/21 polybench_flush_cache/15 
+  Calls: 
+__PRETTY_FUNCTION__.4997/25 (__PRETTY_FUNCTION__) @0x7fc29088e700
+  Type: variable definition analyzed
+  Visibility: no_reorder prevailing_def_ironly artificial
+  References: 
+  Referring: polybench_flush_cache/15 (addr)
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+__assert_fail/24 (__assert_fail) @0x7fc290894438
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: polybench_flush_cache/15 
+  Calls: 
+calloc/23 (calloc) @0x7fc2908942d0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags:
+  Called by: polybench_flush_cache/15 
+  Calls: 
+polybench_alloc_data/22 (polybench_alloc_data) @0x7fc290894168
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: xmalloc/20 
+polybench_free_data/21 (polybench_free_data) @0x7fc290894000
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: free/26 
+xmalloc/20 (xmalloc) @0x7fc290879e10
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: polybench_inter_array_padding_sz/9 (read)polybench_inter_array_padding_sz/9 (write)polybench_inter_array_padding_sz/9 (read)stderr/29 (read)
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: polybench_alloc_data/22 
+  Calls: exit/31 __builtin_fwrite/30 posix_memalign/28 
+polybench_timer_print/19 (polybench_timer_print) @0x7fc290879ca8
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: polybench_t_end/11 (read)polybench_t_start/10 (read)
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: printf/27 
+polybench_timer_stop/18 (polybench_timer_stop) @0x7fc290879b40
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: polybench_t_end/11 (write)
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: rtclock/14 
+polybench_timer_start/17 (polybench_timer_start) @0x7fc2908799d8
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: polybench_t_start/10 (write)
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: 
+  Calls: rtclock/14 polybench_prepare_instruments/16 
+polybench_prepare_instruments/16 (polybench_prepare_instruments) @0x7fc290879870
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: polybench_timer_start/17 
+  Calls: polybench_flush_cache/15 
+polybench_flush_cache/15 (polybench_flush_cache) @0x7fc290879708
+  Type: function definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: __PRETTY_FUNCTION__.4997/25 (addr)
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: polybench_prepare_instruments/16 
+  Calls: free/26 __assert_fail/24 calloc/23 
+rtclock/14 (rtclock) @0x7fc2908795a0
+  Type: function definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body
+  Called by: polybench_timer_stop/18 polybench_timer_start/17 
+  Calls: 
+polybench_c_end/13 (polybench_c_end) @0x7fc29088e100
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public common
+  References: 
+  Referring: 
+  Availability: overwritable
+  Varpool flags:
+polybench_c_start/12 (polybench_c_start) @0x7fc29088e080
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public common
+  References: 
+  Referring: 
+  Availability: overwritable
+  Varpool flags:
+polybench_t_end/11 (polybench_t_end) @0x7fc29088e000
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public common
+  References: 
+  Referring: polybench_timer_stop/18 (write)polybench_timer_print/19 (read)
+  Availability: overwritable
+  Varpool flags:
+polybench_t_start/10 (polybench_t_start) @0x7fc290872f80
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public common
+  References: 
+  Referring: polybench_timer_start/17 (write)polybench_timer_print/19 (read)
+  Availability: overwritable
+  Varpool flags:
+polybench_inter_array_padding_sz/9 (polybench_inter_array_padding_sz) @0x7fc290872f00
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: xmalloc/20 (read)xmalloc/20 (write)xmalloc/20 (read)
+  Availability: available
+  Varpool flags: initialized
+_polybench_alloc_table/8 (_polybench_alloc_table) @0x7fc290872e80
+  Type: variable definition analyzed
+  Visibility: force_output no_reorder prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+polybench_program_total_flops/7 (polybench_program_total_flops) @0x7fc290872e00
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+polybench_papi_counters_threadid/6 (polybench_papi_counters_threadid) @0x7fc290872d80
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible no_reorder public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+
+;; Function rtclock (rtclock, funcdef_no=6, decl_uid=4986, cgraph_uid=7, symbol_order=14)
+
+rtclock ()
+{
+  double D.5022;
+  double _1;
+
+  <bb 2> :
+  _1 = 0.0;
+
+  <bb 3> :
+<L0>:
+  return _1;
+
+}
+
+
+
+;; Function polybench_flush_cache (polybench_flush_cache, funcdef_no=7, decl_uid=4971, cgraph_uid=8, symbol_order=15)
+
+polybench_flush_cache ()
+{
+  static const char __PRETTY_FUNCTION__[22] = "polybench_flush_cache";
+  double tmp;
+  int i;
+  double * flush;
+  int cs;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  double * _4;
+  double _5;
+
+  <bb 2> :
+  cs_8 = 4194560;
+  _1 = (long unsigned int) cs_8;
+  flush_11 = calloc (_1, 8);
+  tmp_12 = 0.0;
+  i_13 = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  _2 = (long unsigned int) i_6;
+  _3 = _2 * 8;
+  _4 = flush_11 + _3;
+  _5 = *_4;
+  tmp_16 = tmp_7 + _5;
+  i_17 = i_6 + 1;
+
+  <bb 4> :
+  # i_6 = PHI <i_13(2), i_17(3)>
+  # tmp_7 = PHI <tmp_12(2), tmp_16(3)>
+  if (i_6 < cs_8)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  if (tmp_7 <= 1.0e+1)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 6> :
+  __assert_fail ("tmp <= 10.0", "utilities/polybench.c", 123, &__PRETTY_FUNCTION__);
+
+  <bb 7> :
+  free (flush_11);
+  return;
+
+}
+
+
+
+;; Function polybench_prepare_instruments (polybench_prepare_instruments, funcdef_no=8, decl_uid=4972, cgraph_uid=9, symbol_order=16)
+
+polybench_prepare_instruments ()
+{
+  <bb 2> :
+  polybench_flush_cache ();
+  return;
+
+}
+
+
+
+;; Function polybench_timer_start (polybench_timer_start, funcdef_no=9, decl_uid=5000, cgraph_uid=10, symbol_order=17)
+
+polybench_timer_start ()
+{
+  double _1;
+
+  <bb 2> :
+  polybench_prepare_instruments ();
+  _1 = rtclock ();
+  polybench_t_start = _1;
+  return;
+
+}
+
+
+
+;; Function polybench_timer_stop (polybench_timer_stop, funcdef_no=10, decl_uid=5002, cgraph_uid=11, symbol_order=18)
+
+polybench_timer_stop ()
+{
+  double _1;
+
+  <bb 2> :
+  _1 = rtclock ();
+  polybench_t_end = _1;
+  return;
+
+}
+
+
+
+;; Function polybench_timer_print (polybench_timer_print, funcdef_no=11, decl_uid=5004, cgraph_uid=12, symbol_order=19)
+
+polybench_timer_print ()
+{
+  double polybench_t_end.0_1;
+  double polybench_t_start.1_2;
+  double _3;
+
+  <bb 2> :
+  polybench_t_end.0_1 = polybench_t_end;
+  polybench_t_start.1_2 = polybench_t_start;
+  _3 = polybench_t_end.0_1 - polybench_t_start.1_2;
+  printf ("%0.6f\n", _3);
+  return;
+
+}
+
+
+
+;; Function xmalloc (xmalloc, funcdef_no=12, decl_uid=5007, cgraph_uid=13, symbol_order=20)
+
+xmalloc (size_t alloc_sz)
+{
+  int err;
+  size_t padded_sz;
+  void * ret;
+  void * D.5030;
+  long unsigned int polybench_inter_array_padding_sz.2_1;
+  long unsigned int polybench_inter_array_padding_sz.3_2;
+  void * ret.4_3;
+  struct FILE * stderr.5_4;
+  void * _12;
+
+  <bb 2> :
+  ret = 0B;
+  polybench_inter_array_padding_sz.2_1 = polybench_inter_array_padding_sz;
+  polybench_inter_array_padding_sz = polybench_inter_array_padding_sz.2_1;
+  polybench_inter_array_padding_sz.3_2 = polybench_inter_array_padding_sz;
+  padded_sz_9 = alloc_sz_8(D) + polybench_inter_array_padding_sz.3_2;
+  err_11 = posix_memalign (&ret, 4096, padded_sz_9);
+  ret.4_3 = ret;
+  if (ret.4_3 == 0B)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (err_11 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  stderr.5_4 = stderr;
+  __builtin_fwrite ("[PolyBench] posix_memalign: cannot allocate memory", 1, 50, stderr.5_4);
+  exit (1);
+
+  <bb 5> :
+  _12 = ret;
+  ret ={v} {CLOBBER};
+
+  <bb 6> :
+<L4>:
+  return _12;
+
+}
+
+
+
+;; Function polybench_free_data (polybench_free_data, funcdef_no=13, decl_uid=4970, cgraph_uid=14, symbol_order=21)
+
+polybench_free_data (void * ptr)
+{
+  <bb 2> :
+  free (ptr_2(D));
+  return;
+
+}
+
+
+
+;; Function polybench_alloc_data (polybench_alloc_data, funcdef_no=14, decl_uid=4968, cgraph_uid=15, symbol_order=22)
+
+polybench_alloc_data (long long unsigned int n, int elt_size)
+{
+  void * ret;
+  size_t val;
+  void * D.5033;
+  long unsigned int _1;
+  void * _9;
+
+  <bb 2> :
+  val_3 = n_2(D);
+  _1 = (long unsigned int) elt_size_4(D);
+  val_5 = val_3 * _1;
+  ret_8 = xmalloc (val_5);
+  _9 = ret_8;
+
+  <bb 3> :
+<L0>:
+  return _9;
+
+}
+
+
