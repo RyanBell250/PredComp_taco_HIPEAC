@@ -131,5 +131,4 @@ class RankModel(torch.nn.Module):
         combined_feature=seq_feature*fused_feature
         attn_output, _= self.self_attention(combined_feature,combined_feature,combined_feature)
         output=self.output_layer(attn_output)
-        arg=(w_inline,w_loop,w_sched)
-        return output,arg
+        return output

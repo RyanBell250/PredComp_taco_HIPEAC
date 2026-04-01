@@ -14,7 +14,7 @@ bin_path = args.bin_path
 
 if __name__=='__main__':
 
-    bin_path='/home/gby/gcc/gcc-build/bin'
+    bin_path='/home/gby/gcc_install/build/bin'
     with open('Dataset/process/cbench.json','r') as f:
         prog=json.load(f)
     cbench={}
@@ -26,11 +26,11 @@ if __name__=='__main__':
         
 
     pred_result={}
-    for op in ['inline','loop','sched']:
-        pred_result[op]=pred_result_seq(all_features,op,topk=3)
+    for op in range(1,6):
+        pred_result[str(op)]=pred_result_seq(all_features,str(op),topk=3)
 
     global_candidate=gen_comb_seq(pred_result)
-    result=pred_result_seq(all_features,'comb_top3',topk=3,comb_seq=global_candidate)
+    result=pred_result_seq(all_features,'comb',topk=3,comb_seq=global_candidate)
     seq=gen_global_seq(result)
 
     for p in seq:
@@ -39,6 +39,7 @@ if __name__=='__main__':
         best_seq='-O3'
         print(f'{p} O3 exec time:{cbench[p].O3_perf:.3f}')
         for i in range(len(seq[p])):
+            print(seq[p][i])
             perf,improv=cbench[p].evaluate(seq[p][i])
             print(f'{p} Top-{i+1} sequence: {seq[p][i]}, exec time:{perf:.3f}, perf improv: {improv:.3f}')
             if perf<best_perf:

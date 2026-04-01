@@ -1,7 +1,7 @@
 {
- "feature1": {
+ "inline_feature": {
   "node": {
-   "(static initializers for /home/gby/PredComp/model/dataset/ojbench/8827": {
+   "(static initializers for 0.c)/4125": {
     "global time": 14.0,
     "self size": 6.0,
     "global size": 6.0,
@@ -9,7 +9,7 @@
     "self stack": 0.0,
     "global stack": 0.0
    },
-   "void __static_initialization_and_destruction_0(int, int)/3351": {
+   "void __static_initialization_and_destruction_0(int, int)/3310": {
     "global time": 6.331584,
     "self size": 13.0,
     "global size": 13.0,
@@ -17,7 +17,7 @@
     "self stack": 0.0,
     "global stack": 0.0
    },
-   "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465": {
+   "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463": {
     "global time": 45.988,
     "self size": 21.0,
     "global size": 21.0,
@@ -49,7 +49,7 @@
     "self stack": 0.0,
     "global stack": 0.0
    },
-   "int __cxa_atexit(void (*)(void*), void*, void*)/4181": {
+   "int __cxa_atexit(void (*)(void*), void*, void*)/4140": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -57,7 +57,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::ios_base::Init::Init()/4180": {
+   "std::ios_base::Init::Init()/4139": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -65,7 +65,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]/4178": {
+   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]/4137": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -73,7 +73,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(std::basic_ostream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>]/4175": {
+   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(std::basic_ostream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>]/4134": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -81,7 +81,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "void std::__throw_bad_cast()/4176": {
+   "void std::__throw_bad_cast()/4135": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -89,7 +89,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173": {
+   "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -97,7 +97,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4179": {
+   "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4138": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -105,7 +105,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "int __builtin_popcount(unsigned int)/4172": {
+   "int __builtin_popcount(unsigned int)/4131": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -113,7 +113,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "void* __builtin_memset(void*, int, long unsigned int)/4171": {
+   "void* __builtin_memset(void*, int, long unsigned int)/4130": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -121,7 +121,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4170": {
+   "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4129": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -129,7 +129,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "static bool std::ios_base::sync_with_stdio(bool)/4167": {
+   "static bool std::ios_base::sync_with_stdio(bool)/4126": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -137,7 +137,7 @@
     "self stack": -1,
     "global stack": -1
    },
-   "void std::ctype<char>::_M_widen_init() const/4177": {
+   "void std::ctype<char>::_M_widen_init() const/4136": {
     "global time": -1,
     "self size": -1,
     "global size": -1,
@@ -148,8 +148,8 @@
   },
   "edge": [
    [
-    "(static initializers for /home/gby/PredComp/model/dataset/ojbench/8827",
-    "void __static_initialization_and_destruction_0(int, int)/3351",
+    "(static initializers for 0.c)/4125",
+    "void __static_initialization_and_destruction_0(int, int)/3310",
     0,
     1.0,
     3,
@@ -158,8 +158,8 @@
     0
    ],
    [
-    "void __static_initialization_and_destruction_0(int, int)/3351",
-    "int __cxa_atexit(void (*)(void*), void*, void*)/4181",
+    "void __static_initialization_and_destruction_0(int, int)/3310",
+    "int __cxa_atexit(void (*)(void*), void*, void*)/4140",
     0,
     0.07,
     4,
@@ -168,8 +168,8 @@
     65535
    ],
    [
-    "void __static_initialization_and_destruction_0(int, int)/3351",
-    "std::ios_base::Init::Init()/4180",
+    "void __static_initialization_and_destruction_0(int, int)/3310",
+    "std::ios_base::Init::Init()/4139",
     0,
     0.07,
     2,
@@ -178,8 +178,8 @@
     65535
    ],
    [
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]/4178",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]/4137",
     0,
     1.0,
     3,
@@ -188,8 +188,8 @@
     0
    ],
    [
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(std::basic_ostream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>]/4175",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(std::basic_ostream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>]/4134",
     0,
     1.0,
     4,
@@ -198,7 +198,7 @@
     0
    ],
    [
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
     "std::ctype<char>::char_type std::ctype<char>::widen(char) const/620",
     0,
     1.0,
@@ -208,8 +208,8 @@
     0
    ],
    [
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
-    "void std::__throw_bad_cast()/4176",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
+    "void std::__throw_bad_cast()/4135",
     0,
     0.0,
     1,
@@ -219,7 +219,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
     1,
     8.09,
     2,
@@ -229,7 +229,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132",
     1,
     8.09,
     4,
@@ -239,7 +239,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4179",
+    "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4138",
     1,
     8.09,
     5,
@@ -249,7 +249,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132",
     1,
     8.09,
     4,
@@ -259,7 +259,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
     2,
     65.46,
     2,
@@ -269,7 +269,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132",
     2,
     65.46,
     4,
@@ -279,7 +279,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4179",
+    "std::basic_ostream<_CharT, _Traits>& std::__ostream_insert(std::basic_ostream<_CharT, _Traits>&, const _CharT*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>]/4138",
     2,
     65.46,
     5,
@@ -289,7 +289,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132",
     2,
     65.46,
     4,
@@ -299,7 +299,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2465",
+    "std::basic_ostream<_CharT, _Traits>& std::endl(std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]/2463",
     0,
     1.0,
     2,
@@ -309,7 +309,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4173",
+    "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]/4132",
     0,
     1.0,
     4,
@@ -319,7 +319,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "int __builtin_popcount(unsigned int)/4172",
+    "int __builtin_popcount(unsigned int)/4131",
     2,
     65.46,
     1,
@@ -329,7 +329,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "void* __builtin_memset(void*, int, long unsigned int)/4171",
+    "void* __builtin_memset(void*, int, long unsigned int)/4130",
     0,
     1.0,
     4,
@@ -339,7 +339,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4170",
+    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4129",
     1,
     8.09,
     3,
@@ -349,7 +349,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4170",
+    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4129",
     1,
     8.09,
     4,
@@ -359,7 +359,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4170",
+    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4129",
     0,
     1.0,
     3,
@@ -369,7 +369,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4170",
+    "std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>]/4129",
     0,
     1.0,
     4,
@@ -389,7 +389,7 @@
    ],
    [
     "int main(int, const char**)/1938",
-    "static bool std::ios_base::sync_with_stdio(bool)/4167",
+    "static bool std::ios_base::sync_with_stdio(bool)/4126",
     0,
     1.0,
     2,
@@ -399,7 +399,7 @@
    ],
    [
     "std::ctype<char>::char_type std::ctype<char>::widen(char) const/620",
-    "void std::ctype<char>::_M_widen_init() const/4177",
+    "void std::ctype<char>::_M_widen_init() const/4136",
     0,
     0.49,
     2,
@@ -409,7 +409,309 @@
    ]
   ]
  },
- "feature2": {
+ "vec": [
+  -14.9031189261765,
+  -14.933484618872912,
+  -12.167701876652266,
+  -34.60910425221304,
+  24.95494398862146,
+  26.34184413823312,
+  12.871298262518522,
+  -22.99524060836819,
+  -40.466676187512086,
+  -7.079546885776907,
+  18.638958974674733,
+  -43.3576608767117,
+  -7.124372228043795,
+  43.16836003912624,
+  -13.572035185449664,
+  38.73646346790828,
+  55.69549897186632,
+  4.5751992740211955,
+  -21.13394191984833,
+  -1.254084610623489,
+  38.56432171326777,
+  -4.738763276121007,
+  53.788039637933736,
+  48.60177994731935,
+  -32.27248050596763,
+  -1.6357860978796392,
+  -7.069579119266273,
+  13.418123174079787,
+  6.375041391948673,
+  5.175046107194986,
+  4.62824682585525,
+  -20.175223567942005,
+  18.13931248346619,
+  -44.34364306191077,
+  -16.835691433828732,
+  -17.75425426814431,
+  5.913322570778372,
+  12.317185694452448,
+  35.12805717798849,
+  -54.8448906867082,
+  9.396151259239346,
+  6.59481939519895,
+  -2.63221976176906,
+  -10.06387283015411,
+  -11.542526118856749,
+  -3.1505302226387566,
+  26.089197877479002,
+  33.665614921773376,
+  -5.651208449490473,
+  15.384332393241161,
+  28.694693419091507,
+  5.966581832785523,
+  -4.5063453452924565,
+  8.801786854527894,
+  5.90086940058268,
+  3.314918471237332,
+  -0.44220208786431037,
+  1.1401161142823986,
+  -15.802043125627588,
+  -20.57014686504173,
+  -2.603293882384229,
+  -6.131581037334628,
+  5.638770997176719,
+  34.45773755882948,
+  44.316665333310134,
+  5.100018780509637,
+  -3.1456494985396684,
+  28.799542340915295,
+  7.394489232307588,
+  7.716662209168997,
+  22.941625619350116,
+  7.369183067191861,
+  -11.485232821451403,
+  0.5155921658491187,
+  16.46682241148112,
+  -40.04097953163621,
+  -4.07479819035074,
+  -60.334750972482546,
+  -9.557907954648737,
+  -62.1873378593906,
+  -23.359098082805435,
+  5.895295927464419,
+  29.92210435517597,
+  9.773796917694428,
+  23.490083442785995,
+  -4.970622696258285,
+  34.17189689620441,
+  -2.655118229257788,
+  -13.988215229978788,
+  42.30525885098409,
+  41.828535232918945,
+  -34.241473720499876,
+  -17.890882927877982,
+  -21.455977313155014,
+  -22.71914821692245,
+  12.429857603572856,
+  -20.730414503184168,
+  4.424465923651249,
+  17.93616077937018,
+  11.13726631920346,
+  -32.522933112774425,
+  -18.610380570245418,
+  15.787056242562564,
+  17.63531712946851,
+  -13.697439021897816,
+  -32.615196635437826,
+  11.080129856960456,
+  28.25638541499977,
+  -30.378593577926143,
+  -28.801519116757284,
+  4.741931850937211,
+  32.874713920926176,
+  -7.920144282681953,
+  -59.997141756025286,
+  -15.31461542369985,
+  -21.66808898454568,
+  14.652752991733152,
+  2.2772364772597897,
+  -14.191788956652365,
+  -32.133707355039284,
+  2.0206201057478577,
+  13.93787848587152,
+  -10.304891407699186,
+  -19.93009897772209,
+  1.9763180152946753,
+  23.27288003911889,
+  22.474299309444227,
+  18.33021483769568,
+  3.690519277686624,
+  5.575242768540976,
+  12.287501479071377,
+  67.22722649208045,
+  2.987220914391604,
+  -24.1155853584626,
+  5.702928201394016,
+  -3.6620319662136525,
+  -5.857114738468704,
+  21.620186356510857,
+  -18.674499825812397,
+  -20.124203557008745,
+  3.6517609137624754,
+  -36.74089423687717,
+  16.294289556653197,
+  28.630640027709525,
+  -20.406366085479828,
+  -12.508750047689881,
+  23.64078899440421,
+  14.560238556511598,
+  2.8061837647748598,
+  115.57404994113298,
+  5.806162789496645,
+  50.48976155199336,
+  37.26642242592018,
+  -34.971599827207946,
+  7.1725368137153245,
+  -17.357159084037832,
+  2.6950516578177126,
+  11.556275542889393,
+  14.509724757296445,
+  -0.6949872787119282,
+  -47.550270754764114,
+  -34.41290990850188,
+  23.7708021470929,
+  38.729056090266,
+  28.030297403281498,
+  -45.54996271305563,
+  -6.575349663274342,
+  1.3058903913502393,
+  -1.1282441798480698,
+  -0.830342341661283,
+  -1.8978090216317625,
+  9.63887919283924,
+  7.50229695720802,
+  -29.83015248308632,
+  -5.985282848929234,
+  38.87469883965898,
+  80.81228323949193,
+  -15.031317209063507,
+  -0.229409797076782,
+  22.670770976241965,
+  20.469391248068042,
+  -11.855528524327529,
+  -50.418072224376544,
+  -18.606582567575032,
+  -27.609179203596813,
+  7.495621369447812,
+  18.596896030611113,
+  7.081236234604332,
+  19.584959866112378,
+  48.60658968847712,
+  -52.596186445108735,
+  28.538352155464718,
+  -3.8475369394944336,
+  1.714487083610215,
+  27.042974825487757,
+  20.032933345329663,
+  -42.689718722419165,
+  -43.8647425567278,
+  -11.847246405011681,
+  20.395514957697817,
+  42.88743350938983,
+  -10.782172327414916,
+  11.10555896428934,
+  15.748313941887705,
+  -32.03108458758739,
+  -2.8829678593994332,
+  10.351209819905812,
+  -4.970370274707508,
+  -7.0370035248705705,
+  16.499925065972956,
+  3.507742084475959,
+  -15.079929420874747,
+  -19.602890276097487,
+  13.82839513991402,
+  -11.729398231007432,
+  -7.257037201065926,
+  -3.076938889428575,
+  26.40756186679862,
+  9.539402448264774,
+  -42.40596355942462,
+  33.84338006797367,
+  0.2923926264401925,
+  -16.686794845251903,
+  4.163647736478014,
+  -12.88977246275534,
+  44.5152043516694,
+  -32.67328720143753,
+  -34.69243043359894,
+  25.88430617860631,
+  -10.318291951853675,
+  -16.30258565472786,
+  -13.274166075977313,
+  6.84842898164415,
+  19.531922863087527,
+  16.553533996014945,
+  15.8771226807454,
+  -20.464180269933326,
+  -30.984057003032664,
+  27.56066614356762,
+  -7.41226702971792,
+  30.69287460610377,
+  15.579932236377955,
+  -5.568700674507603,
+  17.42451059564605,
+  -7.728662158131435,
+  -10.687084924974664,
+  -30.390209429566458,
+  -25.32785439018459,
+  5.064809088845089,
+  2.916304217302483,
+  -39.789688199174584,
+  -6.714866806321261,
+  -8.701088846232324,
+  35.07792735963524,
+  23.988398044896428,
+  2.5509680140306368,
+  -38.63389218759031,
+  1.23022647718575,
+  40.23941535553005,
+  -29.770045209903518,
+  -6.294428959509466,
+  24.83465073873302,
+  22.491801061746493,
+  -43.14130462977964,
+  6.993172330792968,
+  32.160832340090096,
+  -42.132203641134666,
+  6.57118470266885,
+  -16.73129801251615,
+  0.4979347836794738,
+  -16.118323221192785,
+  -28.714894028350788,
+  23.118854156313134,
+  12.471076768682343,
+  22.39982922760074,
+  -2.1364897803960963,
+  6.392661213610167,
+  4.271298752264802,
+  16.143522871877803,
+  13.40441803683406,
+  7.544819796778699,
+  7.0239276075578445,
+  49.012875392160346,
+  37.78078312272281,
+  -11.030705065316099,
+  -17.01797151196677,
+  -40.866823167878785,
+  17.363966607519544,
+  -44.22364938710486,
+  -51.51227798912659,
+  22.81554061038745,
+  4.124682315615586,
+  -32.235459556977226,
+  3.327352402557752,
+  9.311130496404767,
+  40.875690311347434,
+  8.851689010281575,
+  -4.854009964245203,
+  -12.109015276552073,
+  7.835480643113222
+ ],
+ "loop_feature": {
   "node": {
    "0": [
     0,
@@ -6252,13 +6554,13 @@
    "973": [
     79,
     4,
-    12,
+    22,
     1
    ],
    "974": [
     79,
     4,
-    22,
+    12,
     1
    ],
    "975": [
@@ -6774,13 +7076,13 @@
    "1060": [
     82,
     18,
-    12,
+    0,
     1
    ],
    "1061": [
     82,
     18,
-    0,
+    12,
     1
    ],
    "1062": [
@@ -6924,13 +7226,13 @@
    "1085": [
     83,
     19,
-    12,
+    6,
     1
    ],
    "1086": [
     83,
     19,
-    6,
+    12,
     1
    ],
    "1087": [
@@ -7356,109 +7658,109 @@
    "1157": [
     88,
     0,
-    8,
+    12,
     2
    ],
    "1158": [
     88,
     0,
-    0,
+    102,
     2
    ],
    "1159": [
     88,
     0,
-    13,
+    12,
     2
    ],
    "1160": [
     88,
     0,
-    102,
+    6,
     2
    ],
    "1161": [
     88,
     0,
-    13,
+    0,
     2
    ],
    "1162": [
     88,
     0,
-    8,
+    12,
     2
    ],
    "1163": [
     88,
     0,
-    102,
+    6,
     2
    ],
    "1164": [
     88,
     0,
-    6,
+    8,
     2
    ],
    "1165": [
     88,
     0,
-    102,
+    34,
     2
    ],
    "1166": [
     88,
     0,
-    8,
+    46,
     2
    ],
    "1167": [
     88,
     0,
-    12,
+    13,
     2
    ],
    "1168": [
     88,
     0,
-    0,
+    13,
     2
    ],
    "1169": [
     88,
     0,
-    13,
+    12,
     2
    ],
    "1170": [
     88,
     0,
-    8,
+    34,
     2
    ],
    "1171": [
     88,
     0,
-    34,
+    13,
     2
    ],
    "1172": [
     88,
     0,
-    6,
+    8,
     2
    ],
    "1173": [
     88,
     0,
-    34,
+    22,
     2
    ],
    "1174": [
     88,
     0,
-    34,
+    102,
     2
    ],
    "1175": [
@@ -7470,97 +7772,97 @@
    "1176": [
     88,
     0,
-    12,
+    102,
     2
    ],
    "1177": [
     88,
     0,
-    12,
+    8,
     2
    ],
    "1178": [
     88,
     0,
-    22,
+    34,
     2
    ],
    "1179": [
     88,
     0,
-    8,
+    12,
     2
    ],
    "1180": [
     88,
     0,
-    6,
+    12,
     2
    ],
    "1181": [
     88,
     0,
-    12,
+    102,
     2
    ],
    "1182": [
     88,
     0,
-    0,
+    8,
     2
    ],
    "1183": [
     88,
     0,
-    12,
+    13,
     2
    ],
    "1184": [
     88,
     0,
-    46,
+    6,
     2
    ],
    "1185": [
     88,
     0,
-    102,
+    13,
     2
    ],
    "1186": [
     88,
     0,
-    16,
+    102,
     2
    ],
    "1187": [
     88,
     0,
-    12,
+    8,
     2
    ],
    "1188": [
     88,
     0,
-    102,
+    16,
     2
    ],
    "1189": [
     88,
     0,
-    12,
+    0,
     2
    ],
    "1190": [
     88,
     0,
-    13,
+    0,
     2
    ],
    "1191": [
     88,
     0,
-    13,
+    12,
     2
    ],
    "1192": [
@@ -7572,14692 +7874,14391 @@
   },
   "edge": [
    [
-    "0",
-    "1012",
+    0,
+    975,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1097",
+    0,
+    4,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "7",
+    0,
+    1009,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "1009",
+    0,
+    977,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1121",
+    0,
+    976,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "1155",
+    0,
+    1013,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "1087",
+    0,
+    1015,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "1013",
+    0,
+    6,
     2,
     0,
     0
    ],
    [
-    "0",
-    "979",
+    0,
+    5,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "991",
+    0,
+    979,
     2,
     0,
     1
    ],
    [
-    "0",
-    "1015",
+    0,
+    7,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "6",
+    0,
+    1012,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1010",
+    0,
+    1121,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "5",
+    0,
+    978,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1014",
+    0,
+    1011,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1063",
+    0,
+    1155,
     2,
     0,
     1
    ],
    [
-    "0",
-    "977",
+    0,
+    1087,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "4",
+    0,
+    1097,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "975",
+    0,
+    991,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "1138",
+    0,
+    1010,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "976",
+    0,
+    1014,
     2,
     0,
     0
    ],
    [
-    "0",
-    "1016",
+    0,
+    1,
     2,
     0,
-    1
+    0
    ],
    [
-    "0",
-    "1011",
+    0,
+    1016,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "1",
+    0,
+    1063,
     2,
     0,
-    0
+    1
    ],
    [
-    "0",
-    "978",
+    0,
+    1138,
     2,
     0,
-    0
+    1
    ],
    [
-    "1",
-    "2",
+    1,
+    2,
     0,
     0,
     0
    ],
    [
-    "1",
-    "4",
+    1,
+    4,
     2,
     0,
     0
    ],
    [
-    "2",
-    "3",
+    2,
+    3,
     0,
     0,
     0
    ],
    [
-    "2",
-    "6",
+    2,
+    6,
     2,
     0,
     0
    ],
    [
-    "3",
-    "0",
+    3,
+    0,
     2,
     0,
     0
    ],
    [
-    "3",
-    "1155",
+    3,
+    1155,
     2,
     0,
     1
    ],
    [
-    "4",
-    "0",
+    4,
+    0,
     2,
     0,
     0
    ],
    [
-    "4",
-    "1",
+    4,
+    1,
     2,
     0,
     0
    ],
    [
-    "5",
-    "0",
+    5,
+    0,
     2,
     0,
     0
    ],
    [
-    "6",
-    "0",
+    6,
+    0,
     2,
     0,
     0
    ],
    [
-    "6",
-    "2",
+    6,
+    2,
     2,
     0,
     0
    ],
    [
-    "7",
-    "8",
+    7,
+    8,
     0,
     0,
     0
    ],
    [
-    "7",
-    "32",
+    7,
+    32,
     1,
     0,
     0
    ],
    [
-    "8",
-    "9",
+    8,
+    9,
     0,
     0,
     0
    ],
    [
-    "8",
-    "34",
+    8,
+    34,
     1,
     0,
     0
    ],
    [
-    "9",
-    "10",
+    9,
+    10,
     0,
     0,
     0
    ],
    [
-    "9",
-    "36",
+    9,
+    36,
     1,
     0,
     0
    ],
    [
-    "10",
-    "11",
+    10,
+    11,
     0,
     0,
     0
    ],
    [
-    "10",
-    "67",
+    10,
+    67,
     1,
     0,
     0
    ],
    [
-    "10",
-    "72",
+    10,
+    72,
     1,
     0,
     0
    ],
    [
-    "11",
-    "12",
+    11,
+    12,
     0,
     0,
     0
    ],
    [
-    "11",
-    "82",
+    11,
+    82,
     1,
     0,
     0
    ],
    [
-    "11",
-    "85",
+    11,
+    85,
     1,
     0,
     1
    ],
    [
-    "11",
-    "149",
+    11,
+    149,
     1,
     0,
     1
    ],
    [
-    "11",
-    "154",
+    11,
+    154,
     1,
     0,
     1
    ],
    [
-    "12",
-    "13",
+    12,
+    13,
     0,
     0,
     0
    ],
    [
-    "12",
-    "93",
+    12,
+    93,
     1,
     0,
     1
    ],
    [
-    "12",
-    "98",
+    12,
+    98,
     1,
     0,
     1
    ],
    [
-    "12",
-    "103",
+    12,
+    103,
     1,
     0,
     1
    ],
    [
-    "12",
-    "116",
+    12,
+    116,
     1,
     0,
     1
    ],
    [
-    "12",
-    "130",
+    12,
+    130,
     1,
     0,
     1
    ],
    [
-    "13",
-    "14",
+    13,
+    14,
     0,
     0,
     0
    ],
    [
-    "13",
-    "96",
+    13,
+    96,
     1,
     0,
     1
    ],
    [
-    "13",
-    "105",
+    13,
+    105,
     1,
     0,
     1
    ],
    [
-    "13",
-    "110",
+    13,
+    110,
     1,
     0,
     1
    ],
    [
-    "13",
-    "112",
+    13,
+    112,
     1,
     0,
     1
    ],
    [
-    "13",
-    "134",
+    13,
+    134,
     1,
     0,
     1
    ],
    [
-    "14",
-    "15",
+    14,
+    15,
     0,
     0,
     0
    ],
    [
-    "14",
-    "157",
+    14,
+    157,
     1,
     0,
     1
    ],
    [
-    "14",
-    "160",
+    14,
+    160,
     1,
     0,
     1
    ],
    [
-    "14",
-    "179",
+    14,
+    179,
     1,
     0,
     1
    ],
    [
-    "14",
-    "198",
+    14,
+    198,
     1,
     0,
     1
    ],
    [
-    "14",
-    "215",
+    14,
+    215,
     1,
     0,
     1
    ],
    [
-    "14",
-    "217",
+    14,
+    217,
     1,
     0,
     1
    ],
    [
-    "14",
-    "246",
+    14,
+    246,
     1,
     0,
     1
    ],
    [
-    "14",
-    "251",
+    14,
+    251,
     1,
     0,
     1
    ],
    [
-    "15",
-    "16",
+    15,
+    16,
     0,
     0,
     0
    ],
    [
-    "15",
-    "168",
+    15,
+    168,
     1,
     0,
     1
    ],
    [
-    "15",
-    "171",
+    15,
+    171,
     1,
     0,
     1
    ],
    [
-    "15",
-    "187",
+    15,
+    187,
     1,
     0,
     1
    ],
    [
-    "15",
-    "204",
+    15,
+    204,
     1,
     0,
     1
    ],
    [
-    "15",
-    "223",
+    15,
+    223,
     1,
     0,
     1
    ],
    [
-    "15",
-    "237",
+    15,
+    237,
     1,
     0,
     1
    ],
    [
-    "15",
-    "242",
+    15,
+    242,
     1,
     0,
     1
    ],
    [
-    "16",
-    "17",
+    16,
+    17,
     0,
     0,
     0
    ],
    [
-    "16",
-    "254",
+    16,
+    254,
     1,
     0,
     1
    ],
    [
-    "16",
-    "257",
+    16,
+    257,
     1,
     0,
     1
    ],
    [
-    "16",
-    "278",
+    16,
+    278,
     1,
     0,
     1
    ],
    [
-    "16",
-    "303",
+    16,
+    303,
     1,
     0,
     1
    ],
    [
-    "16",
-    "340",
+    16,
+    340,
     1,
     0,
     1
    ],
    [
-    "16",
-    "384",
+    16,
+    384,
     1,
     0,
     1
    ],
    [
-    "16",
-    "413",
+    16,
+    413,
     1,
     0,
     1
    ],
    [
-    "16",
-    "441",
+    16,
+    441,
     1,
     0,
     1
    ],
    [
-    "16",
-    "475",
+    16,
+    475,
     1,
     0,
     1
    ],
    [
-    "16",
-    "506",
+    16,
+    506,
     1,
     0,
     1
    ],
    [
-    "16",
-    "552",
+    16,
+    552,
     1,
     0,
     1
    ],
    [
-    "16",
-    "557",
+    16,
+    557,
     1,
     0,
     1
    ],
    [
-    "17",
-    "18",
+    17,
+    18,
     0,
     0,
     0
    ],
    [
-    "17",
-    "267",
+    17,
+    267,
     1,
     0,
     1
    ],
    [
-    "17",
-    "270",
+    17,
+    270,
     1,
     0,
     1
    ],
    [
-    "17",
-    "280",
+    17,
+    280,
     1,
     0,
     1
    ],
    [
-    "17",
-    "317",
+    17,
+    317,
     1,
     0,
     1
    ],
    [
-    "17",
-    "327",
+    17,
+    327,
     1,
     0,
     1
    ],
    [
-    "17",
-    "400",
+    17,
+    400,
     1,
     0,
     1
    ],
    [
-    "17",
-    "428",
+    17,
+    428,
     1,
     0,
     1
    ],
    [
-    "17",
-    "462",
+    17,
+    462,
     1,
     0,
     1
    ],
    [
-    "17",
-    "493",
+    17,
+    493,
     1,
     0,
     1
    ],
    [
-    "17",
-    "543",
+    17,
+    543,
     1,
     0,
     1
    ],
    [
-    "17",
-    "548",
+    17,
+    548,
     1,
     0,
     1
    ],
    [
-    "18",
-    "19",
+    18,
+    19,
     0,
     0,
     0
    ],
    [
-    "18",
-    "292",
+    18,
+    292,
     1,
     0,
     1
    ],
    [
-    "18",
-    "295",
+    18,
+    295,
     1,
     0,
     1
    ],
    [
-    "18",
-    "305",
+    18,
+    305,
     1,
     0,
     1
    ],
    [
-    "18",
-    "319",
+    18,
+    319,
     1,
     0,
     1
    ],
    [
-    "18",
-    "333",
+    18,
+    333,
     1,
     0,
     1
    ],
    [
-    "18",
-    "365",
+    18,
+    365,
     1,
     0,
     1
    ],
    [
-    "18",
-    "406",
+    18,
+    406,
     1,
     0,
     1
    ],
    [
-    "18",
-    "443",
+    18,
+    443,
     1,
     0,
     1
    ],
    [
-    "18",
-    "477",
+    18,
+    477,
     1,
     0,
     1
    ],
    [
-    "18",
-    "491",
+    18,
+    491,
     1,
     0,
     1
    ],
    [
-    "18",
-    "508",
+    18,
+    508,
     1,
     0,
     1
    ],
    [
-    "18",
-    "534",
+    18,
+    534,
     1,
     0,
     1
    ],
    [
-    "18",
-    "539",
+    18,
+    539,
     1,
     0,
     1
    ],
    [
-    "19",
-    "20",
+    19,
+    20,
     0,
     0,
     0
    ],
    [
-    "19",
-    "354",
+    19,
+    354,
     1,
     0,
     1
    ],
    [
-    "19",
-    "357",
+    19,
+    357,
     1,
     0,
     1
    ],
    [
-    "19",
-    "373",
+    19,
+    373,
     1,
     0,
     1
    ],
    [
-    "19",
-    "386",
+    19,
+    386,
     1,
     0,
     1
    ],
    [
-    "19",
-    "398",
+    19,
+    398,
     1,
     0,
     1
    ],
    [
-    "19",
-    "434",
+    19,
+    434,
     1,
     0,
     1
    ],
    [
-    "19",
-    "468",
+    19,
+    468,
     1,
     0,
     1
    ],
    [
-    "19",
-    "499",
+    19,
+    499,
     1,
     0,
     1
    ],
    [
-    "19",
-    "525",
+    19,
+    525,
     1,
     0,
     1
    ],
    [
-    "19",
-    "530",
+    19,
+    530,
     1,
     0,
     1
    ],
    [
-    "20",
-    "21",
+    20,
+    21,
     0,
     0,
     0
    ],
    [
-    "20",
-    "562",
+    20,
+    562,
     1,
     0,
     1
    ],
    [
-    "20",
-    "565",
+    20,
+    565,
     1,
     0,
     1
    ],
    [
-    "20",
-    "575",
+    20,
+    575,
     1,
     0,
     1
    ],
    [
-    "20",
-    "589",
+    20,
+    589,
     1,
     0,
     1
    ],
    [
-    "20",
-    "619",
+    20,
+    619,
     1,
     0,
     1
    ],
    [
-    "20",
-    "722",
+    20,
+    722,
     1,
     0,
     1
    ],
    [
-    "20",
-    "733",
+    20,
+    733,
     1,
     0,
     1
    ],
    [
-    "20",
-    "746",
+    20,
+    746,
     1,
     0,
     1
    ],
    [
-    "20",
-    "759",
+    20,
+    759,
     1,
     0,
     1
    ],
    [
-    "20",
-    "794",
+    20,
+    794,
     1,
     0,
     1
    ],
    [
-    "20",
-    "804",
+    20,
+    804,
     1,
     0,
     1
    ],
    [
-    "20",
-    "809",
+    20,
+    809,
     1,
     0,
     1
    ],
    [
-    "21",
-    "22",
+    21,
+    22,
     0,
     0,
     0
    ],
    [
-    "21",
-    "578",
+    21,
+    578,
     1,
     0,
     1
    ],
    [
-    "21",
-    "581",
+    21,
+    581,
     1,
     0,
     1
    ],
    [
-    "21",
-    "587",
+    21,
+    587,
     1,
     0,
     1
    ],
    [
-    "21",
-    "597",
+    21,
+    597,
     1,
     0,
     1
    ],
    [
-    "21",
-    "696",
+    21,
+    696,
     1,
     0,
     1
    ],
    [
-    "21",
-    "731",
+    21,
+    731,
     1,
     0,
     1
    ],
    [
-    "21",
-    "790",
+    21,
+    790,
     1,
     0,
     1
    ],
    [
-    "21",
-    "800",
+    21,
+    800,
     1,
     0,
     1
    ],
    [
-    "22",
-    "23",
+    22,
+    23,
     0,
     0,
     0
    ],
    [
-    "22",
-    "595",
+    22,
+    595,
     1,
     0,
     1
    ],
    [
-    "22",
-    "606",
+    22,
+    606,
     1,
     0,
     1
    ],
    [
-    "22",
-    "644",
+    22,
+    644,
     1,
     0,
     1
    ],
    [
-    "22",
-    "669",
+    22,
+    669,
     1,
     0,
     1
    ],
    [
-    "22",
-    "709",
+    22,
+    709,
     1,
     0,
     1
    ],
    [
-    "23",
-    "24",
+    23,
+    24,
     0,
     0,
     0
    ],
    [
-    "23",
-    "604",
+    23,
+    604,
     1,
     0,
     1
    ],
    [
-    "23",
-    "614",
+    23,
+    614,
     1,
     0,
     1
    ],
    [
-    "23",
-    "717",
+    23,
+    717,
     1,
     0,
     1
    ],
    [
-    "24",
-    "25",
+    24,
+    25,
     0,
     0,
     0
    ],
    [
-    "24",
-    "633",
+    24,
+    633,
     1,
     0,
     1
    ],
    [
-    "24",
-    "636",
+    24,
+    636,
     1,
     0,
     1
    ],
    [
-    "24",
-    "646",
+    24,
+    646,
     1,
     0,
     1
    ],
    [
-    "24",
-    "683",
+    24,
+    683,
     1,
     0,
     1
    ],
    [
-    "24",
-    "744",
+    24,
+    744,
     1,
     0,
     1
    ],
    [
-    "24",
-    "781",
+    24,
+    781,
     1,
     0,
     1
    ],
    [
-    "24",
-    "786",
+    24,
+    786,
     1,
     0,
     1
    ],
    [
-    "25",
-    "26",
+    25,
+    26,
     0,
     0,
     0
    ],
    [
-    "25",
-    "658",
+    25,
+    658,
     1,
     0,
     1
    ],
    [
-    "25",
-    "661",
+    25,
+    661,
     1,
     0,
     1
    ],
    [
-    "25",
-    "671",
+    25,
+    671,
     1,
     0,
     1
    ],
    [
-    "25",
-    "689",
+    25,
+    689,
     1,
     0,
     1
    ],
    [
-    "25",
-    "757",
+    25,
+    757,
     1,
     0,
     1
    ],
    [
-    "25",
-    "772",
+    25,
+    772,
     1,
     0,
     1
    ],
    [
-    "25",
-    "777",
+    25,
+    777,
     1,
     0,
     1
    ],
    [
-    "26",
-    "27",
+    26,
+    27,
     0,
     0,
     0
    ],
    [
-    "26",
-    "833",
+    26,
+    833,
     1,
     0,
     1
    ],
    [
-    "26",
-    "836",
+    26,
+    836,
     1,
     0,
     1
    ],
    [
-    "26",
-    "842",
+    26,
+    842,
     1,
     0,
     1
    ],
    [
-    "26",
-    "855",
+    26,
+    855,
     1,
     0,
     1
    ],
    [
-    "26",
-    "868",
+    26,
+    868,
     1,
     0,
     1
    ],
    [
-    "26",
-    "883",
+    26,
+    883,
     1,
     0,
     1
    ],
    [
-    "26",
-    "889",
+    26,
+    889,
     1,
     0,
     1
    ],
    [
-    "27",
-    "28",
+    27,
+    28,
     0,
     0,
     0
    ],
    [
-    "27",
-    "853",
+    27,
+    853,
     1,
     0,
     1
    ],
    [
-    "27",
-    "881",
+    27,
+    881,
     1,
     0,
     1
    ],
    [
-    "27",
-    "892",
+    27,
+    892,
     1,
     0,
     1
    ],
    [
-    "27",
-    "911",
+    27,
+    911,
     1,
     0,
     1
    ],
    [
-    "27",
-    "946",
+    27,
+    946,
     1,
     0,
     1
    ],
    [
-    "27",
-    "952",
+    27,
+    952,
     1,
     0,
     1
    ],
    [
-    "28",
-    "29",
+    28,
+    29,
     0,
     0,
     0
    ],
    [
-    "28",
-    "921",
+    28,
+    921,
     1,
     0,
     1
    ],
    [
-    "28",
-    "939",
+    28,
+    939,
     1,
     0,
     1
    ],
    [
-    "29",
-    "30",
+    29,
+    30,
     0,
     0,
     0
    ],
    [
-    "29",
-    "866",
+    29,
+    866,
     1,
     0,
     1
    ],
    [
-    "29",
-    "898",
+    29,
+    898,
     1,
     0,
     1
    ],
    [
-    "29",
-    "955",
+    29,
+    955,
     1,
     0,
     1
    ],
    [
-    "30",
-    "31",
+    30,
+    31,
     0,
     0,
     0
    ],
    [
-    "30",
-    "879",
+    30,
+    879,
     1,
     0,
     1
    ],
    [
-    "30",
-    "904",
+    30,
+    904,
     1,
     0,
     1
    ],
    [
-    "30",
-    "929",
+    30,
+    929,
     1,
     0,
     1
    ],
    [
-    "30",
-    "942",
+    30,
+    942,
     1,
     0,
     1
    ],
    [
-    "30",
-    "963",
+    30,
+    963,
     1,
     0,
     1
    ],
    [
-    "31",
-    "33",
+    31,
+    33,
     0,
     0,
     0
    ],
    [
-    "32",
-    "31",
+    32,
+    31,
     1,
     1,
     0
    ],
    [
-    "33",
-    "35",
+    33,
+    35,
     0,
     0,
     0
    ],
    [
-    "34",
-    "33",
+    34,
+    33,
     1,
     1,
     0
    ],
    [
-    "35",
-    "37",
+    35,
+    37,
     0,
     0,
     0
    ],
    [
-    "36",
-    "35",
+    36,
+    35,
     1,
     1,
     0
    ],
    [
-    "37",
-    "38",
+    37,
+    38,
     0,
     0,
     0
    ],
    [
-    "37",
-    "975",
+    37,
+    975,
     2,
     0,
     -1
    ],
    [
-    "38",
-    "39",
+    38,
+    39,
     0,
     0,
     0
    ],
    [
-    "38",
-    "40",
+    38,
+    40,
     1,
     0,
     0
    ],
    [
-    "39",
-    "41",
+    39,
+    41,
     0,
     0,
     0
    ],
    [
-    "39",
-    "42",
+    39,
+    42,
     1,
     0,
     0
    ],
    [
-    "40",
-    "39",
+    40,
+    39,
     1,
     0,
     0
    ],
    [
-    "41",
-    "43",
+    41,
+    43,
     0,
     0,
     0
    ],
    [
-    "41",
-    "44",
+    41,
+    44,
     1,
     0,
     0
    ],
    [
-    "42",
-    "41",
+    42,
+    41,
     1,
     0,
     0
    ],
    [
-    "43",
-    "45",
+    43,
+    45,
     0,
     0,
     0
    ],
    [
-    "43",
-    "46",
+    43,
+    46,
     1,
     0,
     0
    ],
    [
-    "44",
-    "43",
+    44,
+    43,
     1,
     0,
     0
    ],
    [
-    "45",
-    "47",
+    45,
+    47,
     0,
     0,
     0
    ],
    [
-    "45",
-    "48",
+    45,
+    48,
     1,
     0,
     0
    ],
    [
-    "46",
-    "45",
+    46,
+    45,
     1,
     1,
     0
    ],
    [
-    "47",
-    "49",
+    47,
+    49,
     0,
     0,
     0
    ],
    [
-    "47",
-    "50",
+    47,
+    50,
     1,
     0,
     0
    ],
    [
-    "48",
-    "47",
+    48,
+    47,
     1,
     0,
     0
    ],
    [
-    "49",
-    "51",
+    49,
+    51,
     0,
     0,
     0
    ],
    [
-    "49",
-    "976",
+    49,
+    976,
     2,
     0,
     -1
    ],
    [
-    "50",
-    "49",
+    50,
+    49,
     1,
     0,
     0
    ],
    [
-    "51",
-    "52",
+    51,
+    52,
     0,
     0,
     0
    ],
    [
-    "51",
-    "53",
+    51,
+    53,
     1,
     0,
     0
    ],
    [
-    "52",
-    "54",
+    52,
+    54,
     0,
     0,
     0
    ],
    [
-    "52",
-    "55",
+    52,
+    55,
     1,
     0,
     0
    ],
    [
-    "53",
-    "52",
+    53,
+    52,
     1,
     0,
     0
    ],
    [
-    "54",
-    "56",
+    54,
+    56,
     0,
     0,
     0
    ],
    [
-    "54",
-    "57",
+    54,
+    57,
     1,
     0,
     0
    ],
    [
-    "55",
-    "54",
+    55,
+    54,
     1,
     0,
     0
    ],
    [
-    "56",
-    "58",
+    56,
+    58,
     0,
     0,
     0
    ],
    [
-    "56",
-    "59",
+    56,
+    59,
     1,
     0,
     0
    ],
    [
-    "57",
-    "56",
+    57,
+    56,
     1,
     0,
     0
    ],
    [
-    "58",
-    "60",
+    58,
+    60,
     0,
     0,
     0
    ],
    [
-    "58",
-    "61",
+    58,
+    61,
     1,
     0,
     0
    ],
    [
-    "59",
-    "58",
+    59,
+    58,
     1,
     1,
     0
    ],
    [
-    "60",
-    "62",
+    60,
+    62,
     0,
     0,
     0
    ],
    [
-    "60",
-    "63",
+    60,
+    63,
     1,
     0,
     0
    ],
    [
-    "61",
-    "60",
+    61,
+    60,
     1,
     0,
     0
    ],
    [
-    "62",
-    "64",
+    62,
+    64,
     0,
     0,
     0
    ],
    [
-    "62",
-    "976",
+    62,
+    976,
     2,
     0,
     -1
    ],
    [
-    "63",
-    "62",
+    63,
+    62,
     1,
     0,
     0
    ],
    [
-    "64",
-    "65",
+    64,
+    65,
     0,
     0,
     0
    ],
    [
-    "64",
-    "76",
+    64,
+    76,
     1,
     0,
     0
    ],
    [
-    "64",
-    "978",
+    64,
+    978,
     2,
     0,
     -1
    ],
    [
-    "65",
-    "66",
+    65,
+    66,
     0,
     0,
     0
    ],
    [
-    "65",
-    "69",
+    65,
+    69,
     1,
     0,
     0
    ],
    [
-    "65",
-    "991",
+    65,
+    991,
     2,
     0,
     1
    ],
    [
-    "66",
-    "68",
+    66,
+    68,
     0,
     0,
     0
    ],
    [
-    "66",
-    "70",
+    66,
+    70,
     1,
     0,
     0
    ],
    [
-    "67",
-    "66",
+    67,
+    66,
     1,
     0,
     0
    ],
    [
-    "68",
-    "71",
+    68,
+    71,
     0,
     0,
     0
    ],
    [
-    "69",
-    "68",
+    69,
+    68,
     1,
     0,
     0
    ],
    [
-    "70",
-    "68",
+    70,
+    68,
     1,
     1,
     0
    ],
    [
-    "71",
-    "73",
+    71,
+    73,
     0,
     0,
     0
    ],
    [
-    "71",
-    "74",
+    71,
+    74,
     1,
     0,
     0
    ],
    [
-    "72",
-    "71",
+    72,
+    71,
     1,
     0,
     0
    ],
    [
-    "73",
-    "75",
+    73,
+    75,
     0,
     0,
     0
    ],
    [
-    "73",
-    "77",
+    73,
+    77,
     1,
     0,
     0
    ],
    [
-    "74",
-    "73",
+    74,
+    73,
     1,
     0,
     0
    ],
    [
-    "75",
-    "78",
+    75,
+    78,
     0,
     0,
     0
    ],
    [
-    "75",
-    "977",
+    75,
+    977,
     2,
     0,
     -1
    ],
    [
-    "76",
-    "75",
+    76,
+    75,
     1,
     0,
     0
    ],
    [
-    "77",
-    "75",
+    77,
+    75,
     1,
     1,
     0
    ],
    [
-    "78",
-    "79",
+    78,
+    79,
     0,
     0,
     0
    ],
    [
-    "78",
-    "80",
+    78,
+    80,
     1,
     0,
     0
    ],
    [
-    "78",
-    "1009",
+    78,
+    1009,
     2,
     0,
     -1
    ],
    [
-    "79",
-    "81",
+    79,
+    81,
     0,
     0,
     0
    ],
    [
-    "79",
-    "1009",
+    79,
+    1009,
     2,
     0,
     -1
    ],
    [
-    "80",
-    "79",
+    80,
+    79,
     1,
     0,
     0
    ],
    [
-    "81",
-    "83",
+    81,
+    83,
     0,
     0,
     0
    ],
    [
-    "82",
-    "81",
+    82,
+    81,
     1,
     1,
     0
    ],
    [
-    "83",
-    "84",
+    83,
+    84,
     0,
     0,
     1
    ],
    [
-    "84",
-    "86",
+    84,
+    86,
     0,
     0,
     0
    ],
    [
-    "84",
-    "88",
+    84,
+    88,
     1,
     0,
     0
    ],
    [
-    "85",
-    "84",
+    85,
+    84,
     1,
     0,
     0
    ],
    [
-    "86",
-    "87",
+    86,
+    87,
     0,
     0,
     0
    ],
    [
-    "86",
-    "89",
+    86,
+    89,
     1,
     0,
     0
    ],
    [
-    "87",
-    "90",
+    87,
+    90,
     0,
     0,
     0
    ],
    [
-    "87",
-    "91",
+    87,
+    91,
     1,
     0,
     0
    ],
    [
-    "88",
-    "87",
+    88,
+    87,
     1,
     0,
     0
    ],
    [
-    "89",
-    "87",
+    89,
+    87,
     1,
     1,
     0
    ],
    [
-    "90",
-    "92",
+    90,
+    92,
     0,
     0,
     1
    ],
    [
-    "90",
-    "156",
+    90,
+    156,
     0,
     1,
     1
    ],
    [
-    "91",
-    "90",
+    91,
+    90,
     1,
     0,
     0
    ],
    [
-    "92",
-    "94",
+    92,
+    94,
     0,
     0,
     0
    ],
    [
-    "92",
-    "95",
+    92,
+    95,
     1,
     0,
     0
    ],
    [
-    "92",
-    "1009",
+    92,
+    1009,
     2,
     0,
     -1
    ],
    [
-    "93",
-    "92",
+    93,
+    92,
     1,
     1,
     0
    ],
    [
-    "94",
-    "97",
+    94,
+    97,
     0,
     0,
     0
    ],
    [
-    "94",
-    "1009",
+    94,
+    1009,
     2,
     0,
     -1
    ],
    [
-    "95",
-    "94",
+    95,
+    94,
     1,
     0,
     0
    ],
    [
-    "96",
-    "94",
+    96,
+    94,
     1,
     1,
     0
    ],
    [
-    "97",
-    "99",
+    97,
+    99,
     0,
     0,
     0
    ],
    [
-    "97",
-    "100",
+    97,
+    100,
     1,
     0,
     0
    ],
    [
-    "98",
-    "97",
+    98,
+    97,
     1,
     0,
     0
    ],
    [
-    "99",
-    "101",
+    99,
+    101,
     0,
     0,
     0
    ],
    [
-    "99",
-    "102",
+    99,
+    102,
     1,
     0,
     0
    ],
    [
-    "100",
-    "99",
+    100,
+    99,
     1,
     0,
     0
    ],
    [
-    "101",
-    "104",
+    101,
+    104,
     0,
     0,
     0
    ],
    [
-    "102",
-    "101",
+    102,
+    101,
     1,
     0,
     0
    ],
    [
-    "103",
-    "101",
+    103,
+    101,
     1,
     1,
     0
    ],
    [
-    "104",
-    "106",
+    104,
+    106,
     0,
     0,
     0
    ],
    [
-    "104",
-    "107",
+    104,
+    107,
     1,
     0,
     0
    ],
    [
-    "105",
-    "104",
+    105,
+    104,
     1,
     0,
     0
    ],
    [
-    "106",
-    "108",
+    106,
+    108,
     0,
     0,
     0
    ],
    [
-    "106",
-    "109",
+    106,
+    109,
     1,
     0,
     0
    ],
    [
-    "107",
-    "106",
+    107,
+    106,
     1,
     0,
     0
    ],
    [
-    "108",
-    "111",
+    108,
+    111,
     0,
     0,
     0
    ],
    [
-    "109",
-    "108",
+    109,
+    108,
     1,
     0,
     0
    ],
    [
-    "110",
-    "108",
+    110,
+    108,
     1,
     1,
     0
    ],
    [
-    "111",
-    "113",
+    111,
+    113,
     0,
     0,
     0
    ],
    [
-    "111",
-    "114",
+    111,
+    114,
     1,
     0,
     0
    ],
    [
-    "112",
-    "111",
+    112,
+    111,
     1,
     0,
     0
    ],
    [
-    "113",
-    "115",
+    113,
+    115,
     0,
     0,
     0
    ],
    [
-    "113",
-    "125",
+    113,
+    125,
     1,
     0,
     0
    ],
    [
-    "114",
-    "113",
+    114,
+    113,
     1,
     1,
     0
    ],
    [
-    "115",
-    "117",
+    115,
+    117,
     0,
     0,
     0
    ],
    [
-    "115",
-    "118",
+    115,
+    118,
     1,
     0,
     0
    ],
    [
-    "116",
-    "115",
+    116,
+    115,
     1,
     0,
     0
    ],
    [
-    "117",
-    "119",
+    117,
+    119,
     0,
     0,
     0
    ],
    [
-    "117",
-    "120",
+    117,
+    120,
     1,
     0,
     0
    ],
    [
-    "118",
-    "117",
+    118,
+    117,
     1,
     0,
     0
    ],
    [
-    "119",
-    "121",
+    119,
+    121,
     0,
     0,
     0
    ],
    [
-    "119",
-    "122",
+    119,
+    122,
     1,
     0,
     0
    ],
    [
-    "119",
-    "128",
+    119,
+    128,
     1,
     0,
     0
    ],
    [
-    "120",
-    "119",
+    120,
+    119,
     1,
     2,
     0
    ],
    [
-    "121",
-    "123",
+    121,
+    123,
     0,
     0,
     0
    ],
    [
-    "121",
-    "124",
+    121,
+    124,
     1,
     0,
     0
    ],
    [
-    "122",
-    "121",
+    122,
+    121,
     1,
     0,
     0
    ],
    [
-    "123",
-    "126",
+    123,
+    126,
     0,
     0,
     0
    ],
    [
-    "123",
-    "127",
+    123,
+    127,
     1,
     0,
     0
    ],
    [
-    "124",
-    "123",
+    124,
+    123,
     1,
     0,
     0
    ],
    [
-    "125",
-    "123",
+    125,
+    123,
     1,
     1,
     0
    ],
    [
-    "126",
-    "129",
+    126,
+    129,
     0,
     0,
     0
    ],
    [
-    "127",
-    "126",
+    127,
+    126,
     1,
     0,
     0
    ],
    [
-    "128",
-    "126",
+    128,
+    126,
     1,
     1,
     0
    ],
    [
-    "129",
-    "131",
+    129,
+    131,
     0,
     0,
     0
    ],
    [
-    "129",
-    "132",
+    129,
+    132,
     1,
     0,
     0
    ],
    [
-    "130",
-    "129",
+    130,
+    129,
     1,
     0,
     0
    ],
    [
-    "131",
-    "133",
+    131,
+    133,
     0,
     0,
     0
    ],
    [
-    "131",
-    "143",
+    131,
+    143,
     1,
     0,
     0
    ],
    [
-    "132",
-    "131",
+    132,
+    131,
     1,
     1,
     0
    ],
    [
-    "133",
-    "135",
+    133,
+    135,
     0,
     0,
     0
    ],
    [
-    "133",
-    "136",
+    133,
+    136,
     1,
     0,
     0
    ],
    [
-    "134",
-    "133",
+    134,
+    133,
     1,
     0,
     0
    ],
    [
-    "135",
-    "137",
+    135,
+    137,
     0,
     0,
     0
    ],
    [
-    "135",
-    "138",
+    135,
+    138,
     1,
     0,
     0
    ],
    [
-    "136",
-    "135",
+    136,
+    135,
     1,
     0,
     0
    ],
    [
-    "137",
-    "139",
+    137,
+    139,
     0,
     0,
     0
    ],
    [
-    "137",
-    "140",
+    137,
+    140,
     1,
     0,
     0
    ],
    [
-    "137",
-    "146",
+    137,
+    146,
     1,
     0,
     0
    ],
    [
-    "138",
-    "137",
+    138,
+    137,
     1,
     2,
     0
    ],
    [
-    "139",
-    "141",
+    139,
+    141,
     0,
     0,
     0
    ],
    [
-    "139",
-    "142",
+    139,
+    142,
     1,
     0,
     0
    ],
    [
-    "140",
-    "139",
+    140,
+    139,
     1,
     0,
     0
    ],
    [
-    "141",
-    "144",
+    141,
+    144,
     0,
     0,
     0
    ],
    [
-    "141",
-    "145",
+    141,
+    145,
     1,
     0,
     0
    ],
    [
-    "142",
-    "141",
+    142,
+    141,
     1,
     0,
     0
    ],
    [
-    "143",
-    "141",
+    143,
+    141,
     1,
     1,
     0
    ],
    [
-    "144",
-    "147",
+    144,
+    147,
     0,
     0,
     0
    ],
    [
-    "145",
-    "144",
+    145,
+    144,
     1,
     0,
     0
    ],
    [
-    "146",
-    "144",
+    146,
+    144,
     1,
     1,
     0
    ],
    [
-    "147",
-    "148",
+    147,
+    148,
     0,
     0,
     1
    ],
    [
-    "148",
-    "150",
+    148,
+    150,
     0,
     0,
     0
    ],
    [
-    "148",
-    "151",
+    148,
+    151,
     1,
     0,
     0
    ],
    [
-    "149",
-    "148",
+    149,
+    148,
     1,
     0,
     0
    ],
    [
-    "150",
-    "152",
+    150,
+    152,
     0,
     0,
     0
    ],
    [
-    "150",
-    "153",
+    150,
+    153,
     1,
     0,
     0
    ],
    [
-    "151",
-    "150",
+    151,
+    150,
     1,
     0,
     0
    ],
    [
-    "152",
-    "155",
+    152,
+    155,
     0,
     0,
     0
    ],
    [
-    "153",
-    "152",
+    153,
+    152,
     1,
     0,
     0
    ],
    [
-    "154",
-    "152",
+    154,
+    152,
     1,
     1,
     0
    ],
    [
-    "155",
-    "84",
+    155,
+    84,
     0,
     0,
     -1
    ],
    [
-    "156",
-    "158",
+    156,
+    158,
     0,
     0,
     0
    ],
    [
-    "157",
-    "156",
+    157,
+    156,
     1,
     1,
     0
    ],
    [
-    "158",
-    "159",
+    158,
+    159,
     0,
     0,
     1
    ],
    [
-    "159",
-    "161",
+    159,
+    161,
     0,
     0,
     0
    ],
    [
-    "159",
-    "163",
+    159,
+    163,
     1,
     0,
     0
    ],
    [
-    "160",
-    "159",
+    160,
+    159,
     1,
     0,
     0
    ],
    [
-    "161",
-    "162",
+    161,
+    162,
     0,
     0,
     0
    ],
    [
-    "161",
-    "164",
+    161,
+    164,
     1,
     0,
     0
    ],
    [
-    "162",
-    "165",
+    162,
+    165,
     0,
     0,
     0
    ],
    [
-    "162",
-    "166",
+    162,
+    166,
     1,
     0,
     0
    ],
    [
-    "163",
-    "162",
+    163,
+    162,
     1,
     0,
     0
    ],
    [
-    "164",
-    "162",
+    164,
+    162,
     1,
     1,
     0
    ],
    [
-    "165",
-    "167",
+    165,
+    167,
     0,
     0,
     1
    ],
    [
-    "165",
-    "253",
+    165,
+    253,
     0,
     1,
     1
    ],
    [
-    "166",
-    "165",
+    166,
+    165,
     1,
     0,
     0
    ],
    [
-    "167",
-    "169",
+    167,
+    169,
     0,
     0,
     0
    ],
    [
-    "168",
-    "167",
+    168,
+    167,
     1,
     1,
     0
    ],
    [
-    "169",
-    "170",
+    169,
+    170,
     0,
     0,
     1
    ],
    [
-    "170",
-    "172",
+    170,
+    172,
     0,
     0,
     0
    ],
    [
-    "170",
-    "174",
+    170,
+    174,
     1,
     0,
     0
    ],
    [
-    "171",
-    "170",
+    171,
+    170,
     1,
     0,
     0
    ],
    [
-    "172",
-    "173",
+    172,
+    173,
     0,
     0,
     0
    ],
    [
-    "172",
-    "175",
+    172,
+    175,
     1,
     0,
     0
    ],
    [
-    "173",
-    "176",
+    173,
+    176,
     0,
     0,
     0
    ],
    [
-    "173",
-    "177",
+    173,
+    177,
     1,
     0,
     0
    ],
    [
-    "174",
-    "173",
+    174,
+    173,
     1,
     0,
     0
    ],
    [
-    "175",
-    "173",
+    175,
+    173,
     1,
     1,
     0
    ],
    [
-    "176",
-    "178",
+    176,
+    178,
     0,
     0,
     1
    ],
    [
-    "176",
-    "244",
+    176,
+    244,
     0,
     1,
     1
    ],
    [
-    "177",
-    "176",
+    177,
+    176,
     1,
     0,
     0
    ],
    [
-    "178",
-    "180",
+    178,
+    180,
     0,
     0,
     0
    ],
    [
-    "178",
-    "181",
+    178,
+    181,
     1,
     0,
     0
    ],
    [
-    "179",
-    "178",
+    179,
+    178,
     1,
     0,
     0
    ],
    [
-    "180",
-    "182",
+    180,
+    182,
     0,
     0,
     0
    ],
    [
-    "180",
-    "183",
+    180,
+    183,
     1,
     0,
     0
    ],
    [
-    "181",
-    "180",
+    181,
+    180,
     1,
     0,
     0
    ],
    [
-    "182",
-    "184",
+    182,
+    184,
     0,
     0,
     0
    ],
    [
-    "182",
-    "185",
+    182,
+    185,
     1,
     0,
     0
    ],
    [
-    "183",
-    "182",
+    183,
+    182,
     1,
     2,
     0
    ],
    [
-    "184",
-    "186",
+    184,
+    186,
     0,
     0,
     0
    ],
    [
-    "184",
-    "191",
+    184,
+    191,
     1,
     0,
     0
    ],
    [
-    "185",
-    "184",
+    185,
+    184,
     1,
     0,
     0
    ],
    [
-    "186",
-    "188",
+    186,
+    188,
     0,
     0,
     0
    ],
    [
-    "186",
-    "189",
+    186,
+    189,
     1,
     0,
     0
    ],
    [
-    "187",
-    "186",
+    187,
+    186,
     1,
     0,
     0
    ],
    [
-    "188",
-    "190",
+    188,
+    190,
     0,
     0,
     0
    ],
    [
-    "188",
-    "192",
+    188,
+    192,
     1,
     0,
     0
    ],
    [
-    "189",
-    "188",
+    189,
+    188,
     1,
     1,
     0
    ],
    [
-    "190",
-    "193",
+    190,
+    193,
     0,
     0,
     0
    ],
    [
-    "190",
-    "194",
+    190,
+    194,
     1,
     0,
     0
    ],
    [
-    "191",
-    "190",
+    191,
+    190,
     1,
     0,
     0
    ],
    [
-    "192",
-    "190",
+    192,
+    190,
     1,
     1,
     0
    ],
    [
-    "193",
-    "195",
+    193,
+    195,
     0,
     0,
     0
    ],
    [
-    "193",
-    "196",
+    193,
+    196,
     1,
     0,
     0
    ],
    [
-    "194",
-    "193",
+    194,
+    193,
     1,
     0,
     0
    ],
    [
-    "195",
-    "197",
+    195,
+    197,
     0,
     0,
     1
    ],
    [
-    "195",
-    "235",
+    195,
+    235,
     0,
     1,
     1
    ],
    [
-    "196",
-    "195",
+    196,
+    195,
     1,
     0,
     0
    ],
    [
-    "197",
-    "199",
+    197,
+    199,
     0,
     0,
     0
    ],
    [
-    "197",
-    "200",
+    197,
+    200,
     1,
     0,
     0
    ],
    [
-    "198",
-    "197",
+    198,
+    197,
     1,
     0,
     0
    ],
    [
-    "199",
-    "201",
+    199,
+    201,
     0,
     0,
     0
    ],
    [
-    "199",
-    "202",
+    199,
+    202,
     1,
     0,
     0
    ],
    [
-    "200",
-    "199",
+    200,
+    199,
     1,
     0,
     0
    ],
    [
-    "201",
-    "203",
+    201,
+    203,
     0,
     0,
     0
    ],
    [
-    "201",
-    "208",
+    201,
+    208,
     1,
     0,
     0
    ],
    [
-    "202",
-    "201",
+    202,
+    201,
     1,
     2,
     0
    ],
    [
-    "203",
-    "205",
+    203,
+    205,
     0,
     0,
     0
    ],
    [
-    "203",
-    "206",
+    203,
+    206,
     1,
     0,
     0
    ],
    [
-    "204",
-    "203",
+    204,
+    203,
     1,
     0,
     0
    ],
    [
-    "205",
-    "207",
+    205,
+    207,
     0,
     0,
     0
    ],
    [
-    "205",
-    "209",
+    205,
+    209,
     1,
     0,
     0
    ],
    [
-    "206",
-    "205",
+    206,
+    205,
     1,
     0,
     0
    ],
    [
-    "207",
-    "210",
+    207,
+    210,
     0,
     0,
     0
    ],
    [
-    "207",
-    "211",
+    207,
+    211,
     1,
     0,
     0
    ],
    [
-    "208",
-    "207",
+    208,
+    207,
     1,
     0,
     0
    ],
    [
-    "209",
-    "207",
+    209,
+    207,
     1,
     2,
     0
    ],
    [
-    "210",
-    "212",
+    210,
+    212,
     0,
     0,
     0
    ],
    [
-    "210",
-    "213",
+    210,
+    213,
     1,
     0,
     0
    ],
    [
-    "211",
-    "210",
+    211,
+    210,
     1,
     0,
     0
    ],
    [
-    "212",
-    "214",
+    212,
+    214,
     0,
     0,
     0
    ],
    [
-    "213",
-    "212",
+    213,
+    212,
     1,
     1,
     0
    ],
    [
-    "214",
-    "216",
+    214,
+    216,
     0,
     0,
     0
    ],
    [
-    "214",
-    "232",
+    214,
+    232,
     1,
     0,
     0
    ],
    [
-    "215",
-    "214",
+    215,
+    214,
     1,
     0,
     0
    ],
    [
-    "216",
-    "218",
+    216,
+    218,
     0,
     0,
     0
    ],
    [
-    "216",
-    "219",
+    216,
+    219,
     1,
     0,
     0
    ],
    [
-    "217",
-    "216",
+    217,
+    216,
     1,
     0,
     0
    ],
    [
-    "218",
-    "220",
+    218,
+    220,
     0,
     0,
     0
    ],
    [
-    "218",
-    "221",
+    218,
+    221,
     1,
     0,
     0
    ],
    [
-    "219",
-    "218",
+    219,
+    218,
     1,
     0,
     0
    ],
    [
-    "220",
-    "222",
+    220,
+    222,
     0,
     0,
     0
    ],
    [
-    "220",
-    "227",
+    220,
+    227,
     1,
     0,
     0
    ],
    [
-    "221",
-    "220",
+    221,
+    220,
     1,
     2,
     0
    ],
    [
-    "222",
-    "224",
+    222,
+    224,
     0,
     0,
     0
    ],
    [
-    "222",
-    "225",
+    222,
+    225,
     1,
     0,
     0
    ],
    [
-    "223",
-    "222",
+    223,
+    222,
     1,
     0,
     0
    ],
    [
-    "224",
-    "226",
+    224,
+    226,
     0,
     0,
     0
    ],
    [
-    "224",
-    "228",
+    224,
+    228,
     1,
     0,
     0
    ],
    [
-    "225",
-    "224",
+    225,
+    224,
     1,
     0,
     0
    ],
    [
-    "226",
-    "229",
+    226,
+    229,
     0,
     0,
     0
    ],
    [
-    "226",
-    "230",
+    226,
+    230,
     1,
     0,
     0
    ],
    [
-    "227",
-    "226",
+    227,
+    226,
     1,
     0,
     0
    ],
    [
-    "228",
-    "226",
+    228,
+    226,
     1,
     2,
     0
    ],
    [
-    "229",
-    "231",
+    229,
+    231,
     0,
     0,
     0
    ],
    [
-    "229",
-    "233",
+    229,
+    233,
     1,
     0,
     0
    ],
    [
-    "230",
-    "229",
+    230,
+    229,
     1,
     0,
     0
    ],
    [
-    "231",
-    "234",
+    231,
+    234,
     0,
     0,
     0
    ],
    [
-    "232",
-    "231",
+    232,
+    231,
     1,
     0,
     0
    ],
    [
-    "233",
-    "231",
+    233,
+    231,
     1,
     1,
     0
    ],
    [
-    "234",
-    "235",
+    234,
+    235,
     0,
     0,
     1
    ],
    [
-    "235",
-    "236",
+    235,
+    236,
     0,
     0,
     1
    ],
    [
-    "236",
-    "238",
+    236,
+    238,
     0,
     0,
     0
    ],
    [
-    "236",
-    "239",
+    236,
+    239,
     1,
     0,
     0
    ],
    [
-    "237",
-    "236",
+    237,
+    236,
     1,
     0,
     0
    ],
    [
-    "238",
-    "240",
+    238,
+    240,
     0,
     0,
     0
    ],
    [
-    "238",
-    "241",
+    238,
+    241,
     1,
     0,
     0
    ],
    [
-    "239",
-    "238",
+    239,
+    238,
     1,
     0,
     0
    ],
    [
-    "240",
-    "243",
+    240,
+    243,
     0,
     0,
     0
    ],
    [
-    "241",
-    "240",
+    241,
+    240,
     1,
     0,
     0
    ],
    [
-    "242",
-    "240",
+    242,
+    240,
     1,
     1,
     0
    ],
    [
-    "243",
-    "170",
+    243,
+    170,
     0,
     0,
     -1
    ],
    [
-    "244",
-    "245",
+    244,
+    245,
     0,
     0,
     1
    ],
    [
-    "245",
-    "247",
+    245,
+    247,
     0,
     0,
     0
    ],
    [
-    "245",
-    "248",
+    245,
+    248,
     1,
     0,
     0
    ],
    [
-    "246",
-    "245",
+    246,
+    245,
     1,
     0,
     0
    ],
    [
-    "247",
-    "249",
+    247,
+    249,
     0,
     0,
     0
    ],
    [
-    "247",
-    "250",
+    247,
+    250,
     1,
     0,
     0
    ],
    [
-    "248",
-    "247",
+    248,
+    247,
     1,
     0,
     0
    ],
    [
-    "249",
-    "252",
+    249,
+    252,
     0,
     0,
     0
    ],
    [
-    "250",
-    "249",
+    250,
+    249,
     1,
     0,
     0
    ],
    [
-    "251",
-    "249",
+    251,
+    249,
     1,
     1,
     0
    ],
    [
-    "252",
-    "159",
+    252,
+    159,
     0,
     0,
     -1
    ],
    [
-    "253",
-    "255",
+    253,
+    255,
     0,
     0,
     0
    ],
    [
-    "254",
-    "253",
+    254,
+    253,
     1,
     1,
     0
    ],
    [
-    "255",
-    "256",
+    255,
+    256,
     0,
     0,
     1
    ],
    [
-    "256",
-    "258",
+    256,
+    258,
     0,
     0,
     0
    ],
    [
-    "256",
-    "262",
+    256,
+    262,
     1,
     0,
     0
    ],
    [
-    "257",
-    "256",
+    257,
+    256,
     1,
     0,
     0
    ],
    [
-    "258",
-    "259",
+    258,
+    259,
     0,
     0,
     0
    ],
    [
-    "258",
-    "260",
+    258,
+    260,
     1,
     0,
     0
    ],
    [
-    "259",
-    "261",
+    259,
+    261,
     0,
     0,
     0
    ],
    [
-    "259",
-    "263",
+    259,
+    263,
     1,
     0,
     0
    ],
    [
-    "260",
-    "259",
+    260,
+    259,
     1,
     1,
     0
    ],
    [
-    "261",
-    "264",
+    261,
+    264,
     0,
     0,
     0
    ],
    [
-    "261",
-    "265",
+    261,
+    265,
     1,
     0,
     0
    ],
    [
-    "262",
-    "261",
+    262,
+    261,
     1,
     0,
     0
    ],
    [
-    "263",
-    "261",
+    263,
+    261,
     1,
     1,
     0
    ],
    [
-    "264",
-    "266",
+    264,
+    266,
     0,
     0,
     1
    ],
    [
-    "264",
-    "559",
+    264,
+    559,
     0,
     1,
     1
    ],
    [
-    "265",
-    "264",
+    265,
+    264,
     1,
     0,
     0
    ],
    [
-    "266",
-    "268",
+    266,
+    268,
     0,
     0,
     0
    ],
    [
-    "267",
-    "266",
+    267,
+    266,
     1,
     1,
     0
    ],
    [
-    "268",
-    "269",
+    268,
+    269,
     0,
     0,
     1
    ],
    [
-    "269",
-    "271",
+    269,
+    271,
     0,
     0,
     0
    ],
    [
-    "269",
-    "273",
+    269,
+    273,
     1,
     0,
     0
    ],
    [
-    "270",
-    "269",
+    270,
+    269,
     1,
     0,
     0
    ],
    [
-    "271",
-    "272",
+    271,
+    272,
     0,
     0,
     0
    ],
    [
-    "271",
-    "274",
+    271,
+    274,
     1,
     0,
     0
    ],
    [
-    "272",
-    "275",
+    272,
+    275,
     0,
     0,
     0
    ],
    [
-    "272",
-    "276",
+    272,
+    276,
     1,
     0,
     0
    ],
    [
-    "273",
-    "272",
+    273,
+    272,
     1,
     0,
     0
    ],
    [
-    "274",
-    "272",
+    274,
+    272,
     1,
     1,
     0
    ],
    [
-    "275",
-    "277",
+    275,
+    277,
     0,
     0,
     1
    ],
    [
-    "275",
-    "550",
+    275,
+    550,
     0,
     1,
     1
    ],
    [
-    "276",
-    "275",
+    276,
+    275,
     1,
     0,
     0
    ],
    [
-    "277",
-    "279",
+    277,
+    279,
     0,
     0,
     0
    ],
    [
-    "277",
-    "284",
+    277,
+    284,
     1,
     0,
     0
    ],
    [
-    "278",
-    "277",
+    278,
+    277,
     1,
     0,
     0
    ],
    [
-    "279",
-    "281",
+    279,
+    281,
     0,
     0,
     0
    ],
    [
-    "279",
-    "282",
+    279,
+    282,
     1,
     0,
     0
    ],
    [
-    "280",
-    "279",
+    280,
+    279,
     1,
     0,
     0
    ],
    [
-    "281",
-    "283",
+    281,
+    283,
     0,
     0,
     0
    ],
    [
-    "281",
-    "285",
+    281,
+    285,
     1,
     0,
     0
    ],
    [
-    "282",
-    "281",
+    282,
+    281,
     1,
     1,
     0
    ],
    [
-    "283",
-    "286",
+    283,
+    286,
     0,
     0,
     0
    ],
    [
-    "283",
-    "287",
+    283,
+    287,
     1,
     0,
     0
    ],
    [
-    "284",
-    "283",
+    284,
+    283,
     1,
     0,
     0
    ],
    [
-    "285",
-    "283",
+    285,
+    283,
     1,
     1,
     0
    ],
    [
-    "286",
-    "288",
+    286,
+    288,
     0,
     0,
     0
    ],
    [
-    "286",
-    "289",
+    286,
+    289,
     1,
     0,
     0
    ],
    [
-    "287",
-    "286",
+    287,
+    286,
     1,
     0,
     0
    ],
    [
-    "288",
-    "290",
+    288,
+    290,
     0,
     0,
     1
    ],
    [
-    "288",
-    "291",
+    288,
+    291,
     0,
     1,
     1
    ],
    [
-    "289",
-    "288",
+    289,
+    288,
     1,
     0,
     0
    ],
    [
-    "290",
-    "542",
+    290,
+    542,
     0,
     0,
     1
    ],
    [
-    "291",
-    "293",
+    291,
+    293,
     0,
     0,
     0
    ],
    [
-    "292",
-    "291",
+    292,
+    291,
     1,
     1,
     0
    ],
    [
-    "293",
-    "294",
+    293,
+    294,
     0,
     0,
     1
    ],
    [
-    "294",
-    "296",
+    294,
+    296,
     0,
     0,
     0
    ],
    [
-    "294",
-    "298",
+    294,
+    298,
     1,
     0,
     0
    ],
    [
-    "295",
-    "294",
+    295,
+    294,
     1,
     0,
     0
    ],
    [
-    "296",
-    "297",
+    296,
+    297,
     0,
     0,
     0
    ],
    [
-    "296",
-    "299",
+    296,
+    299,
     1,
     0,
     0
    ],
    [
-    "297",
-    "300",
+    297,
+    300,
     0,
     0,
     0
    ],
    [
-    "297",
-    "301",
+    297,
+    301,
     1,
     0,
     0
    ],
    [
-    "298",
-    "297",
+    298,
+    297,
     1,
     0,
     0
    ],
    [
-    "299",
-    "297",
+    299,
+    297,
     1,
     1,
     0
    ],
    [
-    "300",
-    "302",
+    300,
+    302,
     0,
     0,
     1
    ],
    [
-    "300",
-    "541",
+    300,
+    541,
     0,
     1,
     1
    ],
    [
-    "301",
-    "300",
+    301,
+    300,
     1,
     0,
     0
    ],
    [
-    "302",
-    "304",
+    302,
+    304,
     0,
     0,
     0
    ],
    [
-    "302",
-    "309",
+    302,
+    309,
     1,
     0,
     0
    ],
    [
-    "303",
-    "302",
+    303,
+    302,
     1,
     0,
     0
    ],
    [
-    "304",
-    "306",
+    304,
+    306,
     0,
     0,
     0
    ],
    [
-    "304",
-    "307",
+    304,
+    307,
     1,
     0,
     0
    ],
    [
-    "305",
-    "304",
+    305,
+    304,
     1,
     0,
     0
    ],
    [
-    "306",
-    "308",
+    306,
+    308,
     0,
     0,
     0
    ],
    [
-    "306",
-    "310",
+    306,
+    310,
     1,
     0,
     0
    ],
    [
-    "307",
-    "306",
+    307,
+    306,
     1,
     1,
     0
    ],
    [
-    "308",
-    "311",
+    308,
+    311,
     0,
     0,
     0
    ],
    [
-    "308",
-    "312",
+    308,
+    312,
     1,
     0,
     0
    ],
    [
-    "309",
-    "308",
+    309,
+    308,
     1,
     0,
     0
    ],
    [
-    "310",
-    "308",
+    310,
+    308,
     1,
     1,
     0
    ],
    [
-    "311",
-    "313",
+    311,
+    313,
     0,
     0,
     0
    ],
    [
-    "311",
-    "314",
+    311,
+    314,
     1,
     0,
     0
    ],
    [
-    "312",
-    "311",
+    312,
+    311,
     1,
     0,
     0
    ],
    [
-    "313",
-    "315",
+    313,
+    315,
     0,
     0,
     1
    ],
    [
-    "313",
-    "316",
+    313,
+    316,
     0,
     1,
     1
    ],
    [
-    "314",
-    "313",
+    314,
+    313,
     1,
     0,
     0
    ],
    [
-    "315",
-    "533",
+    315,
+    533,
     0,
     0,
     1
    ],
    [
-    "316",
-    "318",
+    316,
+    318,
     0,
     0,
     0
    ],
    [
-    "316",
-    "321",
+    316,
+    321,
     1,
     0,
     0
    ],
    [
-    "317",
-    "316",
+    317,
+    316,
     1,
     0,
     0
    ],
    [
-    "318",
-    "320",
+    318,
+    320,
     0,
     0,
     0
    ],
    [
-    "318",
-    "322",
+    318,
+    322,
     1,
     0,
     0
    ],
    [
-    "319",
-    "318",
+    319,
+    318,
     1,
     0,
     0
    ],
    [
-    "320",
-    "323",
+    320,
+    323,
     0,
     0,
     0
    ],
    [
-    "320",
-    "324",
+    320,
+    324,
     1,
     0,
     0
    ],
    [
-    "321",
-    "320",
+    321,
+    320,
     1,
     0,
     0
    ],
    [
-    "322",
-    "320",
+    322,
+    320,
     1,
     1,
     0
    ],
    [
-    "323",
-    "325",
+    323,
+    325,
     0,
     0,
     1
    ],
    [
-    "323",
-    "326",
+    323,
+    326,
     0,
     1,
     1
    ],
    [
-    "324",
-    "323",
+    324,
+    323,
     1,
     0,
     0
    ],
    [
-    "325",
-    "533",
+    325,
+    533,
     0,
     0,
     1
    ],
    [
-    "326",
-    "328",
+    326,
+    328,
     0,
     0,
     0
    ],
    [
-    "326",
-    "329",
+    326,
+    329,
     1,
     0,
     0
    ],
    [
-    "327",
-    "326",
+    327,
+    326,
     1,
     0,
     0
    ],
    [
-    "328",
-    "330",
+    328,
+    330,
     0,
     0,
     0
    ],
    [
-    "328",
-    "331",
+    328,
+    331,
     1,
     0,
     0
    ],
    [
-    "329",
-    "328",
+    329,
+    328,
     1,
     0,
     0
    ],
    [
-    "330",
-    "332",
+    330,
+    332,
     0,
     0,
     0
    ],
    [
-    "330",
-    "337",
+    330,
+    337,
     1,
     0,
     0
    ],
    [
-    "331",
-    "330",
+    331,
+    330,
     1,
     2,
     0
    ],
    [
-    "332",
-    "334",
+    332,
+    334,
     0,
     0,
     0
    ],
    [
-    "332",
-    "335",
+    332,
+    335,
     1,
     0,
     0
    ],
    [
-    "333",
-    "332",
+    333,
+    332,
     1,
     0,
     0
    ],
    [
-    "334",
-    "336",
+    334,
+    336,
     0,
     0,
     0
    ],
    [
-    "334",
-    "338",
+    334,
+    338,
     1,
     0,
     0
    ],
    [
-    "335",
-    "334",
+    335,
+    334,
     1,
     0,
     0
    ],
    [
-    "336",
-    "339",
+    336,
+    339,
     0,
     0,
     0
    ],
    [
-    "336",
-    "344",
+    336,
+    344,
     1,
     0,
     0
    ],
    [
-    "337",
-    "336",
+    337,
+    336,
     1,
     0,
     0
    ],
    [
-    "338",
-    "336",
+    338,
+    336,
     1,
     2,
     0
    ],
    [
-    "339",
-    "341",
+    339,
+    341,
     0,
     0,
     0
    ],
    [
-    "339",
-    "342",
+    339,
+    342,
     1,
     0,
     0
    ],
    [
-    "340",
-    "339",
+    340,
+    339,
     1,
     0,
     0
    ],
    [
-    "341",
-    "343",
+    341,
+    343,
     0,
     0,
     0
    ],
    [
-    "341",
-    "345",
+    341,
+    345,
     1,
     0,
     0
    ],
    [
-    "342",
-    "341",
+    342,
+    341,
     1,
     0,
     0
    ],
    [
-    "343",
-    "346",
+    343,
+    346,
     0,
     0,
     0
    ],
    [
-    "343",
-    "347",
+    343,
+    347,
     1,
     0,
     0
    ],
    [
-    "344",
-    "343",
+    344,
+    343,
     1,
     0,
     0
    ],
    [
-    "345",
-    "343",
+    345,
+    343,
     1,
     2,
     0
    ],
    [
-    "346",
-    "348",
+    346,
+    348,
     0,
     0,
     0
    ],
    [
-    "346",
-    "349",
+    346,
+    349,
     1,
     0,
     0
    ],
    [
-    "347",
-    "346",
+    347,
+    346,
     1,
     0,
     0
    ],
    [
-    "348",
-    "350",
+    348,
+    350,
     0,
     0,
     0
    ],
    [
-    "348",
-    "351",
+    348,
+    351,
     1,
     0,
     0
    ],
    [
-    "349",
-    "348",
+    349,
+    348,
     1,
     0,
     0
    ],
    [
-    "350",
-    "353",
+    350,
+    353,
     0,
     0,
     1
    ],
    [
-    "350",
-    "352",
+    350,
+    352,
     0,
     1,
     1
    ],
    [
-    "351",
-    "350",
+    351,
+    350,
     1,
     0,
     0
    ],
    [
-    "352",
-    "533",
+    352,
+    533,
     0,
     0,
     1
    ],
    [
-    "353",
-    "355",
+    353,
+    355,
     0,
     0,
     0
    ],
    [
-    "354",
-    "353",
+    354,
+    353,
     1,
     1,
     0
    ],
    [
-    "355",
-    "356",
+    355,
+    356,
     0,
     0,
     1
    ],
    [
-    "356",
-    "358",
+    356,
+    358,
     0,
     0,
     0
    ],
    [
-    "356",
-    "360",
+    356,
+    360,
     1,
     0,
     0
    ],
    [
-    "357",
-    "356",
+    357,
+    356,
     1,
     0,
     0
    ],
    [
-    "358",
-    "359",
+    358,
+    359,
     0,
     0,
     0
    ],
    [
-    "358",
-    "361",
+    358,
+    361,
     1,
     0,
     0
    ],
    [
-    "359",
-    "362",
+    359,
+    362,
     0,
     0,
     0
    ],
    [
-    "359",
-    "363",
+    359,
+    363,
     1,
     0,
     0
    ],
    [
-    "360",
-    "359",
+    360,
+    359,
     1,
     0,
     0
    ],
    [
-    "361",
-    "359",
+    361,
+    359,
     1,
     1,
     0
    ],
    [
-    "362",
-    "364",
+    362,
+    364,
     0,
     0,
     1
    ],
    [
-    "362",
-    "532",
+    362,
+    532,
     0,
     1,
     1
    ],
    [
-    "363",
-    "362",
+    363,
+    362,
     1,
     0,
     0
    ],
    [
-    "364",
-    "366",
+    364,
+    366,
     0,
     0,
     0
    ],
    [
-    "364",
-    "367",
+    364,
+    367,
     1,
     0,
     0
    ],
    [
-    "365",
-    "364",
+    365,
+    364,
     1,
     0,
     0
    ],
    [
-    "366",
-    "368",
+    366,
+    368,
     0,
     0,
     0
    ],
    [
-    "366",
-    "369",
+    366,
+    369,
     1,
     0,
     0
    ],
    [
-    "367",
-    "366",
+    367,
+    366,
     1,
     0,
     0
    ],
    [
-    "368",
-    "370",
+    368,
+    370,
     0,
     0,
     0
    ],
    [
-    "368",
-    "371",
+    368,
+    371,
     1,
     0,
     0
    ],
    [
-    "369",
-    "368",
+    369,
+    368,
     1,
     2,
     0
    ],
    [
-    "370",
-    "372",
+    370,
+    372,
     0,
     0,
     0
    ],
    [
-    "370",
-    "377",
+    370,
+    377,
     1,
     0,
     0
    ],
    [
-    "371",
-    "370",
+    371,
+    370,
     1,
     0,
     0
    ],
    [
-    "372",
-    "374",
+    372,
+    374,
     0,
     0,
     0
    ],
    [
-    "372",
-    "375",
+    372,
+    375,
     1,
     0,
     0
    ],
    [
-    "373",
-    "372",
+    373,
+    372,
     1,
     0,
     0
    ],
    [
-    "374",
-    "376",
+    374,
+    376,
     0,
     0,
     0
    ],
    [
-    "374",
-    "378",
+    374,
+    378,
     1,
     0,
     0
    ],
    [
-    "375",
-    "374",
+    375,
+    374,
     1,
     1,
     0
    ],
    [
-    "376",
-    "379",
+    376,
+    379,
     0,
     0,
     0
    ],
    [
-    "376",
-    "380",
+    376,
+    380,
     1,
     0,
     0
    ],
    [
-    "377",
-    "376",
+    377,
+    376,
     1,
     0,
     0
    ],
    [
-    "378",
-    "376",
+    378,
+    376,
     1,
     1,
     0
    ],
    [
-    "379",
-    "381",
+    379,
+    381,
     0,
     0,
     0
    ],
    [
-    "379",
-    "382",
+    379,
+    382,
     1,
     0,
     0
    ],
    [
-    "380",
-    "379",
+    380,
+    379,
     1,
     0,
     0
    ],
    [
-    "381",
-    "383",
+    381,
+    383,
     0,
     0,
     1
    ],
    [
-    "381",
-    "523",
+    381,
+    523,
     0,
     1,
     1
    ],
    [
-    "382",
-    "381",
+    382,
+    381,
     1,
     0,
     0
    ],
    [
-    "383",
-    "385",
+    383,
+    385,
     0,
     0,
     0
    ],
    [
-    "383",
-    "390",
+    383,
+    390,
     1,
     0,
     0
    ],
    [
-    "384",
-    "383",
+    384,
+    383,
     1,
     0,
     0
    ],
    [
-    "385",
-    "387",
+    385,
+    387,
     0,
     0,
     0
    ],
    [
-    "385",
-    "388",
+    385,
+    388,
     1,
     0,
     0
    ],
    [
-    "386",
-    "385",
+    386,
+    385,
     1,
     0,
     0
    ],
    [
-    "387",
-    "389",
+    387,
+    389,
     0,
     0,
     0
    ],
    [
-    "387",
-    "391",
+    387,
+    391,
     1,
     0,
     0
    ],
    [
-    "388",
-    "387",
+    388,
+    387,
     1,
     1,
     0
    ],
    [
-    "389",
-    "392",
+    389,
+    392,
     0,
     0,
     0
    ],
    [
-    "389",
-    "393",
+    389,
+    393,
     1,
     0,
     0
    ],
    [
-    "390",
-    "389",
+    390,
+    389,
     1,
     0,
     0
    ],
    [
-    "391",
-    "389",
+    391,
+    389,
     1,
     1,
     0
    ],
    [
-    "392",
-    "394",
+    392,
+    394,
     0,
     0,
     0
    ],
    [
-    "392",
-    "395",
+    392,
+    395,
     1,
     0,
     0
    ],
    [
-    "393",
-    "392",
+    393,
+    392,
     1,
     0,
     0
    ],
    [
-    "394",
-    "396",
+    394,
+    396,
     0,
     0,
     1
    ],
    [
-    "394",
-    "397",
+    394,
+    397,
     0,
     1,
     1
    ],
    [
-    "395",
-    "394",
+    395,
+    394,
     1,
     0,
     0
    ],
    [
-    "396",
-    "524",
+    396,
+    524,
     0,
     0,
     1
    ],
    [
-    "397",
-    "399",
+    397,
+    399,
     0,
     0,
     0
    ],
    [
-    "397",
-    "422",
+    397,
+    422,
     1,
     0,
     0
    ],
    [
-    "398",
-    "397",
+    398,
+    397,
     1,
     0,
     0
    ],
    [
-    "399",
-    "401",
+    399,
+    401,
     0,
     0,
     0
    ],
    [
-    "399",
-    "402",
+    399,
+    402,
     1,
     0,
     0
    ],
    [
-    "400",
-    "399",
+    400,
+    399,
     1,
     0,
     0
    ],
    [
-    "401",
-    "403",
+    401,
+    403,
     0,
     0,
     0
    ],
    [
-    "401",
-    "404",
+    401,
+    404,
     1,
     0,
     0
    ],
    [
-    "402",
-    "401",
+    402,
+    401,
     1,
     0,
     0
    ],
    [
-    "403",
-    "405",
+    403,
+    405,
     0,
     0,
     0
    ],
    [
-    "403",
-    "410",
+    403,
+    410,
     1,
     0,
     0
    ],
    [
-    "404",
-    "403",
+    404,
+    403,
     1,
     2,
     0
    ],
    [
-    "405",
-    "407",
+    405,
+    407,
     0,
     0,
     0
    ],
    [
-    "405",
-    "408",
+    405,
+    408,
     1,
     0,
     0
    ],
    [
-    "406",
-    "405",
+    406,
+    405,
     1,
     0,
     0
    ],
    [
-    "407",
-    "409",
+    407,
+    409,
     0,
     0,
     0
    ],
    [
-    "407",
-    "411",
+    407,
+    411,
     1,
     0,
     0
    ],
    [
-    "408",
-    "407",
+    408,
+    407,
     1,
     0,
     0
    ],
    [
-    "409",
-    "412",
+    409,
+    412,
     0,
     0,
     0
    ],
    [
-    "409",
-    "417",
+    409,
+    417,
     1,
     0,
     0
    ],
    [
-    "410",
-    "409",
+    410,
+    409,
     1,
     0,
     0
    ],
    [
-    "411",
-    "409",
+    411,
+    409,
     1,
     2,
     0
    ],
    [
-    "412",
-    "414",
+    412,
+    414,
     0,
     0,
     0
    ],
    [
-    "412",
-    "415",
+    412,
+    415,
     1,
     0,
     0
    ],
    [
-    "413",
-    "412",
+    413,
+    412,
     1,
     0,
     0
    ],
    [
-    "414",
-    "416",
+    414,
+    416,
     0,
     0,
     0
    ],
    [
-    "414",
-    "418",
+    414,
+    418,
     1,
     0,
     0
    ],
    [
-    "415",
-    "414",
+    415,
+    414,
     1,
     0,
     0
    ],
    [
-    "416",
-    "419",
+    416,
+    419,
     0,
     0,
     0
    ],
    [
-    "416",
-    "420",
+    416,
+    420,
     1,
     0,
     0
    ],
    [
-    "417",
-    "416",
+    417,
+    416,
     1,
     0,
     0
    ],
    [
-    "418",
-    "416",
+    418,
+    416,
     1,
     2,
     0
    ],
    [
-    "419",
-    "421",
+    419,
+    421,
     0,
     0,
     0
    ],
    [
-    "419",
-    "423",
+    419,
+    423,
     1,
     0,
     0
    ],
    [
-    "420",
-    "419",
+    420,
+    419,
     1,
     0,
     0
    ],
    [
-    "421",
-    "424",
+    421,
+    424,
     0,
     0,
     0
    ],
    [
-    "421",
-    "425",
+    421,
+    425,
     1,
     0,
     0
    ],
    [
-    "422",
-    "421",
+    422,
+    421,
     1,
     0,
     0
    ],
    [
-    "423",
-    "421",
+    423,
+    421,
     1,
     1,
     0
    ],
    [
-    "424",
-    "426",
+    424,
+    426,
     0,
     0,
     1
    ],
    [
-    "424",
-    "427",
+    424,
+    427,
     0,
     1,
     1
    ],
    [
-    "425",
-    "424",
+    425,
+    424,
     1,
     0,
     0
    ],
    [
-    "426",
-    "524",
+    426,
+    524,
     0,
     0,
     1
    ],
    [
-    "427",
-    "429",
+    427,
+    429,
     0,
     0,
     0
    ],
    [
-    "427",
-    "430",
+    427,
+    430,
     1,
     0,
     0
    ],
    [
-    "428",
-    "427",
+    428,
+    427,
     1,
     0,
     0
    ],
    [
-    "429",
-    "431",
+    429,
+    431,
     0,
     0,
     0
    ],
    [
-    "429",
-    "432",
+    429,
+    432,
     1,
     0,
     0
    ],
    [
-    "430",
-    "429",
+    430,
+    429,
     1,
     0,
     0
    ],
    [
-    "431",
-    "433",
+    431,
+    433,
     0,
     0,
     0
    ],
    [
-    "431",
-    "438",
+    431,
+    438,
     1,
     0,
     0
    ],
    [
-    "432",
-    "431",
+    432,
+    431,
     1,
     2,
     0
    ],
    [
-    "433",
-    "435",
+    433,
+    435,
     0,
     0,
     0
    ],
    [
-    "433",
-    "436",
+    433,
+    436,
     1,
     0,
     0
    ],
    [
-    "434",
-    "433",
+    434,
+    433,
     1,
     0,
     0
    ],
    [
-    "435",
-    "437",
+    435,
+    437,
     0,
     0,
     0
    ],
    [
-    "435",
-    "439",
+    435,
+    439,
     1,
     0,
     0
    ],
    [
-    "436",
-    "435",
+    436,
+    435,
     1,
     0,
     0
    ],
    [
-    "437",
-    "440",
+    437,
+    440,
     0,
     0,
     0
    ],
    [
-    "437",
-    "452",
+    437,
+    452,
     1,
     0,
     0
    ],
    [
-    "438",
-    "437",
+    438,
+    437,
     1,
     0,
     0
    ],
    [
-    "439",
-    "437",
+    439,
+    437,
     1,
     2,
     0
    ],
    [
-    "440",
-    "442",
+    440,
+    442,
     0,
     0,
     0
    ],
    [
-    "440",
-    "447",
+    440,
+    447,
     1,
     0,
     0
    ],
    [
-    "441",
-    "440",
+    441,
+    440,
     1,
     0,
     0
    ],
    [
-    "442",
-    "444",
+    442,
+    444,
     0,
     0,
     0
    ],
    [
-    "442",
-    "445",
+    442,
+    445,
     1,
     0,
     0
    ],
    [
-    "443",
-    "442",
+    443,
+    442,
     1,
     0,
     0
    ],
    [
-    "444",
-    "446",
+    444,
+    446,
     0,
     0,
     0
    ],
    [
-    "444",
-    "448",
+    444,
+    448,
     1,
     0,
     0
    ],
    [
-    "445",
-    "444",
+    445,
+    444,
     1,
     1,
     0
    ],
    [
-    "446",
-    "449",
+    446,
+    449,
     0,
     0,
     0
    ],
    [
-    "446",
-    "450",
+    446,
+    450,
     1,
     0,
     0
    ],
    [
-    "447",
-    "446",
+    447,
+    446,
     1,
     0,
     0
    ],
    [
-    "448",
-    "446",
+    448,
+    446,
     1,
     1,
     0
    ],
    [
-    "449",
-    "451",
+    449,
+    451,
     0,
     0,
     0
    ],
    [
-    "449",
-    "453",
+    449,
+    453,
     1,
     0,
     0
    ],
    [
-    "450",
-    "449",
+    450,
+    449,
     1,
     0,
     0
    ],
    [
-    "451",
-    "454",
+    451,
+    454,
     0,
     0,
     0
    ],
    [
-    "451",
-    "455",
+    451,
+    455,
     1,
     0,
     0
    ],
    [
-    "452",
-    "451",
+    452,
+    451,
     1,
     0,
     0
    ],
    [
-    "453",
-    "451",
+    453,
+    451,
     1,
     2,
     0
    ],
    [
-    "454",
-    "456",
+    454,
+    456,
     0,
     0,
     0
    ],
    [
-    "454",
-    "457",
+    454,
+    457,
     1,
     0,
     0
    ],
    [
-    "455",
-    "454",
+    455,
+    454,
     1,
     0,
     0
    ],
    [
-    "456",
-    "458",
+    456,
+    458,
     0,
     0,
     0
    ],
    [
-    "456",
-    "459",
+    456,
+    459,
     1,
     0,
     0
    ],
    [
-    "457",
-    "456",
+    457,
+    456,
     1,
     0,
     0
    ],
    [
-    "458",
-    "460",
+    458,
+    460,
     0,
     0,
     1
    ],
    [
-    "458",
-    "461",
+    458,
+    461,
     0,
     1,
     1
    ],
    [
-    "459",
-    "458",
+    459,
+    458,
     1,
     0,
     0
    ],
    [
-    "460",
-    "524",
+    460,
+    524,
     0,
     0,
     1
    ],
    [
-    "461",
-    "463",
+    461,
+    463,
     0,
     0,
     0
    ],
    [
-    "461",
-    "464",
+    461,
+    464,
     1,
     0,
     0
    ],
    [
-    "462",
-    "461",
+    462,
+    461,
     1,
     0,
     0
    ],
    [
-    "463",
-    "465",
+    463,
+    465,
     0,
     0,
     0
    ],
    [
-    "463",
-    "466",
+    463,
+    466,
     1,
     0,
     0
    ],
    [
-    "464",
-    "463",
+    464,
+    463,
     1,
     0,
     0
    ],
    [
-    "465",
-    "467",
+    465,
+    467,
     0,
     0,
     0
    ],
    [
-    "465",
-    "472",
+    465,
+    472,
     1,
     0,
     0
    ],
    [
-    "466",
-    "465",
+    466,
+    465,
     1,
     2,
     0
    ],
    [
-    "467",
-    "469",
+    467,
+    469,
     0,
     0,
     0
    ],
    [
-    "467",
-    "470",
+    467,
+    470,
     1,
     0,
     0
    ],
    [
-    "468",
-    "467",
+    468,
+    467,
     1,
     0,
     0
    ],
    [
-    "469",
-    "471",
+    469,
+    471,
     0,
     0,
     0
    ],
    [
-    "469",
-    "473",
+    469,
+    473,
     1,
     0,
     0
    ],
    [
-    "470",
-    "469",
+    470,
+    469,
     1,
     0,
     0
    ],
    [
-    "471",
-    "474",
+    471,
+    474,
     0,
     0,
     0
    ],
    [
-    "471",
-    "486",
+    471,
+    486,
     1,
     0,
     0
    ],
    [
-    "472",
-    "471",
+    472,
+    471,
     1,
     0,
     0
    ],
    [
-    "473",
-    "471",
+    473,
+    471,
     1,
     2,
     0
    ],
    [
-    "474",
-    "476",
+    474,
+    476,
     0,
     0,
     0
    ],
    [
-    "474",
-    "481",
+    474,
+    481,
     1,
     0,
     0
    ],
    [
-    "475",
-    "474",
+    475,
+    474,
     1,
     0,
     0
    ],
    [
-    "476",
-    "478",
+    476,
+    478,
     0,
     0,
     0
    ],
    [
-    "476",
-    "479",
+    476,
+    479,
     1,
     0,
     0
    ],
    [
-    "477",
-    "476",
+    477,
+    476,
     1,
     0,
     0
    ],
    [
-    "478",
-    "480",
+    478,
+    480,
     0,
     0,
     0
    ],
    [
-    "478",
-    "482",
+    478,
+    482,
     1,
     0,
     0
    ],
    [
-    "479",
-    "478",
+    479,
+    478,
     1,
     1,
     0
    ],
    [
-    "480",
-    "483",
+    480,
+    483,
     0,
     0,
     0
    ],
    [
-    "480",
-    "484",
+    480,
+    484,
     1,
     0,
     0
    ],
    [
-    "481",
-    "480",
+    481,
+    480,
     1,
     0,
     0
    ],
    [
-    "482",
-    "480",
+    482,
+    480,
     1,
     1,
     0
    ],
    [
-    "483",
-    "485",
+    483,
+    485,
     0,
     0,
     0
    ],
    [
-    "483",
-    "487",
+    483,
+    487,
     1,
     0,
     0
    ],
    [
-    "484",
-    "483",
+    484,
+    483,
     1,
     0,
     0
    ],
    [
-    "485",
-    "488",
+    485,
+    488,
     0,
     0,
     0
    ],
    [
-    "485",
-    "489",
+    485,
+    489,
     1,
     0,
     0
    ],
    [
-    "486",
-    "485",
+    486,
+    485,
     1,
     0,
     0
    ],
    [
-    "487",
-    "485",
+    487,
+    485,
     1,
     2,
     0
    ],
    [
-    "488",
-    "490",
+    488,
+    490,
     0,
     0,
     0
    ],
    [
-    "489",
-    "488",
+    489,
+    488,
     1,
     1,
     0
    ],
    [
-    "490",
-    "492",
+    490,
+    492,
     0,
     0,
     0
    ],
    [
-    "490",
-    "520",
+    490,
+    520,
     1,
     0,
     0
    ],
    [
-    "491",
-    "490",
+    491,
+    490,
     1,
     0,
     0
    ],
    [
-    "492",
-    "494",
+    492,
+    494,
     0,
     0,
     0
    ],
    [
-    "492",
-    "495",
+    492,
+    495,
     1,
     0,
     0
    ],
    [
-    "493",
-    "492",
+    493,
+    492,
     1,
     0,
     0
    ],
    [
-    "494",
-    "496",
+    494,
+    496,
     0,
     0,
     0
    ],
    [
-    "494",
-    "497",
+    494,
+    497,
     1,
     0,
     0
    ],
    [
-    "495",
-    "494",
+    495,
+    494,
     1,
     0,
     0
    ],
    [
-    "496",
-    "498",
+    496,
+    498,
     0,
     0,
     0
    ],
    [
-    "496",
-    "503",
+    496,
+    503,
     1,
     0,
     0
    ],
    [
-    "497",
-    "496",
+    497,
+    496,
     1,
     2,
     0
    ],
    [
-    "498",
-    "500",
+    498,
+    500,
     0,
     0,
     0
    ],
    [
-    "498",
-    "501",
+    498,
+    501,
     1,
     0,
     0
    ],
    [
-    "499",
-    "498",
+    499,
+    498,
     1,
     0,
     0
    ],
    [
-    "500",
-    "502",
+    500,
+    502,
     0,
     0,
     0
    ],
    [
-    "500",
-    "504",
+    500,
+    504,
     1,
     0,
     0
    ],
    [
-    "501",
-    "500",
+    501,
+    500,
     1,
     0,
     0
    ],
    [
-    "502",
-    "505",
+    502,
+    505,
     0,
     0,
     0
    ],
    [
-    "502",
-    "517",
+    502,
+    517,
     1,
     0,
     0
    ],
    [
-    "503",
-    "502",
+    503,
+    502,
     1,
     0,
     0
    ],
    [
-    "504",
-    "502",
+    504,
+    502,
     1,
     2,
     0
    ],
    [
-    "505",
-    "507",
+    505,
+    507,
     0,
     0,
     0
    ],
    [
-    "505",
-    "512",
+    505,
+    512,
     1,
     0,
     0
    ],
    [
-    "506",
-    "505",
+    506,
+    505,
     1,
     0,
     0
    ],
    [
-    "507",
-    "509",
+    507,
+    509,
     0,
     0,
     0
    ],
    [
-    "507",
-    "510",
+    507,
+    510,
     1,
     0,
     0
    ],
    [
-    "508",
-    "507",
+    508,
+    507,
     1,
     0,
     0
    ],
    [
-    "509",
-    "511",
+    509,
+    511,
     0,
     0,
     0
    ],
    [
-    "509",
-    "513",
+    509,
+    513,
     1,
     0,
     0
    ],
    [
-    "510",
-    "509",
+    510,
+    509,
     1,
     1,
     0
    ],
    [
-    "511",
-    "514",
+    511,
+    514,
     0,
     0,
     0
    ],
    [
-    "511",
-    "515",
+    511,
+    515,
     1,
     0,
     0
    ],
    [
-    "512",
-    "511",
+    512,
+    511,
     1,
     0,
     0
    ],
    [
-    "513",
-    "511",
+    513,
+    511,
     1,
     1,
     0
    ],
    [
-    "514",
-    "516",
+    514,
+    516,
     0,
     0,
     0
    ],
    [
-    "514",
-    "518",
+    514,
+    518,
     1,
     0,
     0
    ],
    [
-    "515",
-    "514",
+    515,
+    514,
     1,
     0,
     0
    ],
    [
-    "516",
-    "519",
+    516,
+    519,
     0,
     0,
     0
    ],
    [
-    "516",
-    "521",
+    516,
+    521,
     1,
     0,
     0
    ],
    [
-    "517",
-    "516",
+    517,
+    516,
     1,
     0,
     0
    ],
    [
-    "518",
-    "516",
+    518,
+    516,
     1,
     2,
     0
    ],
    [
-    "519",
-    "522",
+    519,
+    522,
     0,
     0,
     0
    ],
    [
-    "520",
-    "519",
+    520,
+    519,
     1,
     0,
     0
    ],
    [
-    "521",
-    "519",
+    521,
+    519,
     1,
     1,
     0
    ],
    [
-    "522",
-    "523",
+    522,
+    523,
     0,
     0,
     1
    ],
    [
-    "523",
-    "524",
+    523,
+    524,
     0,
     0,
     1
    ],
    [
-    "524",
-    "526",
+    524,
+    526,
     0,
     0,
     0
    ],
    [
-    "524",
-    "527",
+    524,
+    527,
     1,
     0,
     0
    ],
    [
-    "525",
-    "524",
+    525,
+    524,
     1,
     0,
     0
    ],
    [
-    "526",
-    "528",
+    526,
+    528,
     0,
     0,
     0
    ],
    [
-    "526",
-    "529",
+    526,
+    529,
     1,
     0,
     0
    ],
    [
-    "527",
-    "526",
+    527,
+    526,
     1,
     0,
     0
    ],
    [
-    "528",
-    "531",
+    528,
+    531,
     0,
     0,
     0
    ],
    [
-    "529",
-    "528",
+    529,
+    528,
     1,
     0,
     0
    ],
    [
-    "530",
-    "528",
+    530,
+    528,
     1,
     1,
     0
    ],
    [
-    "531",
-    "356",
+    531,
+    356,
     0,
     0,
     -1
    ],
    [
-    "532",
-    "533",
+    532,
+    533,
     0,
     0,
     1
    ],
    [
-    "533",
-    "535",
+    533,
+    535,
     0,
     0,
     0
    ],
    [
-    "533",
-    "536",
+    533,
+    536,
     1,
     0,
     0
    ],
    [
-    "534",
-    "533",
+    534,
+    533,
     1,
     0,
     0
    ],
    [
-    "535",
-    "537",
+    535,
+    537,
     0,
     0,
     0
    ],
    [
-    "535",
-    "538",
+    535,
+    538,
     1,
     0,
     0
    ],
    [
-    "536",
-    "535",
+    536,
+    535,
     1,
     0,
     0
    ],
    [
-    "537",
-    "540",
+    537,
+    540,
     0,
     0,
     0
    ],
    [
-    "538",
-    "537",
+    538,
+    537,
     1,
     0,
     0
    ],
    [
-    "539",
-    "537",
+    539,
+    537,
     1,
     1,
     0
    ],
    [
-    "540",
-    "294",
+    540,
+    294,
     0,
     0,
     -1
    ],
    [
-    "541",
-    "542",
+    541,
+    542,
     0,
     0,
     1
    ],
    [
-    "542",
-    "544",
+    542,
+    544,
     0,
     0,
     0
    ],
    [
-    "542",
-    "545",
+    542,
+    545,
     1,
     0,
     0
    ],
    [
-    "543",
-    "542",
+    543,
+    542,
     1,
     0,
     0
    ],
    [
-    "544",
-    "546",
+    544,
+    546,
     0,
     0,
     0
    ],
    [
-    "544",
-    "547",
+    544,
+    547,
     1,
     0,
     0
    ],
    [
-    "545",
-    "544",
+    545,
+    544,
     1,
     0,
     0
    ],
    [
-    "546",
-    "549",
+    546,
+    549,
     0,
     0,
     0
    ],
    [
-    "547",
-    "546",
+    547,
+    546,
     1,
     0,
     0
    ],
    [
-    "548",
-    "546",
+    548,
+    546,
     1,
     1,
     0
    ],
    [
-    "549",
-    "269",
+    549,
+    269,
     0,
     0,
     -1
    ],
    [
-    "550",
-    "551",
+    550,
+    551,
     0,
     0,
     1
    ],
    [
-    "551",
-    "553",
+    551,
+    553,
     0,
     0,
     0
    ],
    [
-    "551",
-    "554",
+    551,
+    554,
     1,
     0,
     0
    ],
    [
-    "552",
-    "551",
+    552,
+    551,
     1,
     0,
     0
    ],
    [
-    "553",
-    "555",
+    553,
+    555,
     0,
     0,
     0
    ],
    [
-    "553",
-    "556",
+    553,
+    556,
     1,
     0,
     0
    ],
    [
-    "554",
-    "553",
+    554,
+    553,
     1,
     0,
     0
    ],
    [
-    "555",
-    "558",
+    555,
+    558,
     0,
     0,
     0
    ],
    [
-    "556",
-    "555",
+    556,
+    555,
     1,
     0,
     0
    ],
    [
-    "557",
-    "555",
+    557,
+    555,
     1,
     1,
     0
    ],
    [
-    "558",
-    "256",
+    558,
+    256,
     0,
     0,
     -1
    ],
    [
-    "559",
-    "560",
+    559,
+    560,
     0,
     0,
     0
    ],
    [
-    "559",
-    "1010",
+    559,
+    1010,
     2,
     0,
     -1
    ],
    [
-    "560",
-    "561",
+    560,
+    561,
     0,
     0,
     0
    ],
    [
-    "561",
-    "563",
+    561,
+    563,
     0,
     0,
     0
    ],
    [
-    "562",
-    "561",
+    562,
+    561,
     1,
     1,
     0
    ],
    [
-    "563",
-    "564",
+    563,
+    564,
     0,
     0,
     1
    ],
    [
-    "564",
-    "566",
+    564,
+    566,
     0,
     0,
     0
    ],
    [
-    "564",
-    "570",
+    564,
+    570,
     1,
     0,
     0
    ],
    [
-    "565",
-    "564",
+    565,
+    564,
     1,
     0,
     0
    ],
    [
-    "566",
-    "567",
+    566,
+    567,
     0,
     0,
     0
    ],
    [
-    "566",
-    "568",
+    566,
+    568,
     1,
     0,
     0
    ],
    [
-    "567",
-    "569",
+    567,
+    569,
     0,
     0,
     0
    ],
    [
-    "567",
-    "571",
+    567,
+    571,
     1,
     0,
     0
    ],
    [
-    "568",
-    "567",
+    568,
+    567,
     1,
     1,
     0
    ],
    [
-    "569",
-    "572",
+    569,
+    572,
     0,
     0,
     0
    ],
    [
-    "569",
-    "573",
+    569,
+    573,
     1,
     0,
     0
    ],
    [
-    "570",
-    "569",
+    570,
+    569,
     1,
     0,
     0
    ],
    [
-    "571",
-    "569",
+    571,
+    569,
     1,
     1,
     0
    ],
    [
-    "572",
-    "574",
+    572,
+    574,
     0,
     0,
     1
    ],
    [
-    "572",
-    "811",
+    572,
+    811,
     0,
     1,
     1
    ],
    [
-    "573",
-    "572",
+    573,
+    572,
     1,
     0,
     0
    ],
    [
-    "574",
-    "576",
+    574,
+    576,
     0,
     0,
     0
    ],
    [
-    "574",
-    "577",
+    574,
+    577,
     1,
     0,
     0
    ],
    [
-    "575",
-    "574",
+    575,
+    574,
     1,
     0,
     0
    ],
    [
-    "576",
-    "579",
+    576,
+    579,
     0,
     0,
     0
    ],
    [
-    "577",
-    "576",
+    577,
+    576,
     1,
     0,
     0
    ],
    [
-    "578",
-    "576",
+    578,
+    576,
     1,
     1,
     0
    ],
    [
-    "579",
-    "580",
+    579,
+    580,
     0,
     0,
     1
    ],
    [
-    "580",
-    "582",
+    580,
+    582,
     0,
     0,
     0
    ],
    [
-    "580",
-    "583",
+    580,
+    583,
     1,
     0,
     0
    ],
    [
-    "581",
-    "580",
+    581,
+    580,
     1,
     0,
     0
    ],
    [
-    "582",
-    "584",
+    582,
+    584,
     0,
     0,
     0
    ],
    [
-    "582",
-    "585",
+    582,
+    585,
     1,
     0,
     0
    ],
    [
-    "583",
-    "582",
+    583,
+    582,
     1,
     0,
     0
    ],
    [
-    "584",
-    "586",
+    584,
+    586,
     0,
     0,
     1
    ],
    [
-    "584",
-    "802",
+    584,
+    802,
     0,
     1,
     1
    ],
    [
-    "585",
-    "584",
+    585,
+    584,
     1,
     0,
     0
    ],
    [
-    "586",
-    "588",
+    586,
+    588,
     0,
     0,
     0
    ],
    [
-    "586",
-    "591",
+    586,
+    591,
     1,
     0,
     0
    ],
    [
-    "587",
-    "586",
+    587,
+    586,
     1,
     0,
     0
    ],
    [
-    "588",
-    "590",
+    588,
+    590,
     0,
     0,
     0
    ],
    [
-    "588",
-    "592",
+    588,
+    592,
     1,
     0,
     0
    ],
    [
-    "589",
-    "588",
+    589,
+    588,
     1,
     0,
     0
    ],
    [
-    "590",
-    "593",
+    590,
+    593,
     0,
     0,
     0
    ],
    [
-    "590",
-    "594",
+    590,
+    594,
     1,
     0,
     0
    ],
    [
-    "591",
-    "590",
+    591,
+    590,
     1,
     0,
     0
    ],
    [
-    "592",
-    "590",
+    592,
+    590,
     1,
     1,
     0
    ],
    [
-    "593",
-    "596",
+    593,
+    596,
     0,
     0,
     0
    ],
    [
-    "594",
-    "593",
+    594,
+    593,
     1,
     0,
     0
    ],
    [
-    "595",
-    "593",
+    595,
+    593,
     1,
     1,
     0
    ],
    [
-    "596",
-    "598",
+    596,
+    598,
     0,
     0,
     0
    ],
    [
-    "596",
-    "599",
+    596,
+    599,
     1,
     0,
     0
    ],
    [
-    "597",
-    "596",
+    597,
+    596,
     1,
     0,
     0
    ],
    [
-    "598",
-    "600",
+    598,
+    600,
     0,
     0,
     0
    ],
    [
-    "598",
-    "601",
+    598,
+    601,
     1,
     0,
     0
    ],
    [
-    "598",
-    "1011",
+    598,
+    1011,
     2,
     0,
     -1
    ],
    [
-    "599",
-    "598",
+    599,
+    598,
     1,
     0,
     0
    ],
    [
-    "600",
-    "602",
+    600,
+    602,
     0,
     0,
     0
    ],
    [
-    "600",
-    "603",
+    600,
+    603,
     1,
     0,
     0
    ],
    [
-    "601",
-    "600",
+    601,
+    600,
     1,
     0,
     0
    ],
    [
-    "602",
-    "605",
+    602,
+    605,
     0,
     0,
     0
    ],
    [
-    "603",
-    "602",
+    603,
+    602,
     1,
     0,
     0
    ],
    [
-    "604",
-    "602",
+    604,
+    602,
     1,
     1,
     0
    ],
    [
-    "605",
-    "607",
+    605,
+    607,
     0,
     0,
     0
    ],
    [
-    "605",
-    "608",
+    605,
+    608,
     1,
     0,
     0
    ],
    [
-    "606",
-    "605",
+    606,
+    605,
     1,
     0,
     0
    ],
    [
-    "607",
-    "609",
+    607,
+    609,
     0,
     0,
     0
    ],
    [
-    "607",
-    "610",
+    607,
+    610,
     1,
     0,
     0
    ],
    [
-    "608",
-    "607",
+    608,
+    607,
     1,
     0,
     0
    ],
    [
-    "609",
-    "611",
+    609,
+    611,
     0,
     0,
     0
    ],
    [
-    "609",
-    "612",
+    609,
+    612,
     1,
     0,
     0
    ],
    [
-    "610",
-    "609",
+    610,
+    609,
     1,
     2,
     0
    ],
    [
-    "611",
-    "613",
+    611,
+    613,
     0,
     0,
     0
    ],
    [
-    "611",
-    "616",
+    611,
+    616,
     1,
     0,
     0
    ],
    [
-    "612",
-    "611",
+    612,
+    611,
     1,
     0,
     0
    ],
    [
-    "613",
-    "615",
+    613,
+    615,
     0,
     0,
     0
    ],
    [
-    "613",
-    "617",
+    613,
+    617,
     1,
     0,
     0
    ],
    [
-    "614",
-    "613",
+    614,
+    613,
     1,
     0,
     0
    ],
    [
-    "615",
-    "618",
+    615,
+    618,
     0,
     0,
     0
    ],
    [
-    "615",
-    "627",
+    615,
+    627,
     1,
     0,
     0
    ],
    [
-    "616",
-    "615",
+    616,
+    615,
     1,
     0,
     0
    ],
    [
-    "617",
-    "615",
+    617,
+    615,
     1,
     1,
     0
    ],
    [
-    "618",
-    "620",
+    618,
+    620,
     0,
     0,
     0
    ],
    [
-    "618",
-    "621",
+    618,
+    621,
     1,
     0,
     0
    ],
    [
-    "619",
-    "618",
+    619,
+    618,
     1,
     0,
     0
    ],
    [
-    "620",
-    "622",
+    620,
+    622,
     0,
     0,
     0
    ],
    [
-    "620",
-    "623",
+    620,
+    623,
     1,
     0,
     0
    ],
    [
-    "621",
-    "620",
+    621,
+    620,
     1,
     0,
     0
    ],
    [
-    "622",
-    "624",
+    622,
+    624,
     0,
     0,
     0
    ],
    [
-    "622",
-    "625",
+    622,
+    625,
     1,
     0,
     0
    ],
    [
-    "623",
-    "622",
+    623,
+    622,
     1,
     2,
     0
    ],
    [
-    "624",
-    "626",
+    624,
+    626,
     0,
     0,
     0
    ],
    [
-    "624",
-    "628",
+    624,
+    628,
     1,
     0,
     0
    ],
    [
-    "625",
-    "624",
+    625,
+    624,
     1,
     0,
     0
    ],
    [
-    "626",
-    "629",
+    626,
+    629,
     0,
     0,
     0
    ],
    [
-    "626",
-    "630",
+    626,
+    630,
     1,
     0,
     0
    ],
    [
-    "627",
-    "626",
+    627,
+    626,
     1,
     0,
     0
    ],
    [
-    "628",
-    "626",
+    628,
+    626,
     1,
     1,
     0
    ],
    [
-    "629",
-    "631",
+    629,
+    631,
     0,
     0,
     1
    ],
    [
-    "629",
-    "632",
+    629,
+    632,
     0,
     1,
     1
    ],
    [
-    "630",
-    "629",
+    630,
+    629,
     1,
     0,
     0
    ],
    [
-    "631",
-    "789",
+    631,
+    789,
     0,
     0,
     1
    ],
    [
-    "632",
-    "634",
+    632,
+    634,
     0,
     0,
     0
    ],
    [
-    "633",
-    "632",
+    633,
+    632,
     1,
     1,
     0
    ],
    [
-    "634",
-    "635",
+    634,
+    635,
     0,
     0,
     1
    ],
    [
-    "635",
-    "637",
+    635,
+    637,
     0,
     0,
     0
    ],
    [
-    "635",
-    "639",
+    635,
+    639,
     1,
     0,
     0
    ],
    [
-    "636",
-    "635",
+    636,
+    635,
     1,
     0,
     0
    ],
    [
-    "637",
-    "638",
+    637,
+    638,
     0,
     0,
     0
    ],
    [
-    "637",
-    "640",
+    637,
+    640,
     1,
     0,
     0
    ],
    [
-    "638",
-    "641",
+    638,
+    641,
     0,
     0,
     0
    ],
    [
-    "638",
-    "642",
+    638,
+    642,
     1,
     0,
     0
    ],
    [
-    "639",
-    "638",
+    639,
+    638,
     1,
     0,
     0
    ],
    [
-    "640",
-    "638",
+    640,
+    638,
     1,
     1,
     0
    ],
    [
-    "641",
-    "643",
+    641,
+    643,
     0,
     0,
     1
    ],
    [
-    "641",
-    "788",
+    641,
+    788,
     0,
     1,
     1
    ],
    [
-    "642",
-    "641",
+    642,
+    641,
     1,
     0,
     0
    ],
    [
-    "643",
-    "645",
+    643,
+    645,
     0,
     0,
     0
    ],
    [
-    "643",
-    "650",
+    643,
+    650,
     1,
     0,
     0
    ],
    [
-    "644",
-    "643",
+    644,
+    643,
     1,
     0,
     0
    ],
    [
-    "645",
-    "647",
+    645,
+    647,
     0,
     0,
     0
    ],
    [
-    "645",
-    "648",
+    645,
+    648,
     1,
     0,
     0
    ],
    [
-    "646",
-    "645",
+    646,
+    645,
     1,
     0,
     0
    ],
    [
-    "647",
-    "649",
+    647,
+    649,
     0,
     0,
     0
    ],
    [
-    "647",
-    "651",
+    647,
+    651,
     1,
     0,
     0
    ],
    [
-    "648",
-    "647",
+    648,
+    647,
     1,
     1,
     0
    ],
    [
-    "649",
-    "652",
+    649,
+    652,
     0,
     0,
     0
    ],
    [
-    "649",
-    "653",
+    649,
+    653,
     1,
     0,
     0
    ],
    [
-    "650",
-    "649",
+    650,
+    649,
     1,
     0,
     0
    ],
    [
-    "651",
-    "649",
+    651,
+    649,
     1,
     1,
     0
    ],
    [
-    "652",
-    "654",
+    652,
+    654,
     0,
     0,
     0
    ],
    [
-    "652",
-    "655",
+    652,
+    655,
     1,
     0,
     0
    ],
    [
-    "653",
-    "652",
+    653,
+    652,
     1,
     0,
     0
    ],
    [
-    "654",
-    "657",
+    654,
+    657,
     0,
     0,
     1
    ],
    [
-    "654",
-    "656",
+    654,
+    656,
     0,
     1,
     1
    ],
    [
-    "655",
-    "654",
+    655,
+    654,
     1,
     0,
     0
    ],
    [
-    "656",
-    "780",
+    656,
+    780,
     0,
     0,
     1
    ],
    [
-    "657",
-    "659",
+    657,
+    659,
     0,
     0,
     0
    ],
    [
-    "658",
-    "657",
+    658,
+    657,
     1,
     1,
     0
    ],
    [
-    "659",
-    "660",
+    659,
+    660,
     0,
     0,
     1
    ],
    [
-    "660",
-    "662",
+    660,
+    662,
     0,
     0,
     0
    ],
    [
-    "660",
-    "664",
+    660,
+    664,
     1,
     0,
     0
    ],
    [
-    "661",
-    "660",
+    661,
+    660,
     1,
     0,
     0
    ],
    [
-    "662",
-    "663",
+    662,
+    663,
     0,
     0,
     0
    ],
    [
-    "662",
-    "665",
+    662,
+    665,
     1,
     0,
     0
    ],
    [
-    "663",
-    "666",
+    663,
+    666,
     0,
     0,
     0
    ],
    [
-    "663",
-    "667",
+    663,
+    667,
     1,
     0,
     0
    ],
    [
-    "664",
-    "663",
+    664,
+    663,
     1,
     0,
     0
    ],
    [
-    "665",
-    "663",
+    665,
+    663,
     1,
     1,
     0
    ],
    [
-    "666",
-    "668",
+    666,
+    668,
     0,
     0,
     1
    ],
    [
-    "666",
-    "779",
+    666,
+    779,
     0,
     1,
     1
    ],
    [
-    "667",
-    "666",
+    667,
+    666,
     1,
     0,
     0
    ],
    [
-    "668",
-    "670",
+    668,
+    670,
     0,
     0,
     0
    ],
    [
-    "668",
-    "675",
+    668,
+    675,
     1,
     0,
     0
    ],
    [
-    "669",
-    "668",
+    669,
+    668,
     1,
     0,
     0
    ],
    [
-    "670",
-    "672",
+    670,
+    672,
     0,
     0,
     0
    ],
    [
-    "670",
-    "673",
+    670,
+    673,
     1,
     0,
     0
    ],
    [
-    "671",
-    "670",
+    671,
+    670,
     1,
     0,
     0
    ],
    [
-    "672",
-    "674",
+    672,
+    674,
     0,
     0,
     0
    ],
    [
-    "672",
-    "676",
+    672,
+    676,
     1,
     0,
     0
    ],
    [
-    "673",
-    "672",
+    673,
+    672,
     1,
     1,
     0
    ],
    [
-    "674",
-    "677",
+    674,
+    677,
     0,
     0,
     0
    ],
    [
-    "674",
-    "678",
+    674,
+    678,
     1,
     0,
     0
    ],
    [
-    "675",
-    "674",
+    675,
+    674,
     1,
     0,
     0
    ],
    [
-    "676",
-    "674",
+    676,
+    674,
     1,
     1,
     0
    ],
    [
-    "677",
-    "679",
+    677,
+    679,
     0,
     0,
     0
    ],
    [
-    "677",
-    "680",
+    677,
+    680,
     1,
     0,
     0
    ],
    [
-    "678",
-    "677",
+    678,
+    677,
     1,
     0,
     0
    ],
    [
-    "679",
-    "682",
+    679,
+    682,
     0,
     0,
     1
    ],
    [
-    "679",
-    "681",
+    679,
+    681,
     0,
     1,
     1
    ],
    [
-    "680",
-    "679",
+    680,
+    679,
     1,
     0,
     0
    ],
    [
-    "681",
-    "771",
+    681,
+    771,
     0,
     0,
     1
    ],
    [
-    "682",
-    "684",
+    682,
+    684,
     0,
     0,
     0
    ],
    [
-    "682",
-    "685",
+    682,
+    685,
     1,
     0,
     0
    ],
    [
-    "683",
-    "682",
+    683,
+    682,
     1,
     0,
     0
    ],
    [
-    "684",
-    "686",
+    684,
+    686,
     0,
     0,
     0
    ],
    [
-    "684",
-    "687",
+    684,
+    687,
     1,
     0,
     0
    ],
    [
-    "685",
-    "684",
+    685,
+    684,
     1,
     0,
     0
    ],
    [
-    "686",
-    "688",
+    686,
+    688,
     0,
     0,
     0
    ],
    [
-    "686",
-    "693",
+    686,
+    693,
     1,
     0,
     0
    ],
    [
-    "687",
-    "686",
+    687,
+    686,
     1,
     2,
     0
    ],
    [
-    "688",
-    "690",
+    688,
+    690,
     0,
     0,
     0
    ],
    [
-    "688",
-    "691",
+    688,
+    691,
     1,
     0,
     0
    ],
    [
-    "689",
-    "688",
+    689,
+    688,
     1,
     0,
     0
    ],
    [
-    "690",
-    "692",
+    690,
+    692,
     0,
     0,
     0
    ],
    [
-    "690",
-    "694",
+    690,
+    694,
     1,
     0,
     0
    ],
    [
-    "691",
-    "690",
+    691,
+    690,
     1,
     0,
     0
    ],
    [
-    "692",
-    "695",
+    692,
+    695,
     0,
     0,
     0
    ],
    [
-    "692",
-    "700",
+    692,
+    700,
     1,
     0,
     0
    ],
    [
-    "693",
-    "692",
+    693,
+    692,
     1,
     0,
     0
    ],
    [
-    "694",
-    "692",
+    694,
+    692,
     1,
     2,
     0
    ],
    [
-    "695",
-    "697",
+    695,
+    697,
     0,
     0,
     0
    ],
    [
-    "695",
-    "698",
+    695,
+    698,
     1,
     0,
     0
    ],
    [
-    "696",
-    "695",
+    696,
+    695,
     1,
     0,
     0
    ],
    [
-    "697",
-    "699",
+    697,
+    699,
     0,
     0,
     0
    ],
    [
-    "697",
-    "701",
+    697,
+    701,
     1,
     0,
     0
    ],
    [
-    "698",
-    "697",
+    698,
+    697,
     1,
     0,
     0
    ],
    [
-    "699",
-    "702",
+    699,
+    702,
     0,
     0,
     0
    ],
    [
-    "699",
-    "703",
+    699,
+    703,
     1,
     0,
     0
    ],
    [
-    "700",
-    "699",
+    700,
+    699,
     1,
     0,
     0
    ],
    [
-    "701",
-    "699",
+    701,
+    699,
     1,
     2,
     0
    ],
    [
-    "702",
-    "704",
+    702,
+    704,
     0,
     0,
     0
    ],
    [
-    "702",
-    "705",
+    702,
+    705,
     1,
     0,
     0
    ],
    [
-    "703",
-    "702",
+    703,
+    702,
     1,
     0,
     0
    ],
    [
-    "704",
-    "706",
+    704,
+    706,
     0,
     0,
     0
    ],
    [
-    "704",
-    "707",
+    704,
+    707,
     1,
     0,
     0
    ],
    [
-    "705",
-    "704",
+    705,
+    704,
     1,
     0,
     0
    ],
    [
-    "706",
-    "708",
+    706,
+    708,
     0,
     0,
     1
    ],
    [
-    "706",
-    "770",
+    706,
+    770,
     0,
     1,
     1
    ],
    [
-    "707",
-    "706",
+    707,
+    706,
     1,
     0,
     0
    ],
    [
-    "708",
-    "710",
+    708,
+    710,
     0,
     0,
     0
    ],
    [
-    "708",
-    "711",
+    708,
+    711,
     1,
     0,
     0
    ],
    [
-    "709",
-    "708",
+    709,
+    708,
     1,
     0,
     0
    ],
    [
-    "710",
-    "712",
+    710,
+    712,
     0,
     0,
     0
    ],
    [
-    "710",
-    "713",
+    710,
+    713,
     1,
     0,
     0
    ],
    [
-    "711",
-    "710",
+    711,
+    710,
     1,
     0,
     0
    ],
    [
-    "712",
-    "714",
+    712,
+    714,
     0,
     0,
     0
    ],
    [
-    "712",
-    "715",
+    712,
+    715,
     1,
     0,
     0
    ],
    [
-    "713",
-    "712",
+    713,
+    712,
     1,
     2,
     0
    ],
    [
-    "714",
-    "716",
+    714,
+    716,
     0,
     0,
     0
    ],
    [
-    "714",
-    "719",
+    714,
+    719,
     1,
     0,
     0
    ],
    [
-    "715",
-    "714",
+    715,
+    714,
     1,
     0,
     0
    ],
    [
-    "716",
-    "718",
+    716,
+    718,
     0,
     0,
     0
    ],
    [
-    "716",
-    "720",
+    716,
+    720,
     1,
     0,
     0
    ],
    [
-    "717",
-    "716",
+    717,
+    716,
     1,
     0,
     0
    ],
    [
-    "718",
-    "721",
+    718,
+    721,
     0,
     0,
     0
    ],
    [
-    "718",
-    "728",
+    718,
+    728,
     1,
     0,
     0
    ],
    [
-    "719",
-    "718",
+    719,
+    718,
     1,
     0,
     0
    ],
    [
-    "720",
-    "718",
+    720,
+    718,
     1,
     1,
     0
    ],
    [
-    "721",
-    "723",
+    721,
+    723,
     0,
     0,
     0
    ],
    [
-    "721",
-    "724",
+    721,
+    724,
     1,
     0,
     0
    ],
    [
-    "722",
-    "721",
+    722,
+    721,
     1,
     0,
     0
    ],
    [
-    "723",
-    "725",
+    723,
+    725,
     0,
     0,
     0
    ],
    [
-    "723",
-    "726",
+    723,
+    726,
     1,
     0,
     0
    ],
    [
-    "724",
-    "723",
+    724,
+    723,
     1,
     0,
     0
    ],
    [
-    "725",
-    "727",
+    725,
+    727,
     0,
     0,
     0
    ],
    [
-    "725",
-    "729",
+    725,
+    729,
     1,
     0,
     0
    ],
    [
-    "726",
-    "725",
+    726,
+    725,
     1,
     2,
     0
    ],
    [
-    "727",
-    "730",
+    727,
+    730,
     0,
     0,
     0
    ],
    [
-    "728",
-    "727",
+    728,
+    727,
     1,
     0,
     0
    ],
    [
-    "729",
-    "727",
+    729,
+    727,
     1,
     1,
     0
    ],
    [
-    "730",
-    "732",
+    730,
+    732,
     0,
     0,
     0
    ],
    [
-    "730",
-    "741",
+    730,
+    741,
     1,
     0,
     0
    ],
    [
-    "731",
-    "730",
+    731,
+    730,
     1,
     0,
     0
    ],
    [
-    "732",
-    "734",
+    732,
+    734,
     0,
     0,
     0
    ],
    [
-    "732",
-    "735",
+    732,
+    735,
     1,
     0,
     0
    ],
    [
-    "733",
-    "732",
+    733,
+    732,
     1,
     0,
     0
    ],
    [
-    "734",
-    "736",
+    734,
+    736,
     0,
     0,
     0
    ],
    [
-    "734",
-    "737",
+    734,
+    737,
     1,
     0,
     0
    ],
    [
-    "735",
-    "734",
+    735,
+    734,
     1,
     0,
     0
    ],
    [
-    "736",
-    "738",
+    736,
+    738,
     0,
     0,
     0
    ],
    [
-    "736",
-    "739",
+    736,
+    739,
     1,
     0,
     0
    ],
    [
-    "737",
-    "736",
+    737,
+    736,
     1,
     2,
     0
    ],
    [
-    "738",
-    "740",
+    738,
+    740,
     0,
     0,
     0
    ],
    [
-    "738",
-    "742",
+    738,
+    742,
     1,
     0,
     0
    ],
    [
-    "739",
-    "738",
+    739,
+    738,
     1,
     0,
     0
    ],
    [
-    "740",
-    "743",
+    740,
+    743,
     0,
     0,
     0
    ],
    [
-    "741",
-    "740",
+    741,
+    740,
     1,
     0,
     0
    ],
    [
-    "742",
-    "740",
+    742,
+    740,
     1,
     1,
     0
    ],
    [
-    "743",
-    "745",
+    743,
+    745,
     0,
     0,
     0
    ],
    [
-    "743",
-    "754",
+    743,
+    754,
     1,
     0,
     0
    ],
    [
-    "744",
-    "743",
+    744,
+    743,
     1,
     0,
     0
    ],
    [
-    "745",
-    "747",
+    745,
+    747,
     0,
     0,
     0
    ],
    [
-    "745",
-    "748",
+    745,
+    748,
     1,
     0,
     0
    ],
    [
-    "746",
-    "745",
+    746,
+    745,
     1,
     0,
     0
    ],
    [
-    "747",
-    "749",
+    747,
+    749,
     0,
     0,
     0
    ],
    [
-    "747",
-    "750",
+    747,
+    750,
     1,
     0,
     0
    ],
    [
-    "748",
-    "747",
+    748,
+    747,
     1,
     0,
     0
    ],
    [
-    "749",
-    "751",
+    749,
+    751,
     0,
     0,
     0
    ],
    [
-    "749",
-    "752",
+    749,
+    752,
     1,
     0,
     0
    ],
    [
-    "750",
-    "749",
+    750,
+    749,
     1,
     2,
     0
    ],
    [
-    "751",
-    "753",
+    751,
+    753,
     0,
     0,
     0
    ],
    [
-    "751",
-    "755",
+    751,
+    755,
     1,
     0,
     0
    ],
    [
-    "752",
-    "751",
+    752,
+    751,
     1,
     0,
     0
    ],
    [
-    "753",
-    "756",
+    753,
+    756,
     0,
     0,
     0
    ],
    [
-    "754",
-    "753",
+    754,
+    753,
     1,
     0,
     0
    ],
    [
-    "755",
-    "753",
+    755,
+    753,
     1,
     1,
     0
    ],
    [
-    "756",
-    "758",
+    756,
+    758,
     0,
     0,
     0
    ],
    [
-    "756",
-    "767",
+    756,
+    767,
     1,
     0,
     0
    ],
    [
-    "757",
-    "756",
+    757,
+    756,
     1,
     0,
     0
    ],
    [
-    "758",
-    "760",
+    758,
+    760,
     0,
     0,
     0
    ],
    [
-    "758",
-    "761",
+    758,
+    761,
     1,
     0,
     0
    ],
    [
-    "759",
-    "758",
+    759,
+    758,
     1,
     0,
     0
    ],
    [
-    "760",
-    "762",
+    760,
+    762,
     0,
     0,
     0
    ],
    [
-    "760",
-    "763",
+    760,
+    763,
     1,
     0,
     0
    ],
    [
-    "761",
-    "760",
+    761,
+    760,
     1,
     0,
     0
    ],
    [
-    "762",
-    "764",
+    762,
+    764,
     0,
     0,
     0
    ],
    [
-    "762",
-    "765",
+    762,
+    765,
     1,
     0,
     0
    ],
    [
-    "763",
-    "762",
+    763,
+    762,
     1,
     2,
     0
    ],
    [
-    "764",
-    "766",
+    764,
+    766,
     0,
     0,
     0
    ],
    [
-    "764",
-    "768",
+    764,
+    768,
     1,
     0,
     0
    ],
    [
-    "765",
-    "764",
+    765,
+    764,
     1,
     0,
     0
    ],
    [
-    "766",
-    "769",
+    766,
+    769,
     0,
     0,
     0
    ],
    [
-    "767",
-    "766",
+    767,
+    766,
     1,
     0,
     0
    ],
    [
-    "768",
-    "766",
+    768,
+    766,
     1,
     1,
     0
    ],
    [
-    "769",
-    "770",
+    769,
+    770,
     0,
     0,
     1
    ],
    [
-    "770",
-    "771",
+    770,
+    771,
     0,
     0,
     1
    ],
    [
-    "771",
-    "773",
+    771,
+    773,
     0,
     0,
     0
    ],
    [
-    "771",
-    "774",
+    771,
+    774,
     1,
     0,
     0
    ],
    [
-    "772",
-    "771",
+    772,
+    771,
     1,
     0,
     0
    ],
    [
-    "773",
-    "775",
+    773,
+    775,
     0,
     0,
     0
    ],
    [
-    "773",
-    "776",
+    773,
+    776,
     1,
     0,
     0
    ],
    [
-    "774",
-    "773",
+    774,
+    773,
     1,
     0,
     0
    ],
    [
-    "775",
-    "778",
+    775,
+    778,
     0,
     0,
     0
    ],
    [
-    "776",
-    "775",
+    776,
+    775,
     1,
     0,
     0
    ],
    [
-    "777",
-    "775",
+    777,
+    775,
     1,
     1,
     0
    ],
    [
-    "778",
-    "660",
+    778,
+    660,
     0,
     0,
     -1
    ],
    [
-    "779",
-    "780",
+    779,
+    780,
     0,
     0,
     1
    ],
    [
-    "780",
-    "782",
+    780,
+    782,
     0,
     0,
     0
    ],
    [
-    "780",
-    "783",
+    780,
+    783,
     1,
     0,
     0
    ],
    [
-    "781",
-    "780",
+    781,
+    780,
     1,
     0,
     0
    ],
    [
-    "782",
-    "784",
+    782,
+    784,
     0,
     0,
     0
    ],
    [
-    "782",
-    "785",
+    782,
+    785,
     1,
     0,
     0
    ],
    [
-    "783",
-    "782",
+    783,
+    782,
     1,
     0,
     0
    ],
    [
-    "784",
-    "787",
+    784,
+    787,
     0,
     0,
     0
    ],
    [
-    "785",
-    "784",
+    785,
+    784,
     1,
     0,
     0
    ],
    [
-    "786",
-    "784",
+    786,
+    784,
     1,
     1,
     0
    ],
    [
-    "787",
-    "635",
+    787,
+    635,
     0,
     0,
     -1
    ],
    [
-    "788",
-    "789",
+    788,
+    789,
     0,
     0,
     1
    ],
    [
-    "789",
-    "791",
+    789,
+    791,
     0,
     0,
     0
    ],
    [
-    "789",
-    "792",
+    789,
+    792,
     1,
     0,
     0
    ],
    [
-    "790",
-    "789",
+    790,
+    789,
     1,
     0,
     0
    ],
    [
-    "791",
-    "793",
+    791,
+    793,
     0,
     0,
     0
    ],
    [
-    "791",
-    "796",
+    791,
+    796,
     1,
     0,
     0
    ],
    [
-    "792",
-    "791",
+    792,
+    791,
     1,
     0,
     0
    ],
    [
-    "793",
-    "795",
+    793,
+    795,
     0,
     0,
     0
    ],
    [
-    "793",
-    "797",
+    793,
+    797,
     1,
     0,
     0
    ],
    [
-    "794",
-    "793",
+    794,
+    793,
     1,
     0,
     0
    ],
    [
-    "795",
-    "798",
+    795,
+    798,
     0,
     0,
     0
    ],
    [
-    "795",
-    "799",
+    795,
+    799,
     1,
     0,
     0
    ],
    [
-    "796",
-    "795",
+    796,
+    795,
     1,
     0,
     0
    ],
    [
-    "797",
-    "795",
+    797,
+    795,
     1,
     1,
     0
    ],
    [
-    "798",
-    "801",
+    798,
+    801,
     0,
     0,
     0
    ],
    [
-    "799",
-    "798",
+    799,
+    798,
     1,
     0,
     0
    ],
    [
-    "800",
-    "798",
+    800,
+    798,
     1,
     1,
     0
    ],
    [
-    "801",
-    "580",
+    801,
+    580,
     0,
     0,
     -1
    ],
    [
-    "802",
-    "803",
+    802,
+    803,
     0,
     0,
     1
    ],
    [
-    "803",
-    "805",
+    803,
+    805,
     0,
     0,
     0
    ],
    [
-    "803",
-    "806",
+    803,
+    806,
     1,
     0,
     0
    ],
    [
-    "804",
-    "803",
+    804,
+    803,
     1,
     0,
     0
    ],
    [
-    "805",
-    "807",
+    805,
+    807,
     0,
     0,
     0
    ],
    [
-    "805",
-    "808",
+    805,
+    808,
     1,
     0,
     0
    ],
    [
-    "806",
-    "805",
+    806,
+    805,
     1,
     0,
     0
    ],
    [
-    "807",
-    "810",
+    807,
+    810,
     0,
     0,
     0
    ],
    [
-    "808",
-    "807",
+    808,
+    807,
     1,
     0,
     0
    ],
    [
-    "809",
-    "807",
+    809,
+    807,
     1,
     1,
     0
    ],
    [
-    "810",
-    "564",
+    810,
+    564,
     0,
     0,
     -1
    ],
    [
-    "811",
-    "812",
+    811,
+    812,
     0,
     0,
     0
    ],
    [
-    "811",
-    "813",
+    811,
+    813,
     1,
     0,
     0
    ],
    [
-    "812",
-    "814",
+    812,
+    814,
     0,
     0,
     0
    ],
    [
-    "812",
-    "815",
+    812,
+    815,
     1,
     0,
     0
    ],
    [
-    "813",
-    "812",
+    813,
+    812,
     1,
     1,
     0
    ],
    [
-    "814",
-    "816",
+    814,
+    816,
     0,
     0,
     0
    ],
    [
-    "814",
-    "817",
+    814,
+    817,
     1,
     0,
     0
    ],
    [
-    "815",
-    "814",
+    815,
+    814,
     1,
     0,
     0
    ],
    [
-    "816",
-    "818",
+    816,
+    818,
     0,
     0,
     0
    ],
    [
-    "816",
-    "819",
+    816,
+    819,
     1,
     0,
     0
    ],
    [
-    "817",
-    "816",
+    817,
+    816,
     1,
     0,
     0
    ],
    [
-    "818",
-    "820",
+    818,
+    820,
     0,
     0,
     0
    ],
    [
-    "818",
-    "821",
+    818,
+    821,
     1,
     0,
     0
    ],
    [
-    "819",
-    "818",
+    819,
+    818,
     1,
     2,
     0
    ],
    [
-    "820",
-    "822",
+    820,
+    822,
     0,
     0,
     0
    ],
    [
-    "820",
-    "823",
+    820,
+    823,
     1,
     0,
     0
    ],
    [
-    "821",
-    "820",
+    821,
+    820,
     1,
     0,
     0
    ],
    [
-    "822",
-    "824",
+    822,
+    824,
     0,
     0,
     0
    ],
    [
-    "822",
-    "825",
+    822,
+    825,
     1,
     0,
     0
    ],
    [
-    "822",
-    "1012",
+    822,
+    1012,
     2,
     0,
     -1
    ],
    [
-    "823",
-    "822",
+    823,
+    822,
     1,
     1,
     0
    ],
    [
-    "824",
-    "826",
+    824,
+    826,
     0,
     0,
     0
    ],
    [
-    "824",
-    "1013",
+    824,
+    1013,
     2,
     0,
     -1
    ],
    [
-    "825",
-    "824",
+    825,
+    824,
     1,
     0,
     0
    ],
    [
-    "826",
-    "827",
+    826,
+    827,
     0,
     0,
     0
    ],
    [
-    "826",
-    "828",
+    826,
+    828,
     1,
     0,
     0
    ],
    [
-    "827",
-    "829",
+    827,
+    829,
     0,
     0,
     0
    ],
    [
-    "827",
-    "830",
+    827,
+    830,
     1,
     0,
     0
    ],
    [
-    "828",
-    "827",
+    828,
+    827,
     1,
     1,
     0
    ],
    [
-    "829",
-    "831",
+    829,
+    831,
     0,
     0,
     0
    ],
    [
-    "829",
-    "832",
+    829,
+    832,
     1,
     0,
     0
    ],
    [
-    "830",
-    "829",
+    830,
+    829,
     1,
     0,
     0
    ],
    [
-    "831",
-    "834",
+    831,
+    834,
     0,
     0,
     0
    ],
    [
-    "832",
-    "831",
+    832,
+    831,
     1,
     0,
     0
    ],
    [
-    "833",
-    "831",
+    833,
+    831,
     1,
     1,
     0
    ],
    [
-    "834",
-    "835",
+    834,
+    835,
     0,
     0,
     1
    ],
    [
-    "835",
-    "837",
+    835,
+    837,
     0,
     0,
     0
    ],
    [
-    "835",
-    "838",
+    835,
+    838,
     1,
     0,
     0
    ],
    [
-    "836",
-    "835",
+    836,
+    835,
     1,
     0,
     0
    ],
    [
-    "837",
-    "839",
+    837,
+    839,
     0,
     0,
     0
    ],
    [
-    "837",
-    "840",
+    837,
+    840,
     1,
     0,
     0
    ],
    [
-    "838",
-    "837",
+    838,
+    837,
     1,
     0,
     0
    ],
    [
-    "839",
-    "841",
+    839,
+    841,
     0,
     0,
     1
    ],
    [
-    "839",
-    "972",
+    839,
+    972,
     0,
     1,
     1
    ],
    [
-    "840",
-    "839",
+    840,
+    839,
     1,
     0,
     0
    ],
    [
-    "841",
-    "843",
+    841,
+    843,
     0,
     0,
     0
    ],
    [
-    "841",
-    "844",
+    841,
+    844,
     1,
     0,
     0
    ],
    [
-    "842",
-    "841",
+    842,
+    841,
     1,
     0,
     0
    ],
    [
-    "843",
-    "845",
+    843,
+    845,
     0,
     0,
     0
    ],
    [
-    "843",
-    "846",
+    843,
+    846,
     1,
     0,
     0
    ],
    [
-    "844",
-    "843",
+    844,
+    843,
     1,
     0,
     0
    ],
    [
-    "845",
-    "847",
+    845,
+    847,
     0,
     0,
     0
    ],
    [
-    "845",
-    "848",
+    845,
+    848,
     1,
     0,
     0
    ],
    [
-    "846",
-    "845",
+    846,
+    845,
     1,
     2,
     0
    ],
    [
-    "847",
-    "849",
+    847,
+    849,
     0,
     0,
     0
    ],
    [
-    "847",
-    "850",
+    847,
+    850,
     1,
     0,
     0
    ],
    [
-    "848",
-    "847",
+    848,
+    847,
     1,
     0,
     0
    ],
    [
-    "849",
-    "851",
+    849,
+    851,
     0,
     0,
     0
    ],
    [
-    "849",
-    "852",
+    849,
+    852,
     1,
     0,
     0
    ],
    [
-    "850",
-    "849",
+    850,
+    849,
     1,
     0,
     0
    ],
    [
-    "851",
-    "854",
+    851,
+    854,
     0,
     0,
     0
    ],
    [
-    "852",
-    "851",
+    852,
+    851,
     1,
     0,
     0
    ],
    [
-    "853",
-    "851",
+    853,
+    851,
     1,
     1,
     0
    ],
    [
-    "854",
-    "856",
+    854,
+    856,
     0,
     0,
     0
    ],
    [
-    "854",
-    "857",
+    854,
+    857,
     1,
     0,
     0
    ],
    [
-    "855",
-    "854",
+    855,
+    854,
     1,
     0,
     0
    ],
    [
-    "856",
-    "858",
+    856,
+    858,
     0,
     0,
     0
    ],
    [
-    "856",
-    "859",
+    856,
+    859,
     1,
     0,
     0
    ],
    [
-    "857",
-    "856",
+    857,
+    856,
     1,
     0,
     0
    ],
    [
-    "858",
-    "860",
+    858,
+    860,
     0,
     0,
     0
    ],
    [
-    "858",
-    "861",
+    858,
+    861,
     1,
     0,
     0
    ],
    [
-    "859",
-    "858",
+    859,
+    858,
     1,
     2,
     0
    ],
    [
-    "860",
-    "862",
+    860,
+    862,
     0,
     0,
     0
    ],
    [
-    "860",
-    "863",
+    860,
+    863,
     1,
     0,
     0
    ],
    [
-    "861",
-    "860",
+    861,
+    860,
     1,
     0,
     0
    ],
    [
-    "862",
-    "864",
+    862,
+    864,
     0,
     0,
     0
    ],
    [
-    "862",
-    "865",
+    862,
+    865,
     1,
     0,
     0
    ],
    [
-    "863",
-    "862",
+    863,
+    862,
     1,
     0,
     0
    ],
    [
-    "864",
-    "867",
+    864,
+    867,
     0,
     0,
     0
    ],
    [
-    "865",
-    "864",
+    865,
+    864,
     1,
     0,
     0
    ],
    [
-    "866",
-    "864",
+    866,
+    864,
     1,
     1,
     0
    ],
    [
-    "867",
-    "869",
+    867,
+    869,
     0,
     0,
     0
    ],
    [
-    "867",
-    "870",
+    867,
+    870,
     1,
     0,
     0
    ],
    [
-    "868",
-    "867",
+    868,
+    867,
     1,
     0,
     0
    ],
    [
-    "869",
-    "871",
+    869,
+    871,
     0,
     0,
     0
    ],
    [
-    "869",
-    "872",
+    869,
+    872,
     1,
     0,
     0
    ],
    [
-    "870",
-    "869",
+    870,
+    869,
     1,
     0,
     0
    ],
    [
-    "871",
-    "873",
+    871,
+    873,
     0,
     0,
     0
    ],
    [
-    "871",
-    "874",
+    871,
+    874,
     1,
     0,
     0
    ],
    [
-    "872",
-    "871",
+    872,
+    871,
     1,
     2,
     0
    ],
    [
-    "873",
-    "875",
+    873,
+    875,
     0,
     0,
     0
    ],
    [
-    "873",
-    "876",
+    873,
+    876,
     1,
     0,
     0
    ],
    [
-    "874",
-    "873",
+    874,
+    873,
     1,
     0,
     0
    ],
    [
-    "875",
-    "877",
+    875,
+    877,
     0,
     0,
     0
    ],
    [
-    "875",
-    "878",
+    875,
+    878,
     1,
     0,
     0
    ],
    [
-    "876",
-    "875",
+    876,
+    875,
     1,
     0,
     0
    ],
    [
-    "877",
-    "880",
+    877,
+    880,
     0,
     0,
     0
    ],
    [
-    "878",
-    "877",
+    878,
+    877,
     1,
     0,
     0
    ],
    [
-    "879",
-    "877",
+    879,
+    877,
     1,
     1,
     0
    ],
    [
-    "880",
-    "882",
+    880,
+    882,
     0,
     0,
     0
    ],
    [
-    "880",
-    "886",
+    880,
+    886,
     1,
     0,
     0
    ],
    [
-    "881",
-    "880",
+    881,
+    880,
     1,
     0,
     0
    ],
    [
-    "882",
-    "884",
+    882,
+    884,
     0,
     0,
     0
    ],
    [
-    "882",
-    "885",
+    882,
+    885,
     1,
     0,
     0
    ],
    [
-    "883",
-    "882",
+    883,
+    882,
     1,
     0,
     0
    ],
    [
-    "884",
-    "887",
+    884,
+    887,
     0,
     0,
     0
    ],
    [
-    "884",
-    "888",
+    884,
+    888,
     1,
     0,
     0
    ],
    [
-    "885",
-    "884",
+    885,
+    884,
     1,
     0,
     0
    ],
    [
-    "886",
-    "884",
+    886,
+    884,
     1,
     1,
     0
    ],
    [
-    "887",
-    "890",
+    887,
+    890,
     0,
     0,
     0
    ],
    [
-    "888",
-    "887",
+    888,
+    887,
     1,
     0,
     0
    ],
    [
-    "889",
-    "887",
+    889,
+    887,
     1,
     1,
     0
    ],
    [
-    "890",
-    "891",
+    890,
+    891,
     0,
     0,
     1
    ],
    [
-    "891",
-    "893",
+    891,
+    893,
     0,
     0,
     0
    ],
    [
-    "891",
-    "894",
+    891,
+    894,
     1,
     0,
     0
    ],
    [
-    "892",
-    "891",
+    892,
+    891,
     1,
     0,
     0
    ],
    [
-    "893",
-    "895",
+    893,
+    895,
     0,
     0,
     0
    ],
    [
-    "893",
-    "896",
+    893,
+    896,
     1,
     0,
     0
    ],
    [
-    "894",
-    "893",
+    894,
+    893,
     1,
     0,
     0
    ],
    [
-    "895",
-    "897",
+    895,
+    897,
     0,
     0,
     1
    ],
    [
-    "895",
-    "954",
+    895,
+    954,
     0,
     1,
     1
    ],
    [
-    "896",
-    "895",
+    896,
+    895,
     1,
     0,
     0
    ],
    [
-    "897",
-    "899",
+    897,
+    899,
     0,
     0,
     0
    ],
    [
-    "897",
-    "900",
+    897,
+    900,
     1,
     0,
     0
    ],
    [
-    "898",
-    "897",
+    898,
+    897,
     1,
     0,
     0
    ],
    [
-    "899",
-    "901",
+    899,
+    901,
     0,
     0,
     0
    ],
    [
-    "899",
-    "902",
+    899,
+    902,
     1,
     0,
     0
    ],
    [
-    "900",
-    "899",
+    900,
+    899,
     1,
     0,
     0
    ],
    [
-    "901",
-    "903",
+    901,
+    903,
     0,
     0,
     0
    ],
    [
-    "901",
-    "908",
+    901,
+    908,
     1,
     0,
     0
    ],
    [
-    "902",
-    "901",
+    902,
+    901,
     1,
     2,
     0
    ],
    [
-    "903",
-    "905",
+    903,
+    905,
     0,
     0,
     0
    ],
    [
-    "903",
-    "906",
+    903,
+    906,
     1,
     0,
     0
    ],
    [
-    "904",
-    "903",
+    904,
+    903,
     1,
     0,
     0
    ],
    [
-    "905",
-    "907",
+    905,
+    907,
     0,
     0,
     0
    ],
    [
-    "905",
-    "909",
+    905,
+    909,
     1,
     0,
     0
    ],
    [
-    "906",
-    "905",
+    906,
+    905,
     1,
     0,
     0
    ],
    [
-    "907",
-    "910",
+    907,
+    910,
     0,
     0,
     0
    ],
    [
-    "907",
-    "915",
+    907,
+    915,
     1,
     0,
     0
    ],
    [
-    "908",
-    "907",
+    908,
+    907,
     1,
     0,
     0
    ],
    [
-    "909",
-    "907",
+    909,
+    907,
     1,
     2,
     0
    ],
    [
-    "910",
-    "912",
+    910,
+    912,
     0,
     0,
     0
    ],
    [
-    "910",
-    "913",
+    910,
+    913,
     1,
     0,
     0
    ],
    [
-    "911",
-    "910",
+    911,
+    910,
     1,
     0,
     0
    ],
    [
-    "912",
-    "914",
+    912,
+    914,
     0,
     0,
     0
    ],
    [
-    "912",
-    "916",
+    912,
+    916,
     1,
     0,
     0
    ],
    [
-    "913",
-    "912",
+    913,
+    912,
     1,
     0,
     0
    ],
    [
-    "914",
-    "917",
+    914,
+    917,
     0,
     0,
     0
    ],
    [
-    "914",
-    "918",
+    914,
+    918,
     1,
     0,
     0
    ],
    [
-    "915",
-    "914",
+    915,
+    914,
     1,
     0,
     0
    ],
    [
-    "916",
-    "914",
+    916,
+    914,
     1,
     2,
     0
    ],
    [
-    "917",
-    "919",
+    917,
+    919,
     0,
     0,
     0
    ],
    [
-    "917",
-    "920",
+    917,
+    920,
     1,
     0,
     0
    ],
    [
-    "917",
-    "923",
+    917,
+    923,
     1,
     0,
     0
    ],
    [
-    "918",
-    "917",
+    918,
+    917,
     1,
     0,
     0
    ],
    [
-    "919",
-    "922",
+    919,
+    922,
     0,
     0,
     0
    ],
    [
-    "920",
-    "919",
+    920,
+    919,
     1,
     0,
     0
    ],
    [
-    "921",
-    "919",
+    921,
+    919,
     1,
     1,
     0
    ],
    [
-    "922",
-    "924",
+    922,
+    924,
     0,
     0,
     0
    ],
    [
-    "922",
-    "925",
+    922,
+    925,
     1,
     0,
     0
    ],
    [
-    "923",
-    "922",
+    923,
+    922,
     1,
     0,
     0
    ],
    [
-    "924",
-    "926",
+    924,
+    926,
     0,
     0,
     0
    ],
    [
-    "924",
-    "927",
+    924,
+    927,
     1,
     0,
     0
    ],
    [
-    "924",
-    "1012",
+    924,
+    1012,
     2,
     0,
     -1
    ],
    [
-    "925",
-    "924",
+    925,
+    924,
     1,
     1,
     0
    ],
    [
-    "926",
-    "928",
+    926,
+    928,
     0,
     0,
     0
    ],
    [
-    "926",
-    "933",
+    926,
+    933,
     1,
     0,
     0
    ],
    [
-    "926",
-    "1015",
+    926,
+    1015,
     2,
     0,
     -1
    ],
    [
-    "927",
-    "926",
+    927,
+    926,
     1,
     0,
     0
    ],
    [
-    "928",
-    "930",
+    928,
+    930,
     0,
     0,
     0
    ],
    [
-    "928",
-    "931",
+    928,
+    931,
     1,
     0,
     0
    ],
    [
-    "929",
-    "928",
+    929,
+    928,
     1,
     0,
     0
    ],
    [
-    "930",
-    "932",
+    930,
+    932,
     0,
     0,
     0
    ],
    [
-    "930",
-    "934",
+    930,
+    934,
     1,
     0,
     0
    ],
    [
-    "931",
-    "930",
+    931,
+    930,
     1,
     0,
     0
    ],
    [
-    "932",
-    "935",
+    932,
+    935,
     0,
     0,
     0
    ],
    [
-    "932",
-    "936",
+    932,
+    936,
     1,
     0,
     0
    ],
    [
-    "932",
-    "1012",
+    932,
+    1012,
     2,
     0,
     -1
    ],
    [
-    "933",
-    "932",
+    933,
+    932,
     1,
     0,
     0
    ],
    [
-    "934",
-    "932",
+    934,
+    932,
     1,
     1,
     0
    ],
    [
-    "935",
-    "937",
+    935,
+    937,
     0,
     0,
     0
    ],
    [
-    "935",
-    "1013",
+    935,
+    1013,
     2,
     0,
     -1
    ],
    [
-    "936",
-    "935",
+    936,
+    935,
     1,
     0,
     0
    ],
    [
-    "937",
-    "938",
+    937,
+    938,
     0,
     0,
     1
    ],
    [
-    "938",
-    "940",
+    938,
+    940,
     0,
     0,
     0
    ],
    [
-    "938",
-    "941",
+    938,
+    941,
     1,
     0,
     0
    ],
    [
-    "938",
-    "944",
+    938,
+    944,
     1,
     0,
     0
    ],
    [
-    "939",
-    "938",
+    939,
+    938,
     1,
     0,
     0
    ],
    [
-    "940",
-    "943",
+    940,
+    943,
     0,
     0,
     0
    ],
    [
-    "941",
-    "940",
+    941,
+    940,
     1,
     0,
     0
    ],
    [
-    "942",
-    "940",
+    942,
+    940,
     1,
     1,
     0
    ],
    [
-    "943",
-    "945",
+    943,
+    945,
     0,
     0,
     0
    ],
    [
-    "943",
-    "949",
+    943,
+    949,
     1,
     0,
     0
    ],
    [
-    "944",
-    "943",
+    944,
+    943,
     1,
     1,
     0
    ],
    [
-    "945",
-    "947",
+    945,
+    947,
     0,
     0,
     0
    ],
    [
-    "945",
-    "948",
+    945,
+    948,
     1,
     0,
     0
    ],
    [
-    "946",
-    "945",
+    946,
+    945,
     1,
     0,
     0
    ],
    [
-    "947",
-    "950",
+    947,
+    950,
     0,
     0,
     0
    ],
    [
-    "947",
-    "951",
+    947,
+    951,
     1,
     0,
     0
    ],
    [
-    "948",
-    "947",
+    948,
+    947,
     1,
     0,
     0
    ],
    [
-    "949",
-    "947",
+    949,
+    947,
     1,
     1,
     0
    ],
    [
-    "950",
-    "953",
+    950,
+    953,
     0,
     0,
     0
    ],
    [
-    "951",
-    "950",
+    951,
+    950,
     1,
     0,
     0
    ],
    [
-    "952",
-    "950",
+    952,
+    950,
     1,
     1,
     0
    ],
    [
-    "953",
-    "891",
+    953,
+    891,
     0,
     0,
     -1
    ],
    [
-    "954",
-    "956",
+    954,
+    956,
     0,
     0,
     0
    ],
    [
-    "954",
-    "957",
+    954,
+    957,
     1,
     0,
     0
    ],
    [
-    "955",
-    "954",
+    955,
+    954,
     1,
     0,
     0
    ],
    [
-    "956",
-    "958",
+    956,
+    958,
     0,
     0,
     0
    ],
    [
-    "956",
-    "959",
+    956,
+    959,
     1,
     0,
     0
    ],
    [
-    "957",
-    "956",
+    957,
+    956,
     1,
     0,
     0
    ],
    [
-    "958",
-    "960",
+    958,
+    960,
     0,
     0,
     0
    ],
    [
-    "958",
-    "961",
+    958,
+    961,
     1,
     0,
     0
    ],
    [
-    "958",
-    "1012",
+    958,
+    1012,
     2,
     0,
     -1
    ],
    [
-    "959",
-    "958",
+    959,
+    958,
     1,
     1,
     0
    ],
    [
-    "960",
-    "962",
+    960,
+    962,
     0,
     0,
     0
    ],
    [
-    "960",
-    "967",
+    960,
+    967,
     1,
     0,
     0
    ],
    [
-    "960",
-    "1015",
+    960,
+    1015,
     2,
     0,
     -1
    ],
    [
-    "961",
-    "960",
+    961,
+    960,
     1,
     0,
     0
    ],
    [
-    "962",
-    "964",
+    962,
+    964,
     0,
     0,
     0
    ],
    [
-    "962",
-    "965",
+    962,
+    965,
     1,
     0,
     0
    ],
    [
-    "963",
-    "962",
+    963,
+    962,
     1,
     0,
     0
    ],
    [
-    "964",
-    "966",
+    964,
+    966,
     0,
     0,
     0
    ],
    [
-    "964",
-    "968",
+    964,
+    968,
     1,
     0,
     0
    ],
    [
-    "965",
-    "964",
+    965,
+    964,
     1,
     0,
     0
    ],
    [
-    "966",
-    "969",
+    966,
+    969,
     0,
     0,
     0
    ],
    [
-    "966",
-    "970",
+    966,
+    970,
     1,
     0,
     0
    ],
    [
-    "966",
-    "1012",
+    966,
+    1012,
     2,
     0,
     -1
    ],
    [
-    "967",
-    "966",
+    967,
+    966,
     1,
     0,
     0
    ],
    [
-    "968",
-    "966",
+    968,
+    966,
     1,
     1,
     0
    ],
    [
-    "969",
-    "971",
+    969,
+    971,
     0,
     0,
     0
    ],
    [
-    "969",
-    "1013",
+    969,
+    1013,
     2,
     0,
     -1
    ],
    [
-    "970",
-    "969",
+    970,
+    969,
     1,
     0,
     0
    ],
    [
-    "971",
-    "835",
+    971,
+    835,
     0,
     0,
     -1
    ],
    [
-    "972",
-    "0",
+    972,
+    0,
     2,
     0,
     -1
    ],
    [
-    "973",
-    "33",
+    973,
+    35,
     1,
     0,
     -1
    ],
    [
-    "974",
-    "35",
+    974,
+    33,
     1,
     0,
     -1
    ],
    [
-    "975",
-    "0",
+    975,
+    0,
     2,
     0,
     0
    ],
    [
-    "975",
-    "37",
+    975,
+    37,
     2,
     0,
     1
    ],
    [
-    "976",
-    "0",
+    976,
+    0,
     2,
     0,
     0
    ],
    [
-    "976",
-    "49",
+    976,
+    49,
     2,
     0,
     1
    ],
    [
-    "976",
-    "62",
+    976,
+    62,
     2,
     0,
     1
    ],
    [
-    "977",
-    "0",
+    977,
+    0,
     2,
     0,
     0
    ],
    [
-    "977",
-    "75",
+    977,
+    75,
     2,
     0,
     1
    ],
    [
-    "978",
-    "0",
+    978,
+    0,
     2,
     0,
     0
    ],
    [
-    "978",
-    "64",
+    978,
+    64,
     2,
     0,
     1
    ],
    [
-    "979",
-    "980",
+    979,
+    980,
     0,
     0,
     0
    ],
    [
-    "979",
-    "981",
+    979,
+    981,
     1,
     0,
     0
    ],
    [
-    "979",
-    "983",
+    979,
+    983,
     1,
     0,
     0
    ],
    [
-    "979",
-    "987",
+    979,
+    987,
     1,
     0,
     0
    ],
    [
-    "980",
-    "982",
+    980,
+    982,
     0,
     0,
     0
    ],
    [
-    "981",
-    "980",
+    981,
+    980,
     1,
     1,
     0
    ],
    [
-    "982",
-    "984",
+    982,
+    984,
     0,
     0,
     0
    ],
    [
-    "982",
-    "985",
+    982,
+    985,
     1,
     0,
     0
    ],
    [
-    "983",
-    "982",
+    983,
+    982,
     1,
     0,
     0
    ],
    [
-    "984",
-    "986",
+    984,
+    986,
     0,
     0,
     0
    ],
    [
-    "984",
-    "1016",
+    984,
+    1016,
     2,
     0,
     1
    ],
    [
-    "985",
-    "984",
+    985,
+    984,
     1,
     0,
     0
    ],
    [
-    "986",
-    "988",
+    986,
+    988,
     0,
     0,
     0
    ],
    [
-    "986",
-    "989",
+    986,
+    989,
     1,
     0,
     0
    ],
    [
-    "987",
-    "986",
+    987,
+    986,
     1,
     0,
     0
    ],
    [
-    "988",
-    "0",
+    988,
+    0,
     2,
     0,
     -1
    ],
    [
-    "989",
-    "988",
+    989,
+    988,
     1,
     0,
     0
    ],
    [
-    "990",
-    "980",
+    990,
+    980,
     1,
     0,
     -1
    ],
    [
-    "991",
-    "992",
+    991,
+    992,
     0,
     0,
     0
    ],
    [
-    "991",
-    "996",
+    991,
+    996,
     1,
     0,
     0
    ],
    [
-    "991",
-    "1003",
+    991,
+    1003,
     1,
     0,
     0
    ],
    [
-    "992",
-    "993",
+    992,
+    993,
     0,
     0,
     0
    ],
    [
-    "992",
-    "994",
+    992,
+    994,
     1,
     0,
     0
    ],
    [
-    "992",
-    "998",
+    992,
+    998,
     1,
     0,
     0
    ],
    [
-    "993",
-    "995",
+    993,
+    995,
     0,
     0,
     0
    ],
    [
-    "994",
-    "993",
+    994,
+    993,
     1,
     1,
     0
    ],
    [
-    "995",
-    "997",
+    995,
+    997,
     0,
     0,
     0
    ],
    [
-    "995",
-    "1001",
+    995,
+    1001,
     1,
     0,
     0
    ],
    [
-    "996",
-    "995",
+    996,
+    995,
     1,
     0,
     0
    ],
    [
-    "997",
-    "999",
+    997,
+    999,
     0,
     0,
     0
    ],
    [
-    "997",
-    "1000",
+    997,
+    1000,
     1,
     0,
     0
    ],
    [
-    "998",
-    "997",
+    998,
+    997,
     1,
     0,
     0
    ],
    [
-    "999",
-    "1002",
+    999,
+    1002,
     0,
     0,
     0
    ],
    [
-    "1000",
-    "999",
+    1000,
+    999,
     1,
     0,
     0
    ],
    [
-    "1001",
-    "999",
+    1001,
+    999,
     1,
     1,
     0
    ],
    [
-    "1002",
-    "1004",
+    1002,
+    1004,
     0,
     0,
     0
    ],
    [
-    "1002",
-    "1005",
+    1002,
+    1005,
     1,
     0,
     0
    ],
    [
-    "1003",
-    "1002",
+    1003,
+    1002,
     1,
     0,
     0
    ],
    [
-    "1004",
-    "1006",
+    1004,
+    1006,
     0,
     0,
     0
    ],
    [
-    "1004",
-    "1007",
+    1004,
+    1007,
     1,
     0,
     0
    ],
    [
-    "1005",
-    "1004",
+    1005,
+    1004,
     1,
     0,
     0
    ],
    [
-    "1006",
-    "0",
+    1006,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1006",
-    "65",
+    1006,
+    65,
     2,
     0,
     -1
    ],
    [
-    "1007",
-    "1006",
+    1007,
+    1006,
     1,
     0,
     0
    ],
    [
-    "1008",
-    "993",
+    1008,
+    993,
     1,
     0,
     -1
    ],
    [
-    "1009",
-    "0",
+    1009,
+    0,
     2,
     0,
     0
    ],
    [
-    "1009",
-    "79",
+    1009,
+    94,
     2,
     0,
     1
    ],
    [
-    "1009",
-    "94",
+    1009,
+    92,
     2,
     0,
     1
    ],
    [
-    "1009",
-    "92",
+    1009,
+    79,
     2,
     0,
     1
    ],
    [
-    "1009",
-    "78",
+    1009,
+    78,
     2,
     0,
     1
    ],
    [
-    "1010",
-    "0",
+    1010,
+    0,
     2,
     0,
     0
    ],
    [
-    "1010",
-    "559",
+    1010,
+    559,
     2,
     0,
     1
    ],
    [
-    "1011",
-    "0",
+    1011,
+    0,
     2,
     0,
     0
    ],
    [
-    "1011",
-    "598",
+    1011,
+    598,
     2,
     0,
     1
    ],
    [
-    "1012",
-    "0",
+    1012,
+    0,
     2,
     0,
     0
    ],
    [
-    "1012",
-    "932",
+    1012,
+    924,
     2,
     0,
     1
    ],
    [
-    "1012",
-    "966",
+    1012,
+    822,
     2,
     0,
     1
    ],
    [
-    "1012",
-    "958",
+    1012,
+    966,
     2,
     0,
     1
    ],
    [
-    "1012",
-    "924",
+    1012,
+    932,
     2,
     0,
     1
    ],
    [
-    "1012",
-    "822",
+    1012,
+    958,
     2,
     0,
     1
    ],
    [
-    "1013",
-    "0",
+    1013,
+    0,
     2,
     0,
     0
    ],
    [
-    "1013",
-    "824",
+    1013,
+    935,
     2,
     0,
     1
    ],
    [
-    "1013",
-    "969",
+    1013,
+    824,
     2,
     0,
     1
    ],
    [
-    "1013",
-    "935",
+    1013,
+    969,
     2,
     0,
     1
    ],
    [
-    "1014",
-    "0",
+    1014,
+    0,
     2,
     0,
     0
    ],
    [
-    "1015",
-    "0",
+    1015,
+    0,
     2,
     0,
     0
    ],
    [
-    "1015",
-    "926",
+    1015,
+    960,
     2,
     0,
     1
    ],
    [
-    "1015",
-    "960",
+    1015,
+    926,
     2,
     0,
     1
    ],
    [
-    "1016",
-    "1017",
+    1016,
+    1017,
     0,
     0,
     0
    ],
    [
-    "1016",
-    "1021",
+    1016,
+    1021,
     1,
     0,
     0
    ],
    [
-    "1016",
-    "1027",
+    1016,
+    1027,
     1,
     0,
     0
    ],
    [
-    "1017",
-    "1018",
+    1017,
+    1018,
     0,
     0,
     0
    ],
    [
-    "1017",
-    "1023",
+    1017,
+    1023,
     1,
     0,
     0
    ],
    [
-    "1017",
-    "1045",
+    1017,
+    1045,
     1,
     0,
     0
    ],
    [
-    "1018",
-    "1019",
+    1018,
+    1019,
     0,
     0,
     0
    ],
    [
-    "1018",
-    "1025",
+    1018,
+    1025,
     1,
     0,
     0
    ],
    [
-    "1018",
-    "1036",
+    1018,
+    1036,
     1,
     0,
     0
    ],
    [
-    "1018",
-    "1047",
+    1018,
+    1047,
     1,
     0,
     0
    ],
    [
-    "1019",
-    "1020",
+    1019,
+    1020,
     0,
     0,
     0
    ],
    [
-    "1019",
-    "1034",
+    1019,
+    1034,
     1,
     0,
     0
    ],
    [
-    "1019",
-    "1057",
+    1019,
+    1057,
     1,
     0,
     0
    ],
    [
-    "1020",
-    "1022",
+    1020,
+    1022,
     0,
     0,
     0
    ],
    [
-    "1021",
-    "1020",
+    1021,
+    1020,
     1,
     1,
     0
    ],
    [
-    "1022",
-    "1024",
+    1022,
+    1024,
     0,
     0,
     0
    ],
    [
-    "1023",
-    "1022",
+    1023,
+    1022,
     1,
     1,
     0
    ],
    [
-    "1024",
-    "1026",
+    1024,
+    1026,
     0,
     0,
     0
    ],
    [
-    "1025",
-    "1024",
+    1025,
+    1024,
     1,
     1,
     0
    ],
    [
-    "1026",
-    "1028",
+    1026,
+    1028,
     0,
     0,
     0
    ],
    [
-    "1026",
-    "1029",
+    1026,
+    1029,
     1,
     0,
     0
    ],
    [
-    "1026",
-    "1040",
+    1026,
+    1040,
     1,
     0,
     0
    ],
    [
-    "1026",
-    "1052",
+    1026,
+    1052,
     1,
     0,
     0
    ],
    [
-    "1027",
-    "1026",
+    1027,
+    1026,
     1,
     0,
     0
    ],
    [
-    "1028",
-    "1030",
+    1028,
+    1030,
     0,
     0,
     0
    ],
    [
-    "1028",
-    "1031",
+    1028,
+    1031,
     1,
     0,
     0
    ],
    [
-    "1029",
-    "1028",
+    1029,
+    1028,
     1,
     0,
     0
    ],
    [
-    "1030",
-    "1032",
+    1030,
+    1032,
     0,
     0,
     0
    ],
    [
-    "1030",
-    "1033",
+    1030,
+    1033,
     1,
     0,
     0
    ],
    [
-    "1031",
-    "1030",
+    1031,
+    1030,
     1,
     0,
     0
    ],
    [
-    "1032",
-    "1035",
+    1032,
+    1035,
     0,
     0,
     0
    ],
    [
-    "1033",
-    "1032",
+    1033,
+    1032,
     1,
     0,
     0
    ],
    [
-    "1034",
-    "1032",
+    1034,
+    1032,
     1,
     1,
     0
    ],
    [
-    "1035",
-    "1037",
+    1035,
+    1037,
     0,
     0,
     0
    ],
    [
-    "1035",
-    "1038",
+    1035,
+    1038,
     1,
     0,
     0
    ],
    [
-    "1036",
-    "1035",
+    1036,
+    1035,
     1,
     0,
     0
    ],
    [
-    "1037",
-    "1039",
+    1037,
+    1039,
     0,
     0,
     0
    ],
    [
-    "1037",
-    "1043",
+    1037,
+    1043,
     1,
     0,
     0
    ],
    [
-    "1037",
-    "1087",
+    1037,
+    1087,
     2,
     0,
     1
    ],
    [
-    "1038",
-    "1037",
+    1038,
+    1037,
     1,
     0,
     0
    ],
    [
-    "1039",
-    "1041",
+    1039,
+    1041,
     0,
     0,
     0
    ],
    [
-    "1039",
-    "1042",
+    1039,
+    1042,
     1,
     0,
     0
    ],
    [
-    "1040",
-    "1039",
+    1040,
+    1039,
     1,
     0,
     0
    ],
    [
-    "1041",
-    "1044",
+    1041,
+    1044,
     0,
     0,
     0
    ],
    [
-    "1041",
-    "1063",
+    1041,
+    1063,
     2,
     0,
     1
    ],
    [
-    "1042",
-    "1041",
+    1042,
+    1041,
     1,
     0,
     0
    ],
    [
-    "1043",
-    "1041",
+    1043,
+    1041,
     1,
     1,
     0
    ],
    [
-    "1044",
-    "1046",
+    1044,
+    1046,
     0,
     0,
     0
    ],
    [
-    "1044",
-    "1049",
+    1044,
+    1049,
     1,
     0,
     0
    ],
    [
-    "1045",
-    "1044",
+    1045,
+    1044,
     1,
     0,
     0
    ],
    [
-    "1046",
-    "1048",
+    1046,
+    1048,
     0,
     0,
     0
    ],
    [
-    "1046",
-    "1050",
+    1046,
+    1050,
     1,
     0,
     0
    ],
    [
-    "1047",
-    "1046",
+    1047,
+    1046,
     1,
     0,
     0
    ],
    [
-    "1048",
-    "1051",
+    1048,
+    1051,
     0,
     0,
     0
    ],
    [
-    "1048",
-    "1055",
+    1048,
+    1055,
     1,
     0,
     0
    ],
    [
-    "1048",
-    "1121",
+    1048,
+    1121,
     2,
     0,
     1
    ],
    [
-    "1049",
-    "1048",
+    1049,
+    1048,
     1,
     0,
     0
    ],
    [
-    "1050",
-    "1048",
+    1050,
+    1048,
     1,
     1,
     0
    ],
    [
-    "1051",
-    "1053",
+    1051,
+    1053,
     0,
     0,
     0
    ],
    [
-    "1051",
-    "1054",
+    1051,
+    1054,
     1,
     0,
     0
    ],
    [
-    "1052",
-    "1051",
+    1052,
+    1051,
     1,
     0,
     0
    ],
    [
-    "1053",
-    "1056",
+    1053,
+    1056,
     0,
     0,
     0
    ],
    [
-    "1053",
-    "1097",
+    1053,
+    1097,
     2,
     0,
     1
    ],
    [
-    "1054",
-    "1053",
+    1054,
+    1053,
     1,
     0,
     0
    ],
    [
-    "1055",
-    "1053",
+    1055,
+    1053,
     1,
     1,
     0
    ],
    [
-    "1056",
-    "1058",
+    1056,
+    1058,
     0,
     0,
     0
    ],
    [
-    "1056",
-    "1059",
+    1056,
+    1059,
     1,
     0,
     0
    ],
    [
-    "1057",
-    "1056",
+    1057,
+    1056,
     1,
     0,
     0
    ],
    [
-    "1058",
-    "0",
+    1058,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1058",
-    "984",
+    1058,
+    984,
     2,
     0,
     -1
    ],
    [
-    "1059",
-    "1058",
+    1059,
+    1058,
     1,
     0,
     0
    ],
    [
-    "1060",
-    "1022",
+    1060,
+    1020,
     1,
     0,
     -1
    ],
    [
-    "1061",
-    "1020",
+    1061,
+    1022,
     1,
     0,
     -1
    ],
    [
-    "1062",
-    "1024",
+    1062,
+    1024,
     1,
     0,
     -1
    ],
    [
-    "1063",
-    "1064",
+    1063,
+    1064,
     0,
     0,
     0
    ],
    [
-    "1063",
-    "1066",
+    1063,
+    1066,
     1,
     0,
     0
    ],
    [
-    "1063",
-    "1070",
+    1063,
+    1070,
     1,
     0,
     0
    ],
    [
-    "1063",
-    "1079",
+    1063,
+    1079,
     1,
     0,
     0
    ],
    [
-    "1064",
-    "1065",
+    1064,
+    1065,
     0,
     0,
     0
    ],
    [
-    "1064",
-    "1068",
+    1064,
+    1068,
     1,
     0,
     0
    ],
    [
-    "1064",
-    "1074",
+    1064,
+    1074,
     1,
     0,
     0
    ],
    [
-    "1065",
-    "1067",
+    1065,
+    1067,
     0,
     0,
     0
    ],
    [
-    "1066",
-    "1065",
+    1066,
+    1065,
     1,
     1,
     0
    ],
    [
-    "1067",
-    "1069",
+    1067,
+    1069,
     0,
     0,
     0
    ],
    [
-    "1068",
-    "1067",
+    1068,
+    1067,
     1,
     1,
     0
    ],
    [
-    "1069",
-    "1071",
+    1069,
+    1071,
     0,
     0,
     0
    ],
    [
-    "1069",
-    "1072",
+    1069,
+    1072,
     1,
     0,
     0
    ],
    [
-    "1070",
-    "1069",
+    1070,
+    1069,
     1,
     0,
     0
    ],
    [
-    "1071",
-    "1073",
+    1071,
+    1073,
     0,
     0,
     0
    ],
    [
-    "1071",
-    "1076",
+    1071,
+    1076,
     1,
     0,
     0
    ],
    [
-    "1072",
-    "1071",
+    1072,
+    1071,
     1,
     0,
     0
    ],
    [
-    "1073",
-    "1075",
+    1073,
+    1075,
     0,
     0,
     0
    ],
    [
-    "1073",
-    "1077",
+    1073,
+    1077,
     1,
     0,
     0
    ],
    [
-    "1074",
-    "1073",
+    1074,
+    1073,
     1,
     0,
     0
    ],
    [
-    "1075",
-    "1078",
+    1075,
+    1078,
     0,
     0,
     0
    ],
    [
-    "1075",
-    "1081",
+    1075,
+    1081,
     1,
     0,
     0
    ],
    [
-    "1075",
-    "1121",
+    1075,
+    1121,
     2,
     0,
     1
    ],
    [
-    "1076",
-    "1075",
+    1076,
+    1075,
     1,
     0,
     0
    ],
    [
-    "1077",
-    "1075",
+    1077,
+    1075,
     1,
     1,
     0
    ],
    [
-    "1078",
-    "1080",
+    1078,
+    1080,
     0,
     0,
     0
    ],
    [
-    "1078",
-    "1082",
+    1078,
+    1082,
     1,
     0,
     0
    ],
    [
-    "1078",
-    "1084",
+    1078,
+    1084,
     1,
     0,
     0
    ],
    [
-    "1079",
-    "1078",
+    1079,
+    1078,
     1,
     0,
     0
    ],
    [
-    "1080",
-    "1083",
+    1080,
+    1083,
     0,
     0,
     0
    ],
    [
-    "1081",
-    "1080",
+    1081,
+    1080,
     1,
     0,
     0
    ],
    [
-    "1082",
-    "1080",
+    1082,
+    1080,
     1,
     1,
     0
    ],
    [
-    "1083",
-    "0",
+    1083,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1083",
-    "1041",
+    1083,
+    1041,
     2,
     0,
     -1
    ],
    [
-    "1084",
-    "1083",
+    1084,
+    1083,
     1,
     0,
     0
    ],
    [
-    "1085",
-    "1067",
+    1085,
+    1065,
     1,
     0,
     -1
    ],
    [
-    "1086",
-    "1065",
+    1086,
+    1067,
     1,
     0,
     -1
    ],
    [
-    "1087",
-    "1088",
+    1087,
+    1088,
     0,
     0,
     0
    ],
    [
-    "1087",
-    "1089",
+    1087,
+    1089,
     1,
     0,
     0
    ],
    [
-    "1087",
-    "1091",
+    1087,
+    1091,
     1,
     0,
     0
    ],
    [
-    "1088",
-    "1090",
+    1088,
+    1090,
     0,
     0,
     0
    ],
    [
-    "1089",
-    "1088",
+    1089,
+    1088,
     1,
     1,
     0
    ],
    [
-    "1090",
-    "1092",
+    1090,
+    1092,
     0,
     0,
     0
    ],
    [
-    "1090",
-    "1093",
+    1090,
+    1093,
     1,
     0,
     0
    ],
    [
-    "1091",
-    "1090",
+    1091,
+    1090,
     1,
     0,
     0
    ],
    [
-    "1092",
-    "1094",
+    1092,
+    1094,
     0,
     0,
     0
    ],
    [
-    "1092",
-    "1095",
+    1092,
+    1095,
     1,
     0,
     0
    ],
    [
-    "1093",
-    "1092",
+    1093,
+    1092,
     1,
     0,
     0
    ],
    [
-    "1094",
-    "0",
+    1094,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1094",
-    "1037",
+    1094,
+    1037,
     2,
     0,
     -1
    ],
    [
-    "1095",
-    "1094",
+    1095,
+    1094,
     1,
     0,
     0
    ],
    [
-    "1096",
-    "1088",
+    1096,
+    1088,
     1,
     0,
     -1
    ],
    [
-    "1097",
-    "1098",
+    1097,
+    1098,
     0,
     0,
     0
    ],
    [
-    "1097",
-    "1100",
+    1097,
+    1100,
     1,
     0,
     0
    ],
    [
-    "1097",
-    "1104",
+    1097,
+    1104,
     1,
     0,
     0
    ],
    [
-    "1097",
-    "1113",
+    1097,
+    1113,
     1,
     0,
     0
    ],
    [
-    "1098",
-    "1099",
+    1098,
+    1099,
     0,
     0,
     0
    ],
    [
-    "1098",
-    "1102",
+    1098,
+    1102,
     1,
     0,
     0
    ],
    [
-    "1098",
-    "1108",
+    1098,
+    1108,
     1,
     0,
     0
    ],
    [
-    "1099",
-    "1101",
+    1099,
+    1101,
     0,
     0,
     0
    ],
    [
-    "1100",
-    "1099",
+    1100,
+    1099,
     1,
     1,
     0
    ],
    [
-    "1101",
-    "1103",
+    1101,
+    1103,
     0,
     0,
     0
    ],
    [
-    "1102",
-    "1101",
+    1102,
+    1101,
     1,
     1,
     0
    ],
    [
-    "1103",
-    "1105",
+    1103,
+    1105,
     0,
     0,
     0
    ],
    [
-    "1103",
-    "1106",
+    1103,
+    1106,
     1,
     0,
     0
    ],
    [
-    "1104",
-    "1103",
+    1104,
+    1103,
     1,
     0,
     0
    ],
    [
-    "1105",
-    "1107",
+    1105,
+    1107,
     0,
     0,
     0
    ],
    [
-    "1105",
-    "1110",
+    1105,
+    1110,
     1,
     0,
     0
    ],
    [
-    "1106",
-    "1105",
+    1106,
+    1105,
     1,
     0,
     0
    ],
    [
-    "1107",
-    "1109",
+    1107,
+    1109,
     0,
     0,
     0
    ],
    [
-    "1107",
-    "1111",
+    1107,
+    1111,
     1,
     0,
     0
    ],
    [
-    "1108",
-    "1107",
+    1108,
+    1107,
     1,
     0,
     0
    ],
    [
-    "1109",
-    "1112",
+    1109,
+    1112,
     0,
     0,
     0
    ],
    [
-    "1109",
-    "1115",
+    1109,
+    1115,
     1,
     0,
     0
    ],
    [
-    "1109",
-    "1138",
+    1109,
+    1138,
     2,
     0,
     1
    ],
    [
-    "1110",
-    "1109",
+    1110,
+    1109,
     1,
     0,
     0
    ],
    [
-    "1111",
-    "1109",
+    1111,
+    1109,
     1,
     1,
     0
    ],
    [
-    "1112",
-    "1114",
+    1112,
+    1114,
     0,
     0,
     0
    ],
    [
-    "1112",
-    "1116",
+    1112,
+    1116,
     1,
     0,
     0
    ],
    [
-    "1112",
-    "1118",
+    1112,
+    1118,
     1,
     0,
     0
    ],
    [
-    "1113",
-    "1112",
+    1113,
+    1112,
     1,
     0,
     0
    ],
    [
-    "1114",
-    "1117",
+    1114,
+    1117,
     0,
     0,
     0
    ],
    [
-    "1115",
-    "1114",
+    1115,
+    1114,
     1,
     0,
     0
    ],
    [
-    "1116",
-    "1114",
+    1116,
+    1114,
     1,
     1,
     0
    ],
    [
-    "1117",
-    "0",
+    1117,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1117",
-    "1053",
+    1117,
+    1053,
     2,
     0,
     -1
    ],
    [
-    "1118",
-    "1117",
+    1118,
+    1117,
     1,
     0,
     0
    ],
    [
-    "1119",
-    "1101",
+    1119,
+    1101,
     1,
     0,
     -1
    ],
    [
-    "1120",
-    "1099",
+    1120,
+    1099,
     1,
     0,
     -1
    ],
    [
-    "1121",
-    "1122",
+    1121,
+    1122,
     0,
     0,
     0
    ],
    [
-    "1121",
-    "1124",
+    1121,
+    1124,
     1,
     0,
     0
    ],
    [
-    "1121",
-    "1128",
+    1121,
+    1128,
     1,
     0,
     0
    ],
    [
-    "1122",
-    "1123",
+    1122,
+    1123,
     0,
     0,
     0
    ],
    [
-    "1122",
-    "1126",
+    1122,
+    1126,
     1,
     0,
     0
    ],
    [
-    "1122",
-    "1130",
+    1122,
+    1130,
     1,
     0,
     0
    ],
    [
-    "1123",
-    "1125",
+    1123,
+    1125,
     0,
     0,
     0
    ],
    [
-    "1124",
-    "1123",
+    1124,
+    1123,
     1,
     1,
     0
    ],
    [
-    "1125",
-    "1127",
+    1125,
+    1127,
     0,
     0,
     0
    ],
    [
-    "1126",
-    "1125",
+    1126,
+    1125,
     1,
     1,
     0
    ],
    [
-    "1127",
-    "1129",
+    1127,
+    1129,
     0,
     0,
     0
    ],
    [
-    "1127",
-    "1132",
+    1127,
+    1132,
     1,
     0,
     0
    ],
    [
-    "1128",
-    "1127",
+    1128,
+    1127,
     1,
     0,
     0
    ],
    [
-    "1129",
-    "1131",
+    1129,
+    1131,
     0,
     0,
     0
    ],
    [
-    "1129",
-    "1133",
+    1129,
+    1133,
     1,
     0,
     0
    ],
    [
-    "1130",
-    "1129",
+    1130,
+    1129,
     1,
     0,
     0
    ],
    [
-    "1131",
-    "1134",
+    1131,
+    1134,
     0,
     0,
     0
    ],
    [
-    "1131",
-    "1135",
+    1131,
+    1135,
     1,
     0,
     0
    ],
    [
-    "1132",
-    "1131",
+    1132,
+    1131,
     1,
     0,
     0
    ],
    [
-    "1133",
-    "1131",
+    1133,
+    1131,
     1,
     1,
     0
    ],
    [
-    "1134",
-    "0",
+    1134,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1134",
-    "1048",
+    1134,
+    1075,
     2,
     0,
     -1
    ],
    [
-    "1134",
-    "1075",
+    1134,
+    1048,
     2,
     0,
     -1
    ],
    [
-    "1135",
-    "1134",
+    1135,
+    1134,
     1,
     0,
     0
    ],
    [
-    "1136",
-    "1125",
+    1136,
+    1125,
     1,
     0,
     -1
    ],
    [
-    "1137",
-    "1123",
+    1137,
+    1123,
     1,
     0,
     -1
    ],
    [
-    "1138",
-    "1139",
+    1138,
+    1139,
     0,
     0,
     0
    ],
    [
-    "1138",
-    "1141",
+    1138,
+    1141,
     1,
     0,
     0
    ],
    [
-    "1138",
-    "1145",
+    1138,
+    1145,
     1,
     0,
     0
    ],
    [
-    "1139",
-    "1140",
+    1139,
+    1140,
     0,
     0,
     0
    ],
    [
-    "1139",
-    "1143",
+    1139,
+    1143,
     1,
     0,
     0
    ],
    [
-    "1139",
-    "1147",
+    1139,
+    1147,
     1,
     0,
     0
    ],
    [
-    "1140",
-    "1142",
+    1140,
+    1142,
     0,
     0,
     0
    ],
    [
-    "1141",
-    "1140",
+    1141,
+    1140,
     1,
     1,
     0
    ],
    [
-    "1142",
-    "1144",
+    1142,
+    1144,
     0,
     0,
     0
    ],
    [
-    "1143",
-    "1142",
+    1143,
+    1142,
     1,
     1,
     0
    ],
    [
-    "1144",
-    "1146",
+    1144,
+    1146,
     0,
     0,
     0
    ],
    [
-    "1144",
-    "1149",
+    1144,
+    1149,
     1,
     0,
     0
    ],
    [
-    "1145",
-    "1144",
+    1145,
+    1144,
     1,
     0,
     0
    ],
    [
-    "1146",
-    "1148",
+    1146,
+    1148,
     0,
     0,
     0
    ],
    [
-    "1146",
-    "1150",
+    1146,
+    1150,
     1,
     0,
     0
    ],
    [
-    "1147",
-    "1146",
+    1147,
+    1146,
     1,
     0,
     0
    ],
    [
-    "1148",
-    "1151",
+    1148,
+    1151,
     0,
     0,
     0
    ],
    [
-    "1148",
-    "1152",
+    1148,
+    1152,
     1,
     0,
     0
    ],
    [
-    "1149",
-    "1148",
+    1149,
+    1148,
     1,
     0,
     0
    ],
    [
-    "1150",
-    "1148",
+    1150,
+    1148,
     1,
     1,
     0
    ],
    [
-    "1151",
-    "0",
+    1151,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1151",
-    "1109",
+    1151,
+    1109,
     2,
     0,
     -1
    ],
    [
-    "1152",
-    "1151",
+    1152,
+    1151,
     1,
     0,
     0
    ],
    [
-    "1153",
-    "1142",
+    1153,
+    1140,
     1,
     0,
     -1
    ],
    [
-    "1154",
-    "1140",
+    1154,
+    1142,
     1,
     0,
     -1
    ],
    [
-    "1155",
-    "1156",
+    1155,
+    1156,
     0,
     0,
     0
    ],
    [
-    "1155",
-    "1",
+    1155,
+    1,
     2,
     0,
     -1
    ],
    [
-    "1156",
-    "0",
+    1156,
+    0,
     2,
     0,
     -1
    ],
    [
-    "1157",
-    "119",
+    1157,
+    984,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "137",
+    1158,
+    220,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1157",
-    "182",
+    1158,
+    403,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1157",
-    "201",
+    1158,
+    496,
     1,
+    0,
+    -1
+   ],
+   [
+    1158,
+    901,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "207",
+    1159,
+    7,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    8,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "210",
+    1159,
+    9,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1157",
-    "220",
+    1159,
+    10,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    11,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "226",
+    1159,
+    12,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    13,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "229",
+    1159,
+    14,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1157",
-    "330",
+    1159,
+    15,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    16,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "336",
+    1159,
+    17,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    18,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "343",
+    1159,
+    19,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    20,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "368",
+    1159,
+    21,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    22,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "403",
+    1159,
+    23,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    24,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "409",
+    1159,
+    25,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    26,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "416",
+    1159,
+    27,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    28,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "431",
+    1159,
+    29,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    30,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "437",
+    1159,
+    113,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    131,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "451",
+    1159,
+    150,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "465",
-    1,
+    1159,
+    188,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "471",
+    1159,
+    238,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "485",
+    1159,
+    247,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "496",
+    1159,
+    259,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    281,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "502",
+    1159,
+    306,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    374,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "516",
+    1159,
+    387,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    444,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "609",
+    1159,
+    478,
     1,
+    0,
+    -1
+   ],
+   [
+    1159,
+    509,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "622",
+    1159,
+    526,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "686",
+    1159,
+    535,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "692",
+    1159,
+    544,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "699",
+    1159,
+    553,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "712",
+    1159,
+    567,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1157",
-    "725",
+    1159,
+    600,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "736",
-    1,
+    1159,
+    647,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "738",
+    1159,
+    672,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1157",
-    "749",
+    1159,
+    773,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "751",
+    1159,
+    782,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "762",
+    1159,
+    791,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "764",
+    1159,
+    805,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "818",
-    1,
+    1159,
+    812,
     1,
+    0,
     -1
    ],
    [
-    "1157",
-    "845",
+    1159,
+    814,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "847",
+    1159,
+    827,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1157",
-    "858",
+    1159,
+    829,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "860",
+    1159,
+    837,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "871",
+    1159,
+    922,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "873",
+    1159,
+    930,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "901",
+    1159,
+    943,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1157",
-    "907",
+    1159,
+    956,
     1,
     1,
     -1
    ],
    [
-    "1157",
-    "914",
+    1159,
+    964,
     1,
     1,
     -1
    ],
    [
-    "1158",
-    "1",
+    1159,
+    979,
     1,
     0,
     -1
    ],
    [
-    "1159",
-    "58",
+    1159,
+    991,
     1,
     0,
     -1
    ],
    [
-    "1160",
-    "201",
+    1159,
+    992,
     1,
     0,
     -1
    ],
    [
-    "1160",
-    "330",
+    1159,
+    1016,
     1,
     0,
     -1
    ],
    [
-    "1160",
-    "431",
+    1159,
+    1017,
     1,
     0,
     -1
    ],
    [
-    "1160",
-    "465",
+    1159,
+    1018,
     1,
     0,
     -1
    ],
    [
-    "1160",
-    "686",
+    1159,
+    1019,
     1,
     0,
     -1
    ],
    [
-    "1161",
-    "2",
+    1159,
+    1063,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1162",
-    "39",
+    1159,
+    1064,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1162",
-    "52",
+    1159,
+    1087,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1163",
-    "220",
+    1159,
+    1097,
     1,
     0,
     -1
    ],
    [
-    "1163",
-    "403",
+    1159,
+    1098,
     1,
     0,
     -1
    ],
    [
-    "1163",
-    "496",
+    1159,
+    1121,
     1,
     0,
     -1
    ],
    [
-    "1163",
-    "901",
+    1159,
+    1122,
     1,
     0,
     -1
    ],
    [
-    "1164",
-    "79",
-    1,
+    1159,
+    1138,
     1,
+    0,
     -1
    ],
    [
-    "1164",
-    "86",
+    1159,
+    1139,
     1,
     0,
     -1
    ],
    [
-    "1165",
-    "736",
+    1160,
+    79,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1165",
-    "749",
+    1160,
+    86,
     1,
     0,
     -1
    ],
    [
-    "1165",
-    "762",
+    1161,
     1,
+    1,
     0,
     -1
    ],
    [
-    "1165",
-    "845",
+    1162,
+    65,
     1,
     0,
     -1
    ],
    [
-    "1165",
-    "858",
+    1163,
+    560,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1165",
-    "871",
+    1164,
+    39,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1166",
-    "559",
+    1164,
+    52,
     1,
-    2,
+    1,
     -1
    ],
    [
-    "1167",
-    "7",
+    1165,
+    559,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "8",
+    1166,
+    2,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "9",
+    1167,
+    559,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "10",
+    1168,
+    2,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1167",
-    "11",
+    1169,
+    31,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "12",
+    1169,
+    66,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1167",
-    "13",
+    1169,
+    71,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1167",
-    "14",
+    1169,
+    81,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "15",
+    1169,
+    156,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "16",
+    1169,
+    167,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "17",
+    1169,
+    193,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "18",
+    1169,
+    253,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "19",
+    1169,
+    266,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "20",
+    1169,
+    286,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "21",
+    1169,
+    291,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "22",
+    1169,
+    311,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "23",
+    1169,
+    353,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "24",
+    1169,
+    379,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "25",
+    1169,
+    392,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "26",
+    1169,
+    560,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "27",
+    1169,
+    561,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "28",
+    1169,
+    582,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "29",
+    1169,
+    632,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "30",
+    1169,
+    652,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "113",
+    1169,
+    657,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "131",
+    1169,
+    677,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "150",
+    1169,
+    893,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "188",
+    1169,
+    972,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "238",
+    1169,
+    995,
     1,
-    1,
+    2,
     -1
    ],
    [
-    "1167",
-    "247",
-    1,
+    1169,
+    1002,
     1,
+    2,
     -1
    ],
    [
-    "1167",
-    "259",
+    1169,
+    1028,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "281",
+    1169,
+    1039,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "306",
+    1169,
+    1051,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "374",
+    1170,
+    212,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "387",
+    1170,
+    488,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "444",
+    1171,
+    58,
     1,
     0,
     -1
    ],
    [
-    "1167",
-    "478",
+    1172,
+    119,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "509",
+    1172,
+    137,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "526",
+    1172,
+    182,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "535",
+    1172,
+    201,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "544",
+    1172,
+    207,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "553",
-    1,
+    1172,
+    210,
     1,
+    2,
     -1
    ],
    [
-    "1167",
-    "567",
+    1172,
+    220,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "600",
+    1172,
+    226,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "647",
+    1172,
+    229,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1167",
-    "672",
+    1172,
+    330,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "773",
+    1172,
+    336,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "782",
+    1172,
+    343,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "791",
+    1172,
+    368,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "805",
+    1172,
+    403,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "812",
+    1172,
+    409,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "814",
+    1172,
+    416,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "827",
+    1172,
+    431,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "829",
+    1172,
+    437,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "837",
+    1172,
+    451,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "922",
+    1172,
+    465,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "930",
+    1172,
+    471,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "943",
+    1172,
+    485,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "956",
+    1172,
+    496,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "964",
+    1172,
+    502,
     1,
     1,
     -1
    ],
    [
-    "1167",
-    "979",
+    1172,
+    516,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "991",
+    1172,
+    609,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "992",
+    1172,
+    622,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1016",
+    1172,
+    686,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1017",
+    1172,
+    692,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1018",
+    1172,
+    699,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1019",
+    1172,
+    712,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1063",
+    1172,
+    725,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1064",
+    1172,
+    736,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1087",
+    1172,
+    738,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1167",
-    "1097",
+    1172,
+    749,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1098",
+    1172,
+    751,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1121",
+    1172,
+    762,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1122",
+    1172,
+    764,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1138",
+    1172,
+    818,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1167",
-    "1139",
+    1172,
+    845,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1168",
-    "78",
+    1172,
+    847,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1168",
-    "92",
+    1172,
+    858,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1169",
-    "45",
+    1172,
+    860,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1170",
-    "751",
+    1172,
+    871,
     1,
-    2,
+    1,
     -1
    ],
    [
-    "1170",
-    "860",
+    1172,
+    873,
     1,
-    2,
+    1,
     -1
    ],
    [
-    "1171",
-    "926",
+    1172,
+    901,
     1,
     1,
     -1
    ],
    [
-    "1171",
-    "960",
+    1172,
+    907,
     1,
     1,
     -1
    ],
    [
-    "1172",
-    "78",
+    1172,
+    914,
     1,
     1,
     -1
    ],
    [
-    "1172",
-    "161",
+    1173,
+    51,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "172",
+    1174,
+    609,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "258",
+    1174,
+    622,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "271",
+    1174,
+    712,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "296",
+    1174,
+    725,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "358",
+    1174,
+    818,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "566",
+    1175,
+    49,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1172",
-    "637",
+    1175,
+    62,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1172",
-    "662",
+    1176,
+    736,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "811",
+    1176,
+    749,
     1,
     0,
     -1
    ],
    [
-    "1172",
-    "826",
+    1176,
+    762,
     1,
     0,
     -1
    ],
    [
-    "1173",
-    "212",
+    1176,
+    845,
     1,
     0,
     -1
    ],
    [
-    "1173",
-    "488",
+    1176,
+    858,
     1,
     0,
     -1
    ],
    [
-    "1174",
-    "559",
+    1176,
+    871,
     1,
-    1,
+    0,
     -1
    ],
    [
-    "1175",
-    "64",
+    1177,
+    764,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1175",
-    "822",
+    1177,
+    873,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1175",
-    "924",
+    1178,
+    926,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1175",
-    "958",
+    1178,
+    960,
     1,
-    0,
+    1,
     -1
    ],
    [
-    "1176",
-    "65",
+    1179,
+    984,
     1,
-    0,
+    2,
     -1
    ],
    [
-    "1177",
-    "1028",
+    1180,
+    1028,
     1,
     2,
     -1
    ],
    [
-    "1177",
-    "1039",
+    1180,
+    1039,
     1,
     2,
     -1
    ],
    [
-    "1177",
-    "1051",
+    1180,
+    1051,
     1,
     2,
     -1
    ],
    [
-    "1178",
-    "51",
+    1181,
+    201,
     1,
     0,
     -1
    ],
    [
-    "1179",
-    "764",
+    1181,
+    330,
     1,
-    2,
+    0,
     -1
    ],
    [
-    "1179",
-    "873",
+    1181,
+    431,
     1,
-    2,
+    0,
+    -1
+   ],
+   [
+    1181,
+    465,
+    1,
+    0,
+    -1
+   ],
+   [
+    1181,
+    686,
+    1,
+    0,
     -1
    ],
    [
-    "1180",
-    "560",
+    1182,
+    559,
     1,
+    2,
+    -1
+   ],
+   [
+    1183,
+    45,
     1,
+    0,
     -1
    ],
    [
-    "1181",
-    "99",
+    1184,
+    78,
     1,
     1,
     -1
    ],
    [
-    "1181",
-    "106",
+    1184,
+    161,
     1,
+    0,
+    -1
+   ],
+   [
+    1184,
+    172,
     1,
+    0,
     -1
    ],
    [
-    "1181",
-    "1092",
+    1184,
+    258,
     1,
+    0,
+    -1
+   ],
+   [
+    1184,
+    271,
     1,
+    0,
     -1
    ],
    [
-    "1182",
-    "49",
+    1184,
+    296,
     1,
+    0,
+    -1
+   ],
+   [
+    1184,
+    358,
     1,
+    0,
     -1
    ],
    [
-    "1182",
-    "62",
+    1184,
+    566,
     1,
+    0,
+    -1
+   ],
+   [
+    1184,
+    637,
     1,
+    0,
     -1
    ],
    [
-    "1183",
-    "984",
+    1184,
+    662,
     1,
+    0,
+    -1
+   ],
+   [
+    1184,
+    811,
     1,
+    0,
     -1
    ],
    [
-    "1184",
-    "2",
+    1184,
+    826,
     1,
     0,
+    -1
+   ],
+   [
+    1185,
+    2,
+    1,
+    1,
     -1
    ],
    [
-    "1185",
-    "119",
+    1186,
+    119,
     1,
     0,
     -1
    ],
    [
-    "1185",
-    "137",
+    1186,
+    137,
     1,
     0,
     -1
    ],
    [
-    "1185",
-    "182",
+    1186,
+    182,
     1,
     0,
     -1
    ],
    [
-    "1185",
-    "368",
+    1186,
+    368,
     1,
     0,
+    -1
+   ],
+   [
+    1187,
+    751,
+    1,
+    2,
+    -1
+   ],
+   [
+    1187,
+    860,
+    1,
+    2,
     -1
    ],
    [
-    "1186",
-    "37",
+    1188,
+    37,
     1,
     0,
     -1
    ],
    [
-    "1186",
-    "559",
+    1188,
+    559,
     1,
     3,
     -1
    ],
    [
-    "1187",
-    "984",
-    1,
-    2,
-    -1
-   ],
-   [
-    "1188",
-    "609",
+    1189,
+    64,
     1,
     0,
     -1
    ],
    [
-    "1188",
-    "622",
+    1189,
+    822,
     1,
     0,
     -1
    ],
    [
-    "1188",
-    "712",
+    1189,
+    924,
     1,
     0,
     -1
    ],
    [
-    "1188",
-    "725",
+    1189,
+    958,
     1,
     0,
     -1
    ],
    [
-    "1188",
-    "818",
+    1190,
+    78,
     1,
     0,
     -1
    ],
    [
-    "1189",
-    "31",
+    1190,
+    92,
     1,
     0,
     -1
    ],
    [
-    "1189",
-    "66",
-    1,
-    2,
-    -1
-   ],
-   [
-    "1189",
-    "71",
-    1,
-    2,
-    -1
-   ],
-   [
-    "1189",
-    "81",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "156",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "167",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "193",
+    1191,
+    99,
     1,
     1,
     -1
    ],
    [
-    "1189",
-    "253",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "266",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "286",
+    1191,
+    106,
     1,
     1,
     -1
    ],
    [
-    "1189",
-    "291",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "311",
+    1191,
+    1092,
     1,
     1,
     -1
    ],
    [
-    "1189",
-    "353",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "379",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "392",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "560",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "561",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "582",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "632",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "652",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "657",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "677",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "893",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "972",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1189",
-    "995",
-    1,
-    2,
-    -1
-   ],
-   [
-    "1189",
-    "1002",
-    1,
-    2,
-    -1
-   ],
-   [
-    "1189",
-    "1028",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "1039",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1189",
-    "1051",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1190",
-    "2",
-    1,
-    1,
-    -1
-   ],
-   [
-    "1191",
-    "559",
-    1,
-    0,
-    -1
-   ],
-   [
-    "1192",
-    "38",
+    1192,
+    38,
     1,
     0,
     -1
    ]
   ]
  },
- "feature3": [
-  -14.386416773711698,
-  -15.150032801316778,
-  -12.77030766661651,
-  -34.525162397716485,
-  25.003568277077456,
-  26.158946434680843,
-  12.567835174207218,
-  -22.36865584121229,
-  -40.42897337451937,
-  -6.519270725139156,
-  18.37055553009528,
-  -43.707676732367766,
-  -7.228268268540887,
-  43.64551918706651,
-  -13.631160955774138,
-  38.252658224616304,
-  56.34591207551824,
-  4.394911801196605,
-  -21.9245066666433,
-  -1.2351741770516822,
-  38.25615269301226,
-  -4.9281584308073745,
-  54.47037191348074,
-  48.42608134793157,
-  -31.72028689076229,
-  -1.6864790809351955,
-  -7.27237315532803,
-  13.484352306535225,
-  6.00617083541407,
-  5.046922059878239,
-  4.160694897975066,
-  -20.01287808918656,
-  18.36280424899857,
-  -44.82310411991982,
-  -17.205341643209977,
-  -17.891940704073328,
-  5.449155736343651,
-  12.064527203717104,
-  35.935612699202224,
-  -55.58910008945797,
-  9.79051309099751,
-  6.442140742563808,
-  -2.472254489038555,
-  -9.746513452978462,
-  -11.814345010161464,
-  -3.0339247179304034,
-  26.4603273279765,
-  33.570035325390215,
-  -5.270834235521483,
-  15.027526117921834,
-  28.419305421661605,
-  6.344658739133416,
-  -4.595816716893773,
-  9.513368631171527,
-  5.618969246994622,
-  4.190696011851455,
-  -0.3634235855090079,
-  1.2272296060155368,
-  -16.161069220864942,
-  -20.05732101043499,
-  -2.23192598651204,
-  -6.0544188995533625,
-  5.620222758342738,
-  34.1910596555303,
-  43.77838263513271,
-  4.752120829049848,
-  -3.5809862061942574,
-  28.67322899720255,
-  7.676879986905714,
-  7.958428728658576,
-  22.794506927335497,
-  7.248256276869553,
-  -11.126127713768971,
-  0.12299372187556834,
-  16.08551176090655,
-  -40.02144267374675,
-  -4.314374891393431,
-  -60.002532227114735,
-  -8.698530485086021,
-  -62.1039183539929,
-  -23.151556499724332,
-  5.809704785912814,
-  30.22624813403161,
-  9.84611079837527,
-  23.118470301253858,
-  -5.217196586811928,
-  33.8081153796468,
-  -2.911899293311985,
-  -13.529340659685985,
-  42.59620063866827,
-  41.09348612918545,
-  -33.38801024955688,
-  -17.707297606517137,
-  -21.62042522867498,
-  -23.264151035553105,
-  12.014148466138877,
-  -20.242471993394584,
-  3.6861962885883863,
-  18.176423838186512,
-  11.49839472811138,
-  -32.66471515980229,
-  -18.181641909837364,
-  15.598152278900482,
-  17.458688874450658,
-  -13.40427179167416,
-  -32.50825329559443,
-  11.003762300768114,
-  28.304402175616502,
-  -30.686413628722736,
-  -28.246915227911206,
-  4.997149600776127,
-  33.49480368425864,
-  -8.612543606883175,
-  -59.42820537549659,
-  -15.206842908334378,
-  -21.267463402185534,
-  14.724023730950394,
-  1.4915019362414532,
-  -14.195738407487779,
-  -32.52184396916116,
-  2.471142769407962,
-  14.190079739084696,
-  -11.120763490134951,
-  -19.39938203191996,
-  2.1383001011498117,
-  23.168454074131684,
-  22.425783993335276,
-  18.004554398071953,
-  3.485420687386798,
-  5.357527329799362,
-  12.304031556789969,
-  66.59023033773776,
-  3.320914759023569,
-  -24.244756008748713,
-  5.813977660571542,
-  -3.417981027754137,
-  -4.994227591743258,
-  21.251565457780416,
-  -18.671127309007122,
-  -19.87303810404692,
-  3.4988465015225985,
-  -37.51101249370044,
-  16.619962918930444,
-  28.758336171602423,
-  -21.05142992198868,
-  -12.297679567131654,
-  23.73771151917741,
-  15.006900817248539,
-  3.0569956766716415,
-  115.54850074276133,
-  5.1896502322816636,
-  51.08366040239209,
-  37.03811716147452,
-  -34.90587557183921,
-  6.950058227299263,
-  -17.444471547450878,
-  3.0620116466991076,
-  11.713648034116424,
-  15.020929937038433,
-  -0.967620017069739,
-  -47.2881940050772,
-  -33.993912403097916,
-  23.63213167933573,
-  38.6525726855657,
-  28.305219044595425,
-  -45.54535774246033,
-  -5.944824590600282,
-  1.1705144835414514,
-  -1.7734350109159525,
-  -1.0752660383655495,
-  -1.989475515158123,
-  9.51634718762159,
-  7.835037918741533,
-  -29.74692793214567,
-  -6.633292591053167,
-  38.917497358752854,
-  80.13190823547401,
-  -15.20799277173362,
-  -0.2517820924032944,
-  22.700357484877614,
-  20.62001025981247,
-  -11.67898923674413,
-  -50.53822035223986,
-  -18.284314675064863,
-  -27.717304317508255,
-  7.525453309683697,
-  18.750071911380893,
-  6.95964890177332,
-  19.68537276578667,
-  47.66573932993047,
-  -52.75922900669355,
-  29.40291351082623,
-  -3.414716586368809,
-  1.4510618300076974,
-  27.20422954489268,
-  20.33387957882845,
-  -42.902502061254374,
-  -43.92257787996868,
-  -12.136596581472899,
-  20.667629654816697,
-  43.085844423644794,
-  -10.722200188731946,
-  10.94366298942322,
-  15.47559184904386,
-  -31.67496862032599,
-  -3.299070858319639,
-  10.605473219637382,
-  -5.191223923166261,
-  -6.7099356317467755,
-  16.30678473261935,
-  3.1933671960595644,
-  -14.485659910913776,
-  -18.7746093813921,
-  14.05261623837235,
-  -11.200330060860258,
-  -6.518304949240337,
-  -3.425172215036311,
-  25.96058471478051,
-  9.537460846844347,
-  -42.30813078259992,
-  33.0536328212836,
-  -0.13291166958466621,
-  -17.247617962330445,
-  4.262726028545137,
-  -13.43328018875388,
-  44.21116156164534,
-  -32.14163199093537,
-  -35.02381555238349,
-  26.16131051637031,
-  -9.692788606887742,
-  -16.432023545565908,
-  -12.705965459480641,
-  6.567819952904228,
-  20.020072136257255,
-  16.386370231827616,
-  15.826148026581935,
-  -19.920120243931546,
-  -30.959890041307435,
-  27.48772761912257,
-  -8.117545798222883,
-  30.885313301889333,
-  16.05003728632093,
-  -5.991849762100111,
-  17.279956656150777,
-  -7.803091366529046,
-  -10.388871047768994,
-  -30.0072016037654,
-  -25.189221333200315,
-  5.020219370548268,
-  3.3175825773986505,
-  -39.215250730696,
-  -6.688129705900856,
-  -8.656400241366176,
-  35.27000747838754,
-  23.175335108450028,
-  2.196913602861135,
-  -38.994672420656194,
-  1.1821053591698054,
-  40.06546292852023,
-  -29.616771026447733,
-  -5.883387036477471,
-  24.32438825036267,
-  22.476563275650783,
-  -43.47310017076551,
-  7.445496734484745,
-  32.557218580527284,
-  -41.70344795676825,
-  7.525788765184455,
-  -16.18775837914561,
-  1.1452791519782886,
-  -15.951188939034974,
-  -28.182712476716077,
-  23.019541848132025,
-  12.749331937268655,
-  22.454831076868764,
-  -2.3122962937997036,
-  7.022405427883137,
-  4.170330677827569,
-  15.886013057345586,
-  12.905813963256067,
-  7.656436956629726,
-  7.3617800186831435,
-  48.65753704165857,
-  37.78120830999412,
-  -11.004212708876231,
-  -16.87193713539081,
-  -40.57674285083849,
-  17.4851540137605,
-  -44.081029081837386,
-  -51.04133506323378,
-  22.256560529120996,
-  4.3747811855278,
-  -31.690403504312048,
-  3.7773588289545974,
-  9.830519638222086,
-  41.458006488722255,
-  8.894927723441763,
-  -5.40406769178981,
-  -11.705978637749137,
-  8.701399208393903
- ]
+ "name": "8827_0.c"
 }

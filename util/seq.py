@@ -1,33 +1,22 @@
 
 import itertools
 from itertools import chain
+import os
+
+module_path = os.path.abspath(__file__)
+MODULE_DIR = os.path.dirname(module_path)
 
 
-inline_op=['-finline', '-fearly-inlining', '-finline-small-functions', 
-    '-fpartial-inlining', '-finline-functions', 
-    '-finline-functions-called-once','-findirect-inlining']
+with open(f'{MODULE_DIR}/../Space/opts_group_5.txt','r') as f:
+    options=f.read().split('---------------------------')
+for i in range(len(options)):
+    options[i]=[x for x in options[i].split('\n') if x] 
 
+op={}
+for i in range(1,6):
+    op[str(i)]=options[i-1]
 
-loop_op=['-funswitch-loops', '-fsplit-loops', '-ftree-loop-vectorize',
- '-floop-unroll-and-jam', '-fpeel-loops', '-ftree-loop-if-convert', 
- '-ftree-slp-vectorize', '-funroll-loops', '-ftree-loop-distribution', 
- '-ftree-loop-ivcanon', '-ftree-loop-im', '-fprefetch-loop-arrays']
-
-sched_op=['-fschedule-insns', '-fschedule-insns2', 
-    '-fsel-sched-pipelining-outer-loops', '-fsched-stalled-insns', 
-    '-fsel-sched-pipelining', '-fsched-spec-load', 
-    '-fsched-rank-heuristic', '-fsched-pressure', 
-    '-fsched-dep-count-heuristic', '-fsched-critical-path-heuristic', 
-    '-fsched-last-insn-heuristic', '-fsched-group-heuristic', 
-    '-fsched-interblock', '-fselective-scheduling', 
-    '-fselective-scheduling2', '-fsched2-use-superblocks', 
-    '-fsched-spec', '-flive-range-shrinkage']
-
-op={'inline':inline_op,'loop':loop_op,'sched':sched_op,
-    'comb':inline_op+loop_op+sched_op
-    }
-
-O3={'inline':[1,1,1,1,1,1,1],'loop':[1,1,1,1,1,1,1,0,1,1,1,1],'sched':[0,1,0,0,0,0,1,0,1,1,1,1,1,0,0,0,1,0]}
+op['comb']=op['1']+op['2']+op['3']+op['4']+op['5']
 
 def gen_seq(op_type,index):
     seq='-O3 '
@@ -51,10 +40,8 @@ def gen_global_seq(seq):
 
 def gen_comb_seq(pred_result):
     result={}
-    for p in pred_result['inline']:
-        for op in ['inline','loop','sched']:
-            pred_result[op][p].append(O3[op])
-        x=itertools.product(pred_result['inline'][p], pred_result['loop'][p], pred_result['sched'][p])
+    for p in pred_result['1']:
+        x=itertools.product(pred_result['1'][p], pred_result['2'][p], pred_result['3'][p],pred_result['4'][p],pred_result['5'][p])
         result[p]=[list(chain.from_iterable(lst)) for lst in x]
     return result
 

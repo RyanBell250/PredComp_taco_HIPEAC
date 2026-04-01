@@ -92,7 +92,7 @@ def convert_to_Pairdataset(dataset):
 
 
 def load_subspace_data(feature,op_type):
-    with open(f'{MODULE_DIR}/../Dataset/process/label.json','r') as f:
+    with open(f'{MODULE_DIR}/../Dataset/process/label_v1.json','r') as f:
         label=json.load(f)
     dataset=[]
     for p in feature:

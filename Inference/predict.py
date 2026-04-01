@@ -19,12 +19,12 @@ device = torch.device("cpu")
 
 
 def pred_result_seq(feature,op_type,topk,comb_seq=''):
-    if op_type=='comb_top3':
+    if op_type=='comb':
         test_data=load_comb_data(feature,comb_seq)
     else:
         test_data=load_subspace_data(feature,op_type)
     test_loader = DataLoader(test_data, batch_size=1,collate_fn=collate)
-    model=torch.load(f'{MODULE_DIR}/../saved_model/{op_type}_model.pth',weights_only=False)
+    model=torch.load(f'{MODULE_DIR}/../saved_model/{op_type}.pth',weights_only=False)
     model.eval()
     model.to(device)
     result={}
@@ -33,7 +33,7 @@ def pred_result_seq(feature,op_type,topk,comb_seq=''):
             data[0].to(device)
             data[1].to(device)
             all_seq=data[1].seq
-            output,arg=model(data)
+            output=model(data)
             output=output.squeeze(0).squeeze(-1)
             probs = torch.sigmoid(output)
             name=data[1].name[0]
