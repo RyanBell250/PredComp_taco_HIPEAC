@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 from PredComp.Dataset.process.feature import gen_call_graph,gen_flow_graph,gen_vec
 import uuid
 import time
+import glob
 
 # class Dataset --- a dataset of some projects, e.g. cBench
 # class Project --- a project, e.g. cBench/automotive_bitcount
@@ -116,6 +117,7 @@ class cBench(Dataset):
                                 
                         RunError.add(self.session,md5,i,stderr)
                         print('error: run_command failed')
+                        print(stderr[-1500:])        
                         return -1
                     cmd=f"""
                         cd {self.path};
@@ -153,6 +155,8 @@ class cBench(Dataset):
             return md5
         else:
             CompileError.add(self.session,options,cp.stderr.decode('utf-8'))
+            print('error: compile failed')
+            print(cp.stderr.decode(errors='ignore')[-1500:])
             return -1
 
     def run(self,md5_bin):
@@ -216,10 +220,13 @@ class cBench(Dataset):
         cd {self.path};
         {self.bin_path}/gcc -O1 -fdump-ipa-inline -S {self.cmp_para} {self.file};
         """
+        print(f"COMMAND: {command}")
         p=subprocess.run(command,shell=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-        call_graph=gen_call_graph(f'{self.path}/{self.file}.090i.inline')
-        clean_command=f"rm -rf {self.path}/{self.file}.090i.inline"
-        subprocess.run(clean_command,shell=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+        dumps=glob.glob(f'{self.path}/{self.file}.*i.inline')
+        if not dumps:
+            raise RuntimeError(f"gcc produced no inline dump in {self.path} - run the command by hand to see the error")
+        call_graph=gen_call_graph(dumps[0])
+        for d in dumps: os.remove(d)
         return call_graph
 
     def extract_instr_feature(self):

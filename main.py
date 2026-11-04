@@ -10,11 +10,11 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--bin_path', type=str, required=False, default='', help='Path to GCC bin directory')
 args = parser.parse_args()
-bin_path = args.bin_path
+bin_path = args.bin_path or '/usr/bin'
 
 if __name__=='__main__':
 
-    bin_path='/home/gby/gcc_install/build/bin'
+    bin_path='/usr/bin'
     with open('Dataset/process/cbench.json','r') as f:
         prog=json.load(f)
     cbench={}
@@ -35,12 +35,17 @@ if __name__=='__main__':
 
     for p in seq:
         cbench[p].prepare()
+        if cbench[p].O3_perf is None:
+            print(f'{p}: O3 baseline failed, skipping')
+            continue
         best_perf=cbench[p].O3_perf
         best_seq='-O3'
         print(f'{p} O3 exec time:{cbench[p].O3_perf:.3f}')
         for i in range(len(seq[p])):
-            print(seq[p][i])
             perf,improv=cbench[p].evaluate(seq[p][i])
+            if perf<0:
+                print(f'{p} Top-{i+1} sequence FAILED: {seq[p][i]}')
+                continue
             print(f'{p} Top-{i+1} sequence: {seq[p][i]}, exec time:{perf:.3f}, perf improv: {improv:.3f}')
             if perf<best_perf:
                 best_perf=perf
