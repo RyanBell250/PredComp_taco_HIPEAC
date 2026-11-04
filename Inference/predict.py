@@ -16,6 +16,7 @@ module_path = os.path.abspath(__file__)
 MODULE_DIR = os.path.dirname(module_path)
 
 device = torch.device("cpu")
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
 def pred_result_seq(feature,op_type,topk,comb_seq=''):
@@ -24,7 +25,7 @@ def pred_result_seq(feature,op_type,topk,comb_seq=''):
     else:
         test_data=load_subspace_data(feature,op_type)
     test_loader = DataLoader(test_data, batch_size=1,collate_fn=collate)
-    model=torch.load(f'{MODULE_DIR}/../saved_model/{op_type}.pth',weights_only=False)
+    model=torch.load(f'{MODULE_DIR}/../saved_model/{op_type}.pth',weights_only=False, map_location=DEVICE)
     model.eval()
     model.to(device)
     result={}
