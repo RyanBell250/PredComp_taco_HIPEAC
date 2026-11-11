@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "suite": "cbench",
+    "root": "../Dataset/cBench_V1.1",
+    "gcc_version": "13.3",
+    "repo_commit": "TEST",
+    "predictions_sha256": "TEST",
+    "note": "Test file. Paths, args, loop counts and output files are real (dataset 1). Predicted flags are placeholders in PredComp's format."
+  },
+  "failed": {},
+  "programs": {
+    "security_sha": {
+      "hot_file": "src/sha.c",
+      "dependent_files": ["src/sha_driver.c", "src/loop-wrap.c"],
+      "dependent_flags": ["-O3"],
+      "compile_args": ["-c"],
+      "link_args": ["-lm"],
+      "run": {
+        "args": ["../../office_data/1.txt"],
+        "stdin": null,
+        "stdout": "ftmp_out",
+        "loop_count": 321506,
+        "output_files": ["ftmp_out"]
+      },
+      "predictions": [
+        { "rank": 1, "flags": ["-O3", "-finline-functions", "-fno-unroll-loops"] },
+        { "rank": 2, "flags": ["-O3", "-fno-inline-functions", "-funroll-loops"] },
+        { "rank": 3, "flags": ["-O3", "-finline-functions", "-funroll-loops"] }
+      ]
+    },
+    "telecom_CRC32": {
+      "hot_file": "src/crc_32.c",
+      "dependent_files": ["src/loop-wrap.c"],
+      "dependent_flags": ["-O3"],
+      "compile_args": ["-c"],
+      "link_args": ["-lm"],
+      "run": {
+        "args": ["../../telecom_data/1.pcm"],
+        "stdin": null,
+        "stdout": "output_large.txt",
+        "loop_count": 3431,
+        "output_files": ["output_large.txt"]
+      },
+      "predictions": [
+        { "rank": 1, "flags": ["-O3", "-funroll-loops"] },
+        { "rank": 2, "flags": ["-O3", "-fno-tree-vectorize"] }
+      ]
+    },
+    "automotive_bitcount": {
+      "hot_file": "src/bitcnts.c",
+      "dependent_files": [
+        "src/bitarray.c", "src/bitcnt_1.c", "src/bitcnt_2.c", "src/bitcnt_3.c",
+        "src/bitcnt_4.c", "src/bitfiles.c", "src/bitstrng.c", "src/bstr_i.c",
+        "src/loop-wrap.c"
+      ],
+      "dependent_flags": ["-O3"],
+      "compile_args": ["-c"],
+      "link_args": ["-lm"],
+      "run": {
+        "args": ["1125000"],
+        "stdin": null,
+        "stdout": "ftmp_out",
+        "loop_count": 70,
+        "output_files": ["ftmp_out"]
+      },
+      "predictions": [
+        { "rank": 1, "flags": ["-O3", "-finline-functions"] },
+        { "rank": 2, "flags": ["-O3", "-fno-inline-functions"] },
+        { "rank": 3, "flags": ["-O3", "-funroll-loops", "-fpeel-loops"] }
+      ]
+    }
+  }
+}
