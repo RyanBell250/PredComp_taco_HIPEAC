@@ -7,13 +7,19 @@ import json
 import platform
 from datetime import datetime
 import csv
+import argparse
 
 BASELINES = {"O0": ["-O0"], "O3": ["-O3"]}
 OUT_DIR = Path("build")
-FIELDS = ["timestamp", "host", "arch", "compiler", "suite", "benchmark",
-          "config", "run", "time_s", "status", "hash"]
+FIELDS = [
+        #"timestamp", "host", 
+        "arch", "compiler", "suite", "benchmark",
+        "config", "run", "time_s", "status", 
+        #"hash"
+        ]
 LOG_DIR = Path("logs")
 CC = "gcc"
+USE_TEMP = False
 
 
 def run_subprocess(cmd, timeout=120):
@@ -22,6 +28,15 @@ def run_subprocess(cmd, timeout=120):
         return r.returncode == 0, r.stderr
     except subprocess.TimeoutExpired:
         return False, "timeout"
+
+    
+def cpu_temp():
+    """Return CPU temp in °C, or None if unavailable."""
+    p = Path("/sys/class/thermal/thermal_zone0/temp")
+    try:
+        return int(p.read_text()) / 1000   # value is in millidegrees
+    except (OSError, ValueError):
+        return None
 
 
 class ProgramInstance:
@@ -118,8 +133,22 @@ class ProgramInstance:
                 (LOG_DIR / f"{CC}_{config}_{self.name}.log").write_text(err)
         return statuses
 
+    def wait_cool(self, limit=60, max_wait=120):
+        if USE_TEMP == False:
+            return
+        t0 = time.time()
+        temp = cpu_temp()
+        if temp is not None and temp > limit:
+            print(f"Cooling off: temperature is {temp}!")
+        while temp is not None and temp > limit:
+            if time.time() - t0 > max_wait:
+                print("Done cooling!")
+                break       
+            time.sleep(2)
+
 
     def run_program(self, exe, args, stdin, timeout=600):
+        self.wait_cool(60, 10)
         if self.loop_count is not None:
             (self.cwd / "_finfo_dataset").write_text(f"{self.loop_count}\n")
 
@@ -211,7 +240,7 @@ class ProgramInstance:
                         "config": config,
                         "run": run,
                         "time_s": t,
-                        "status": status,
+                        "status": status
                         #"hash": h,
                     })
 
@@ -254,10 +283,27 @@ def load_programs(json_path, num_choices=3, root=None):
     return programs
 
 
-path = Path("test.json")
+parser = argparse.ArgumentParser()
+parser.add_argument("--core", type=int, default=None, help="pin to this CPU core")
+parser.add_argument("--temp", action="store_true", help="use temperature control")
+args = parser.parse_args()
+
+
+path = Path("test.json") #TODO: Add to args
 programs = load_programs(path)
 print(programs[0].src, programs[0].src.exists())
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+if args.core is not None:
+    if hasattr(os, "sched_setaffinity"):     # Linux only
+        os.sched_setaffinity(0, {args.core})
+        print(f"pinned to core {args.core}")
+    else:
+        print("warning: pinning not supported on this OS, continuing unpinned")
+
+if args.temp is not None:
+    USE_TEMP = True
+    print("Max temperature is 60")
 
 for program in programs:
     program.build_all()
