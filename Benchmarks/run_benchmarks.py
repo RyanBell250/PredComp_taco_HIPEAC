@@ -289,7 +289,7 @@ parser.add_argument("--temp", action="store_true", help="use temperature control
 args = parser.parse_args()
 
 
-path = Path("test.json") #TODO: Add to args
+path = Path("predicted_flags.json") #TODO: Add to args
 programs = load_programs(path)
 print(programs[0].src, programs[0].src.exists())
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
