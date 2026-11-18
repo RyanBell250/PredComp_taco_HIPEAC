@@ -1,1 +1,3 @@
 Benchmarks/build/
+# written next to each PolyBench kernel by the benchmark harness
+polybench_dump.txt*

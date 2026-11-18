@@ -1,5 +1,8 @@
 import hashlib
+import itertools
+import math
 import os
+import shutil
 import subprocess
 import time
 from pathlib import Path
@@ -10,6 +13,10 @@ import csv
 import argparse
 
 BASELINES = {"O0": ["-O0"], "O3": ["-O3"]}
+# Outputs are checked against the -O3 build, not -O0: -O0 never fuses
+# multiply-adds, which ARM and RISC-V builds do from -O1 up, so floating-point
+# results can differ from every optimised build in the last bits.
+REFERENCE = "O3"
 OUT_DIR = Path("build")
 FIELDS = [
         #"timestamp", "host", 
@@ -30,6 +37,39 @@ def run_subprocess(cmd, timeout=120):
         return False, "timeout"
 
     
+def same_output(reference, output, compare="exact"):
+    """True if an output file matches the reference build's.
+
+    compare="numeric" (PolyBench) lets a printed number differ by one unit in
+    its last digit, or by one part in a million, which is as far as a fused
+    multiply-add or different rounding moves it. Anything else must match.
+    """
+    if compare != "numeric":
+        return reference.read_bytes() == output.read_bytes()
+    with open(reference) as ref, open(output) as out:
+        for ref_line, out_line in itertools.zip_longest(ref, out):
+            if ref_line == out_line:
+                continue
+            if ref_line is None or out_line is None:
+                return False
+            ref_tokens, out_tokens = ref_line.split(), out_line.split()
+            if len(ref_tokens) != len(out_tokens):
+                return False
+            for a, b in zip(ref_tokens, out_tokens):
+                if a == b:
+                    continue
+                if "." not in a:          # integers and labels must match exactly
+                    return False
+                try:
+                    x, y = float(a), float(b)
+                except ValueError:
+                    return False
+                last_digit = 10.0 ** -len(a.partition(".")[2])  # 0.01 for "%0.2lf"
+                if not math.isclose(x, y, rel_tol=1e-6, abs_tol=last_digit * 1.001):
+                    return False
+    return True
+
+
 def cpu_temp():
     """Return CPU temp in °C, or None if unavailable."""
     p = Path("/sys/class/thermal/thermal_zone0/temp")
@@ -48,6 +88,9 @@ class ProgramInstance:
         dependent_flags=None,
         compile_args=None,
         link_args=None,
+        dir=None,
+        include_dirs=None,
+        check_compile_args=None,
     ):
         self.suite = suite
         self.name = name
@@ -61,12 +104,20 @@ class ProgramInstance:
         self.dependent_flags = dependent_flags or ["-O3"]
         self.compile_args = compile_args or ["-c"]
         self.link_args = link_args or ["-lm"]
-        self.prog_dir = Path(root) / self.name
+        # Program folder: root/<dir>, or root/<name> if the JSON gives no dir
+        # (PolyBench kernels sit in nested folders such as linear-algebra/blas/gemm).
+        self.prog_dir = Path(root) / (dir or self.name)
         self.src = self.prog_dir / self.hot_file
+        # include_dirs are relative to the program folder; gcc gets them as absolute -I paths.
+        self.include_args = [f"-I{(self.prog_dir / d).resolve()}" for d in include_dirs or []]
+        # Extra compile args for a second build used only for the output check.
+        self.check_compile_args = check_compile_args or []
 
         self.args = None
         self.stdin = None
         self.stdout = None
+        self.stderr = None
+        self.compare = "exact"
         self.loop_count = None
         self.output_files = []
         self.cwd = self.src.parent
@@ -76,6 +127,8 @@ class ProgramInstance:
             self.configs[f"pred{i + 1}"] = self.flag_predictions[i]
 
         self.exes = {}                                   
+        self.check_exes = {}
+        self.check_status = {}
         self.results = {cfg: [] for cfg in self.configs}
 
 
@@ -85,7 +138,8 @@ class ProgramInstance:
         return self.configs[config]
 
 
-    def set_run_args(self, args, stdin=None, loop_count=None, output_files=None, cwd=None, stdout=None):
+    def set_run_args(self, args, stdin=None, loop_count=None, output_files=None, cwd=None, stdout=None,
+                     stderr=None, compare=None):
         self.args = args
         self.stdin = stdin
         self.loop_count = loop_count
@@ -93,10 +147,12 @@ class ProgramInstance:
         if cwd is not None:
             self.cwd = Path(cwd)
         self.stdout = stdout
+        self.stderr = stderr
+        self.compare = compare or "exact"
 
 
-    def compile_benchmark(self, config, flags):
-        out_dir = OUT_DIR / CC / config / self.name
+    def compile_benchmark(self, config, flags, extra_args=(), variant=""):
+        out_dir = OUT_DIR / CC / f"{config}{variant}" / self.name
         out_dir.mkdir(parents=True, exist_ok=True)
         exe = out_dir / self.name
         for f in out_dir.glob("*.o"):          
@@ -109,7 +165,8 @@ class ProgramInstance:
         objs = []
         for src, f in jobs:
             obj = out_dir / (Path(src).stem + ".o")   
-            ok, err = run_subprocess([CC, *f, *self.compile_args, str(src), "-o", str(obj)])
+            ok, err = run_subprocess([CC, *f, *self.compile_args, *extra_args, *self.include_args,
+                                      str(src), "-o", str(obj)])
             if not ok:
                 return None, "compile_error", f"{src}:\n{err}"
             objs.append(str(obj))
@@ -131,6 +188,15 @@ class ProgramInstance:
             if err:
                 LOG_DIR.mkdir(exist_ok=True)
                 (LOG_DIR / f"{CC}_{config}_{self.name}.log").write_text(err)
+            if self.check_compile_args and exe is not None:
+                check_exe, check_status, err = self.compile_benchmark(
+                    config, self.get_flags(config), self.check_compile_args, "_check")
+                if check_exe is not None:
+                    self.check_exes[config] = check_exe
+                else:
+                    print(f"{self.name:20} {config:6} check build: {check_status}")
+                    LOG_DIR.mkdir(exist_ok=True)
+                    (LOG_DIR / f"{CC}_{config}_check_{self.name}.log").write_text(err)
         return statuses
 
     def wait_cool(self, limit=60, max_wait=120):
@@ -145,6 +211,7 @@ class ProgramInstance:
                 print("Done cooling!")
                 break       
             time.sleep(2)
+            temp = cpu_temp()
 
 
     def run_program(self, exe, args, stdin, timeout=600):
@@ -169,6 +236,8 @@ class ProgramInstance:
 
         if self.stdout:
             (self.cwd / self.stdout).write_bytes(p.stdout)
+        if self.stderr:
+            (self.cwd / self.stderr).write_bytes(p.stderr)
 
         if p.returncode != 0:
             return elapsed, "runtime_error", None
@@ -182,8 +251,46 @@ class ProgramInstance:
         return elapsed, "ok", h.hexdigest()
 
 
+    def check_outputs(self):
+        """Run each check build once and compare its output with the reference build's.
+
+        Only used when the JSON gives check_compile_args (PolyBench), so the
+        timed builds don't spend time printing their results.
+        """
+        if not self.check_exes:
+            return
+        order = [REFERENCE] + [c for c in self.check_exes if c != REFERENCE]
+        for config in order:
+            exe = self.check_exes.get(config)
+            if exe is None:
+                continue
+            _, status, _ = self.run_program(exe, self.args, self.stdin)
+            if status == "ok":
+                if config == REFERENCE:
+                    for f in self.output_files:
+                        shutil.copyfile(self.cwd / f, self.cwd / f"{f}.ref")
+                elif self.check_status.get(REFERENCE) == "ok" and not all(
+                        same_output(self.cwd / f"{f}.ref", self.cwd / f, self.compare)
+                        for f in self.output_files):
+                    status = "incorrect_output"
+            self.check_status[config] = status
+            print(f"{self.name:20} {config:6} output check: {status}")
+        for f in self.output_files:
+            (self.cwd / f"{f}.ref").unlink(missing_ok=True)
+
+
     def check_validity(self):
-        ref_runs = self.results.get("O0", [])
+        if self.check_exes:                    # outputs were checked by check_outputs()
+            if self.check_status.get(REFERENCE) != "ok":
+                print(f"{self.name}: {REFERENCE} check build failed, outputs not checked")
+                return False
+            for config, runs in self.results.items():
+                status = self.check_status.get(config, "check_failed")
+                if status != "ok":
+                    self.results[config] = [(t, status if s == "ok" else s, h) for t, s, h in runs]
+            return True
+
+        ref_runs = self.results.get(REFERENCE, [])
         if not ref_runs or ref_runs[0][1] != "ok":
             return False                       # no trustworthy reference
 
@@ -265,6 +372,9 @@ def load_programs(json_path, num_choices=3, root=None):
             dependent_flags=p.get("dependent_flags"),
             compile_args=p.get("compile_args"),
             link_args=p.get("link_args"),
+            dir=p.get("dir"),
+            include_dirs=p.get("include_dirs"),
+            check_compile_args=p.get("check_compile_args"),
         )
         run = p.get("run", {})
         prog.set_run_args(
@@ -274,6 +384,8 @@ def load_programs(json_path, num_choices=3, root=None):
             output_files=run.get("output_files"),
             cwd=run.get("cwd"),
             stdout=run.get("stdout"),
+            stderr=run.get("stderr"),
+            compare=run.get("compare"),
         )
         programs.append(prog)
 
@@ -286,10 +398,16 @@ def load_programs(json_path, num_choices=3, root=None):
 parser = argparse.ArgumentParser()
 parser.add_argument("--core", type=int, default=None, help="pin to this CPU core")
 parser.add_argument("--temp", action="store_true", help="use temperature control")
+parser.add_argument("--json", default="predicted_flags.json",
+                    help="predictions file from run_inference.py (default: predicted_flags.json)")
+parser.add_argument("--no-o0", action="store_true",
+                    help="skip the -O0 build (the output check uses -O3)")
 args = parser.parse_args()
 
+if args.no_o0:
+    del BASELINES["O0"]
 
-path = Path("predicted_flags.json") #TODO: Add to args
+path = Path(args.json)
 programs = load_programs(path)
 print(programs[0].src, programs[0].src.exists())
 stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -301,11 +419,12 @@ if args.core is not None:
     else:
         print("warning: pinning not supported on this OS, continuing unpinned")
 
-if args.temp is not None:
+if args.temp:
     USE_TEMP = True
     print("Max temperature is 60")
 
 for program in programs:
     program.build_all()
+    program.check_outputs()
     program.measure_benchmark(5)
     program.write_results(Path("results") / f"{platform.machine()}_{CC}_{stamp}.csv" )
