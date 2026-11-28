@@ -25,7 +25,7 @@ FIELDS = [
         #"hash"
         ]
 LOG_DIR = Path("logs")
-CC = "gcc"
+CC = os.environ.get("CC", "gcc")
 USE_TEMP = False
 
 
